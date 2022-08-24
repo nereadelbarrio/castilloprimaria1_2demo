@@ -1,0 +1,6022 @@
+/* General 
+CASTILLO PRIMARIA
+*/
+
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Black.eot');
+    src: url('fonts/Nunito-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Black.woff2') format('woff2'),
+        url('fonts/Nunito-Black.woff') format('woff'),
+        url('fonts/Nunito-Black.ttf') format('truetype'),
+        url('fonts/Nunito-Black.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-BlackItalic.eot');
+    src: url('fonts/Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-BlackItalic.woff2') format('woff2'),
+        url('fonts/Nunito-BlackItalic.woff') format('woff'),
+        url('fonts/Nunito-BlackItalic.ttf') format('truetype'),
+        url('fonts/Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraLight.eot');
+    src: url('fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraLight.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraLight.woff') format('woff'),
+        url('fonts/Nunito-ExtraLight.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Bold.eot');
+    src: url('fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Bold.woff2') format('woff2'),
+        url('fonts/Nunito-Bold.woff') format('woff'),
+        url('fonts/Nunito-Bold.ttf') format('truetype'),
+        url('fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraBoldItalic.eot');
+    src: url('fonts/Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-BoldItalic.eot');
+    src: url('fonts/Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-BoldItalic.woff') format('woff'),
+        url('fonts/Nunito-BoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraBold.eot');
+    src: url('fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraBold.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraBold.woff') format('woff'),
+        url('fonts/Nunito-ExtraBold.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-SemiBoldItalic.eot');
+    src: url('fonts/Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Nunito-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Nunito-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-SemiBold.eot');
+    src: url('fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('fonts/Nunito-SemiBold.woff') format('woff'),
+        url('fonts/Nunito-SemiBold.ttf') format('truetype'),
+        url('fonts/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Regular.eot');
+    src: url('fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Regular.woff2') format('woff2'),
+        url('fonts/Nunito-Regular.woff') format('woff'),
+        url('fonts/Nunito-Regular.ttf') format('truetype'),
+        url('fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-LightItalic.eot');
+    src: url('fonts/Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-LightItalic.woff2') format('woff2'),
+        url('fonts/Nunito-LightItalic.woff') format('woff'),
+        url('fonts/Nunito-LightItalic.ttf') format('truetype'),
+        url('fonts/Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Italic.eot');
+    src: url('fonts/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Italic.woff2') format('woff2'),
+        url('fonts/Nunito-Italic.woff') format('woff'),
+        url('fonts/Nunito-Italic.ttf') format('truetype'),
+        url('fonts/Nunito-Italic.svg#Nunito-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Light.eot');
+    src: url('fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-Light.woff2') format('woff2'),
+        url('fonts/Nunito-Light.woff') format('woff'),
+        url('fonts/Nunito-Light.ttf') format('truetype'),
+        url('fonts/Nunito-Light.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-ExtraLightItalic.eot');
+    src: url('fonts/Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Nunito-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Nunito-ExtraLightItalic.ttf') format('truetype'),
+        url('fonts/Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+:root {
+    --theme-font-family: 'Nunito', sans-serif;
+    --theme-text-color: #676767;
+    --theme-text-color-dark: #000;
+    --theme-text-color-bright: #FFF;
+    --theme-color-main: #1D549E;
+    --theme-color-secondary: #F8B100;
+    --theme-color-secondary-b2: #FEF5E0;
+    --theme-background-color: #E9EFF5;
+    --theme-font-size: 18px;
+    --theme-font-size-h1: 36px;
+    --theme-font-size-h2: 27px;
+    --theme-font-size-h3: 21px;
+    --theme-font-size-h4: 21px;
+    --theme-widget-color-main: var(--theme-color-main);
+    --theme-widget-color-main-bright: #DBE4EF;
+    --theme-widget-color-secondary: var(--theme-color-secondary);
+    --theme-widget-color-secondary-bright: #FEF5E0;
+    --theme-widget-normal-color: #FBD066;
+    --theme-widget-normal-color-bright: #FEF5E0;
+    --theme-widget-normal-color-brighter: #FFF;
+    --theme-widget-selected-color: var(--theme-color-secondary);
+    --theme-widget-selected-color-bright: #FFF;
+    --theme-widget-ok-color: #90BF55;
+    --theme-widget-ok-color-bright: #EDF5E4;
+    --theme-widget-fail-color: #E33939;
+    --theme-widget-fail-color-bright: #F9D7D7;
+    --theme-widget-answer-color: #1EB3C6;
+    --theme-widget-answer-color-bright: #D2F0F4;
+    --theme-widget-disabled-color: #EDEDED;
+    --theme-widget-disabled-color-bright: #EDEDED;
+    --theme-button-font-size: 16px;
+    --theme-button-font-weight: 600;
+    --theme-button-text-color: #FFF;
+    --theme-button-text-color-disabled: #A4A4A4;
+    --theme-fill-font-size: 18px;
+    --theme-fill-font-weight: 300;
+    --theme-fill-text-color: #000;
+    --theme-boolean-font-size: 18px;
+    --theme-boolean-font-weight: 300;
+    --theme-boolean-text-color: #676767;
+    --theme-drag-drop-text-item-font-size: 18px;
+    --theme-drag-drop-text-item-font-weight: 600;
+    --theme-drag-drop-text-item-color: #000;
+    --theme-drag-drop-text-label-font-size: 18px;
+    --theme-drag-drop-text-label-font-weight: 400;
+    --theme-drag-drop-text-label-color: #FFF;
+    --theme-multi-choice-font-size: 18px;
+    --theme-multi-choice-font-weight: 400;
+    --theme-multi-choice-text-color: #000;
+    --theme-icon-arrow-up: url(../img/ui-icon-arrow-up.svg);
+    --theme-icon-arrow-down: url(../img/ui-icon-arrow-down.svg);
+    --theme-icon-color-ok: url(images/ui-icon-color-ok.svg);
+    --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
+    --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
+    --theme-icon-color-info: url(images/ui-icon-color-info.svg);
+    --theme-graphic-tape: url(images/ui-graphic-tape.svg);
+    --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
+    --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
+    --theme-graphic-boolean-ok-off: url(../img/ui-icon-bool-ok-off.svg);
+    --theme-graphic-boolean-ok-on: url(../img/ui-icon-bool-ok-on.svg);
+    --theme-graphic-boolean-fail-off: url(../img/ui-icon-bool-fail-off.svg);
+    --theme-graphic-boolean-fail-on: url(../img/ui-icon-bool-fail-on.svg);
+    --theme-graphic-boolean-answer-off: url(../img/ui-icon-bool-answer-off.svg);
+    --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
+    --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
+    --theme-pattern-01: url(images/ui-pattern-01.png);
+
+/**/
+--theme-color-text: #676767;
+    --theme-color-text-black: #000;
+    --theme-color-text-white: #FFF;
+    --theme-color-text-disabled: #A4A4A4;
+    --theme-color-main: #1D549E;
+    --theme-color-main-b1: #4A76B1;
+    --theme-color-main-b2: #7798C5;
+    --theme-color-main-b3: #A5BBD8;
+    --theme-color-main-b4: #DBE4EF;
+    --theme-color-main-b5: #E9EFF5;
+    --theme-color-main-b6: #EDF1F7;
+    --theme-color-main-d1: #093054;
+    --theme-color-hex-main-d1: 9, 48, 84;
+    --theme-color-secondary: #F8B100;
+    --theme-color-secondary-b1: #FBD066;
+    --theme-color-secondary-b2: #FEF5E0;
+    --theme-color-ok: #90BF55;
+    --theme-color-ok-b1: #EDF5E4;
+    --theme-color-fail: #E33939;
+    --theme-color-fail-b1: #F9D7D7;
+    --theme-color-answer: #1EB3C6;
+    --theme-color-answer-b1: #D2F0F4;
+    --theme-color-disabled: #A4A4A4;
+    --theme-color-disabled-b1: #EDEDED;
+    --theme-font-family: 'Nunito', sans-serif;
+    --theme-font-size: 18px;
+    --theme-font-weight: 300;
+    --theme-font-size-h1: 36px;
+    --theme-font-size-h2: 27px;
+    --theme-font-size-h3: 21px;
+    --theme-font-size-h4: 21px;
+    --theme-font-size-button: 16px;
+    --theme-font-size-fill: 18px;
+    --theme-font-size-boolean: 18px;
+    --theme-font-size-drag-drop-item: 18px;
+    --theme-font-size-drag-drop-label: 18px;
+    --theme-font-size-multi-choice: 18px;
+
+}
+
+
+
+
+
+body {
+    font: 400 15px 'Nunito',sans-serif;
+    line-height: 21px;
+    color: #414141;
+    background-color: #eee;
+    font-feature-settings: 'ss01' on;
+}
+
+
+	.body_clase .content-wrapper {
+		padding-top: 100px;
+		font-family: 'Nunito';
+		font-weight: 300;
+		padding-bottom: 0;
+		color: #676767
+	}
+	.body_clase.edit .content-wrapper {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	body.is_app .content-wrapper,
+	body.app:not(.offline-pc) .content-wrapper,
+	body.user_demo .content-wrapper {
+	    margin-top: 60px;
+	}
+
+	.cke_contents  table {
+		margin-bottom: 10px;
+	}
+
+	.is_app.content_type_clase_castillopreescolar2022demo {
+		padding-top: 0px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo #actividad {
+		margin-bottom: 0px;
+		-webkit-transform: none;
+		-webkit-transform-style: flat;
+	}
+
+/*fondo slide*/
+#swipeview-slider>div {
+	background-color: #E9EFF5;
+}
+
+
+/*imagen en navbar sup.*/
+	#actividad .carousel-inner .item-container {
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    background-image: url(images/fondo_slide_01.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+	}
+
+/*imagenes*/	
+#actividad .content img {
+    height: auto;
+    -webkit-user-drag: none;
+    border-radius: 5px;
+    border: 15px solid #FFF;
+    box-shadow: 0 0 4.5px rgb(0 0 0 / 25%);
+}
+
+#actividad .img-thumbs .slick-slide:not(.slick-current) img {
+	opacity: .2;
+    z-index: 100;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 1.875%;
+    overflow: hidden;
+}
+
+/*.body_clase:not(.edit) #actividad .content img {
+	height: auto;
+    -webkit-user-drag: none;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+}*/
+
+.zoom_flag_img {
+    position: absolute;
+    top: 22px;
+    right: 23px;
+    vertical-align: top;
+    background-image: url('../../../images/shared/tools.png');
+    -webkit-background-size: 81px auto;
+    -moz-background-size: 81px auto;
+    -o-background-size: 81px auto;
+    background-size: 81px auto;
+    background-position: -6px -549px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 28px;
+    width: 28px;
+    background-color: rgb(75 75 75 / 90%);
+}
+
+	#actividad .carousel-inner .item-container.tmpux {
+		margin-top: 75px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .title img,
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .chapter {
+		display: none;
+	}
+
+	#indice .units ul li a .number,
+	#indice .unit-content .header .number
+	 {
+		visibility: hidden;
+	}
+
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header {
+		border: none;
+	}
+
+
+	#actividad .img-thumbs .slick-slide.slick-current img {
+    opacity: 1;
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    box-shadow: 0 0 2px 2px #d1d1d1;
+    z-index: 101;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+ 
+.fillblankimages-draggable-wrapper .response .bck-i-fullscreen,
+ .fillblankimages-draggable .img-input-container.imgFilled img {
+    max-height: 190px;
+    padding: 0;
+    margin: 10px;
+    border-radius: 5px;
+    border: 12px solid #FFF;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%) !important;
+    overflow: hidden;
+    cursor: pointer;
+    outline-offset: -2px
+}
+
+
+/*título slide*/
+
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .title {
+		margin-top: -40px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		z-index: 100;
+    	position: relative;
+	}
+
+.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3 {
+font-family: 'Nunito';
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    padding: 20px 36px 20px 36px;
+    border-radius: 0 0 37.5px 37.5px;
+    margin-top: -30px;
+    margin-bottom: 22px;
+    background-color: #1d549e;
+    margin-left: 1px;
+    width: fit-content;
+    position: relative;
+    box-shadow: 0px 4px 8px rgb(9 48 84 / 25%);
+    max-width: 100%;
+}
+
+.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3:before {
+	/*background: url(images/decoracion_01izda_lenguaje.png);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 63px;
+    position: absolute;
+    left: -107px;
+    z-index: -1;
+    margin-top: -30px;*/
+    content: '';
+    position: absolute;
+    width: 96px;
+    height: 103px;
+    top: 28px;
+    left: -89px;
+    background-image: url(images/decoracion_01izda_lenguaje.png);
+    background-repeat: no-repeat;
+    background-size: 92% auto;
+}
+
+
+.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3:after {
+    content: '';
+    position: absolute;
+    width: 124px;
+    height: 68px;
+    top: 0px;
+    left: 100%;
+    background-image: url(images/decoracion_01dcha_lenguaje.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3 span {
+		display: block;
+		font-size:2.2rem;
+		font-weight: 400;
+	}
+	.content_type_clase_castillopreescolar2022demo #actividad .texto_curso,
+	.content_type_clase_castillopreescolar2022demo #actividad .slide_content_type_1 .pregunta .texto_curso {
+		font-size: 1.8rem;
+		margin-bottom: 20px;
+		line-height: 1.43em!important;
+	}
+
+/*textos*/
+.texto_curso p {
+    line-height: 1.43em!important;
+    margin-bottom: 20px;
+    font-size: var(--theme-font-size);
+    font-family: 'Nunito';
+    color: var(--theme-color-text);
+    font-weight: 300;
+}
+
+	.texto_curso p:last-of-type {
+		margin-bottom: 15px;
+	}
+
+	#actividad .class_slide {
+    	padding: 40px 88px 0px;
+    	margin-top: -18px;
+	}
+
+	#actividad .class_slide:last-of-type {
+	    padding-bottom: 100px;
+	}
+
+	#actividad .slide-concatenate .class_slide {
+	    padding-bottom: 20px;
+	}
+
+	#actividad .slide-concatenate:last-of-type .class_slide {
+	    padding-bottom: 100px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input {
+		/*color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+		position: relative;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 34px;
+    padding: 0 20px;
+    min-width: 120px;
+    font-size: var(--theme-fill-font-size);
+    font-weight: var(--theme-fill-font-weight);
+    color: var(--theme-fill-text-color);
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input {
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
+    border-radius: 10px;
+    /*height: 2.2em;
+    height: 1.8em;*/
+    margin: 0;
+}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input:focus {
+		border-top-color: #3AC62A;
+		border-right-color: #3AC62A;
+		border-bottom-color: #3AC62A;
+		border-left-color: #3AC62A;
+		outline-width: 0px;
+		outline-style: none;
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input[readonly],
+	.fieldset[disabled] .content_type_clase_castillopreescolar2022demo .slide_main input {
+	padding: 0px;
+    border-width: 2px;
+    border-color: var(--theme-widget-normal-color);
+    background-color: var(--theme-widget-normal-color-bright);
+        /*height: 1.9em;*/
+	}
+
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input[disabled] {
+		background-color: #fff;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ok {
+		border-color: var(--theme-widget-ok-color);
+    background-color: var(--theme-widget-ok-color-bright);
+		border-width: 2px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ko {
+    border-color: var(--theme-widget-fail-color);
+    background-color: var(--theme-widget-fail-color-bright);
+    border-width: 2px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slide_main input.solucion {
+		border-color: var(--theme-widget-answer-color);
+    background-color: var(--theme-widget-answer-color-bright);
+		border-width: 2px;
+	}
+
+	table {
+		margin-bottom: 20px;
+	}
+/**/
+
+/* Navigators */
+	.navigator {
+		bottom: -20px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		padding: 0px 97px;
+	}
+
+	.navigator .title {
+		width: calc(100% - 20px);
+		font-size: 1.9rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		line-height: 4.8rem;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.main-navigator {
+		display: none;
+		padding: 30px 0px 50px;
+		width: 100%;
+	}
+
+	.navigator .left, .navigator .right {
+		width: 50%;
+		display: inline-block;
+	}
+
+	.navigator .right {
+		text-align: right;
+	}
+
+	.navigator .slider-control.left,
+	.navigator .slider-control.right {
+		height: auto;
+		width: 100%;
+		background-color: transparent;
+		border-radius: 0px;
+		margin: 0px;
+		opacity: 1;
+		text-shadow: none;
+		color: #f9bfad;
+		font-size: 1.9rem;
+		position: relative;
+		top: auto;
+		left: auto;
+		cursor: pointer;
+	}
+
+	body:not(.android) .main-navigator .slider-control:not(.disabled):hover {
+		color: #f77249;
+	}
+
+	.navigator .slider-control.left:before,
+	.navigator .slider-control.right:after {
+		font-family: 'FontAwesome';
+		position: absolute;
+		margin-top: 0;
+		background: none;
+		color: #f9bfad;
+		border-radius: 120px;
+		width: 48px;
+		height: 48px;
+		line-height: 4.8rem;
+		text-align: center;
+		font-size: 4.8rem;
+	}
+
+	.navigator .slider-control.left {
+		padding-left: 58px;
+	}
+	.navigator .slider-control.right {
+		left: 0;
+		padding-right: 58px;
+	}
+	.navigator .slider-control.left:before {
+		content: "\f104";
+		left: 0;
+		padding-right: 5px;
+	}
+
+	.navigator .slider-control.right:after {
+		content: "\f105";
+		right: 0;
+		padding-left: 5px;
+	}
+
+	.navigator .slider-control span {
+		position: static;
+		margin: 0px;
+        cursor: pointer;
+	}
+/**/
+
+/* Navbar */
+	.navbar-bottom {
+		background: #eee;
+		display: none;
+	}
+	.edit .navbar-bottom {
+		display: block;
+	}
+
+	.slider-indicators {
+	    padding-left: 100px;
+	    padding-right: 100px;
+	}
+
+	.slider-indicators li,
+	.edit .slider-indicators li {
+		background-color: #f9bfad;
+		color: #ffffff;
+		opacity: 0.5;
+	}
+
+	.slider-indicators .active,
+	.slider-indicators li:hover,
+	.edit .slider-indicators li.active,
+	.edit .slider-indicators .concat.active {
+		opacity: 1;
+	}
+	.edit .slider-indicators .concat.active {
+		color: #f9bfad;
+	}
+
+/**/
+
+/* Navbar (Breadcums) */
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar {
+		position: fixed;
+		top: 44px;
+		background: #ffffff;
+		width: 100%;
+		left: 0;
+		height: 58px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
+	}
+
+	/* BK-18572 Ajustar estilo en UX */
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar.tmpux {
+		top: 0px;
+	}
+
+	.is_app.content_type_clase_castillopreescolar2022demo .publisher-navbar {
+		position: fixed;
+		top: 0px;
+	}
+
+	#top-navigator {
+		height: 44px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#top-navigator.show_left:before, #top-navigator.show_right:after {
+        color: #1d549e;
+        top: 0px;
+    }
+
+    #top-navigator.show_left:before {
+    	background: linear-gradient(to left, #1d549e4f, transparent);
+    }
+
+    #top-navigator.show_right:after {
+    	background: linear-gradient(to left, #1d549e4f, transparent);
+    }
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .navbar-content {
+		max-width: 960px;
+		margin: 0 auto;
+		padding-left: 90px;
+		padding-right: 50px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .logo-publisher {
+		display: block;
+		margin-left: -48px;
+	}
+	.content_type_clase_castillopreescolar2022demo .logo-publisher {
+		content: " ";
+		background-image: url(images/ui-logo-castillo.svg);
+		height: 64px;
+    background-repeat: no-repeat;
+    width: 181px;
+    margin-top: -12px;
+    margin-left: -150px;
+    float: left;
+    background-size: contain;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slider-indicators {
+		padding: 0;
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		width: 5000px;
+		bottom: 0px;
+		left: 0px;
+		z-index: 0;
+		background-color: #ffffff;
+	    color: #00599C;
+	}
+
+/*navaegacion navabar sup.*/
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown button,
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar li {
+		border-radius: 5px;
+		border: none;
+		background-color: transparent;
+		color: #ffffff;
+		vertical-align: middle;
+		margin: 0px 5px;
+		text-indent: 0px;
+		line-height: 3.5rem;
+		font-size: 2.0rem;
+		font-weight: 400;
+		cursor: default;
+		background: #5ebdb2;
+		border-radius: 120px;
+	}
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown button {
+		background: none;
+		color: #676767;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slider-indicators:after {
+		content: '';
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height: 0;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slider-indicators li {
+		width: 35px;
+		height: 35px;
+		margin: 0 8px 0 0;
+		text-align: center;
+		opacity: 0.8;
+		position: relative;
+		background: #A5BBD8;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .slider-indicators li.active,
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar li:hover {
+		opacity: 1;
+		background:#1d549e;
+	}
+
+	#top-navigator .slider-indicators li {
+		text-indent: 0;
+	    border-radius: 10px;
+	    box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar #top-navigator {
+		float: none;
+		margin-top: 10px;
+		display: block;
+		padding: 0 0px 0px 4px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown {
+		float: left;
+		display: block;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown button {
+		width: auto;
+		padding: 0px 10px;
+	}
+
+	.open > .dropdown-menu {
+		display: block;
+		max-height: 300px;
+		overflow-y: auto;
+    cursor: pointer;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown button {
+		border: none;
+		color: #676767;
+		font-size: 18px;
+    font-weight: 400;
+    color: #676767;
+    margin: 0 20px;
+    cursor: pointer;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown button:focus {
+		outline: none;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown li {
+		display: list-item;
+		width: auto;
+		background: none;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown li a {
+		color: #676767;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .dropdown .caret {
+		border-color: #878787 transparent transparent transparent;
+    	margin-left: 10px;
+	}
+
+	.dropdown-menu>li>a:hover, 
+	.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #1d549e !important;
+    font-weight: 700;
+}
+/**/
+
+/* Pagination */
+
+.js-slide-wrapper > .header .single-pagination {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 75px;
+	height: 75px;
+	background: #5ebdb2;
+	color: #ffffff;
+	font-size: 4.5rem;
+	line-height: 4.5rem;
+	padding: 2px 16px 2px 2px;
+	font-family: 'Raleway', Georgia, serif;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 0 0 120px 0;
+}
+
+/*budget nota*/
+.revision-budget {
+	margin-top: 0px;
+}
+
+/* Iconos */
+
+#actividad .player.audio {
+	/*background: url(images/icono_audio.png) 0 0 no-repeat;*/
+	background: url(images/ui-icon-color-audio.svg) 0 0 no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+/*#actividad .player.video {
+	background: url(images/castillopreescolar2022demo_video.png) 0 0 no-repeat;
+	background-size: contain;
+	width: 36px;
+	height:24px;
+	border-radius: 0;
+	vertical-align: middle;
+
+}*/
+
+#actividad .bck-file-attach img {
+	display: none;
+}
+
+/* CKEDITOR */
+
+	.bck-title1,
+	.bck-title2,
+	.bck-title3,
+	.bck-title-activity {
+		font-family: 'Nunito';
+	}
+
+/*titulo 01*/
+	.bck-title1 {
+		/*font-size: 27px;
+	    padding: 10px 40px 10px 98px;
+	    margin-bottom: 25px;
+	    color: #1D549E;
+	    margin-left: -98px;
+	    font-weight: 700;
+	    font-family: 'Nunito';*/
+	    position: relative;
+    font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: var(--theme-color-main);
+	}
+
+/*titulo 02*/
+	.bck-title2 {
+	/*font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Nunito';
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 600;
+    color: var(--theme-text-color-dark);
+	}
+
+/*titulo 03*/
+	.bck-title3 {
+	/*font-weight: 700;
+    color: #1d549e;
+    font-family: 'Nunito';
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 600;
+    color: var(--theme-color-main);
+	}
+
+/*titulo 04*/
+	.bck-title4 {
+	/*font-weight: 800;
+    color: #1d549e;
+    font-family: 'Nunito';
+    font-size: 25px;*/
+    position: relative;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 700;
+    color: var(--theme-color-main);
+	}	
+
+/*tooltip*/
+.bck-tooltip {
+	/*    
+    border-bottom: 1px dotted #1d549e;
+    color: #1d549e;
+    font-weight: 600;
+    cursor: pointer;*/
+    border-bottom: 1px dotted;
+    color: var(--theme-color-main);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: dotted;
+}
+
+.popover-title {
+	margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    line-height: 18px;
+    background-color: #1d549e;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    max-width: 276px;
+    padding: 0px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    white-space: normal;
+}
+
+.popover.top>.arrow {
+    left: 50%;
+    margin-left: -11px;
+    border-bottom-width: 0;
+    border-top-color: #999;
+    border-top-color: rgb(0 0 0 / 0%);
+    bottom: -11px;
+}
+
+/*enfasis*/
+	strong {
+		font-weight: 800;
+	}
+
+
+/**subrayado*/
+.bck-underline {
+    border-bottom: 1px solid;
+    color: var(--theme-color-main);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*hr*/
+	.content hr,
+	.cke_contents hr {
+		border: 0;
+		border-top: 2px dashed #f9bfad;
+	}
+
+/*tamaños texto pregutnas*/
+#actividad .workspace {
+	font-size: 16px;
+}	
+
+/*pop up*/
+#actividad .info-button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: url(images/ui-icon-color-info.svg);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+
+
+.popover-template .popover-title {
+    display: block;
+    position: relative;
+    background: #4A76B1;
+    text-align: center;
+    color: #fff;
+    font-family: 'Nunito';
+    padding-top: 15px;
+    min-height: 35px;
+}
+
+.popover-template .popover-title:before {
+	display: none;
+}
+
+
+.popover-template .popover-content {
+    height: auto;
+    overflow-y: auto;
+    position: relative;
+    font-family: 'Nunito';
+    font-size: 1em;
+}
+
+.fa-info:before {
+    content: "";
+}
+
+.fa-times:before {
+    content: "\f00d";
+    color: #fff;
+}
+
+/*listas*/
+
+/*tamaño enunciado listas
+
+#actividad .pregunta .texto_curso {
+	font-size: 2.2rem;
+}*/
+
+#actividad textarea {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*.texto_curso p:last-of-type {
+    margin-bottom: 5px;
+}*/
+
+.texto_curso p {
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#actividad .texto_curso {
+    font-size: 22px;
+}
+
+.html-book .js-rich-group {
+	border-radius: 11px;
+}
+
+/*----------------------LISTAS-----------------------*/
+
+/*Tamaño general*/
+#actividad .texto_curso  li, 
+#actividad .workspace ul li li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 40px;
+}
+#actividad .texto_curso ol li, 
+#actividad .workspace ol li {
+    padding-left: 1px;
+}
+#actividad .texto_curso li::marker,
+ #actividad .workspace li::marker {
+    font-weight: bold;
+    color: var(--theme-text-color-dark);
+}
+
+.texto_curso li {
+	line-height: 2.2em!important;
+}
+
+/*Globo corrección*/
+#indice .unit-content .actividades .item .nota.ko {
+    padding-top: 8px;
+}
+
+
+/*alineación izquierda todas*/
+.texto_curso ul, 
+.texto_curso ol, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
+.cke_contents ul, 
+.cke_contents ol, 
+.popover-content ul, 
+.popover-content ol {
+    margin-bottom: 20px;
+    margin-left: -21px;
+}
+
+#actividad .workspace.multiple-choice .opcion>ol, 
+#actividad .workspace.multiple-choice .opcion>ul {
+margin-left: auto;
+}
+
+
+#actividad .content .cke_contents .bck-ol li:before,
+#actividad .content .texto_curso .bck-ol li:before,
+#actividad .popover-content .bck-ol li:before,
+#actividad .content .workspace ul li .bck-ol li:before {
+	/*content: counter(bck-li-counter);*/
+	position: relative;
+	text-align: left;
+	font-size: 1.9rem;
+	font-family: sans-serif;
+	margin-left: -10px;
+}
+
+/*LISTA ORDENADA 1*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ul li .bck-ol-1 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+	padding-left: 41px;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
+counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Nunito';
+    font-size: var(--theme-font-size);
+    font-weight: 500;
+    color: var(--theme-text-color-dark);
+    margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+content: counter(bck-li-counter) ".";
+    font-family: 'Nunito';
+    position: absolute;
+    text-align: right;
+    padding: 0;
+    display: inline-block;
+    height: auto;
+    width: 6rem;
+    left: -55px;
+    top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
+}
+
+
+
+/*LISTA ORDENADA 2*/
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2 {
+		list-style-type: none;
+    counter-reset: bck-li-counter;
+    font-size: var(--theme-font-size);
+}
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li {
+	counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-size: var(--theme-font-size);
+    font-family: 'Nunito';
+    color: #676767;
+    margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso .bck-ol-2 li:before,
+#actividad .popover-content .bck-ol-2 li:before,
+#actividad .content .workspace ul li .bck-ol-2 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso .bck-ol-2 li:before,
+#actividad .popover-content .bck-ol-2 li:before,
+#actividad .content .workspace ul li .bck-ol-2 li:before {
+content: counter(bck-li-counter, lower-alpha)')';
+    font-family: 'Nunito';
+    position: absolute;
+    text-align: right;
+    margin-top: 0px;
+    left: -13px;
+    top: -1px;
+    color: var(--theme-color-secondary);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
+}
+
+
+/*LISTA ORDENADA 3*/
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+	padding-left: 41px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li {
+counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Nunito';
+    font-size: var(--theme-font-size);
+    font-weight: 500;
+    color: var(--theme-color-main);
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso .bck-ol-3 li:before,
+#actividad .popover-content .bck-ol-3 li:before,
+#actividad .content .workspace ul li .bck-ol-3 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso .bck-ol-3 li:before,
+#actividad .popover-content .bck-ol-3 li:before,
+#actividad .content .workspace ul li .bck-ol-3 li:before {
+content: counter(bck-li-counter) ".";
+    font-family: 'Nunito';
+    position: absolute;
+    text-align: right;
+    padding: 0;
+    display: inline-block;
+    height: auto;
+    width: 6rem;
+    left: -55px;
+    top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
+}
+
+/*LISTA ORDENADA 4*/
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+#actividad .content .workspace ul li .bck-ol-4 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+	padding-left: 41px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-family: 'Nunito';
+    font-size: var(--theme-font-size);
+    color: var(--theme-text-color);
+    margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+content: counter(bck-li-counter) ".";
+    font-family: 'Nunito';
+    position: absolute;
+    text-align: right;
+    margin-top: 0px;
+    top: -1px;
+    color: var(--theme-color-main);
+    font-size: calc(var(--theme-font-size) * 1.1666);
+    font-weight: 700;
+    padding: 0;
+    display: inline-block;
+    height: auto;
+    width: 6rem;
+    left: -55px;
+}
+
+
+
+/*LISTAS DESORDENADAS*/
+.texto_curso ul li {
+	padding-left: 40px;
+}
+
+.texto_curso ul li:before,
+.workspace ul li ul li:before,
+.cke_contents ul li:before,
+.preview ul li:before,
+.classify-item ul li:before,
+#actividad .workspace.multiple-choice .js-item ul li:before,
+#actividad .workspace.matching .box ul li:before,
+#actividad .workspace.ordenar .js-rank-item ul li:before {
+	content: "";
+	height: 6px;
+	width: 6px;
+	background-color: #333;
+	color: #333;
+	border-radius: 50%;
+}
+
+/*lista desordenada por defecto, sin seleccionar estilo para la ul*/
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li ul li:before {
+	content: "";
+	height: 9px;
+	width: 9px;
+	background-color: #fff;
+	color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#actividad .content .texto_curso ul li::before,
+/*#actividad .content .workspace ul li ul li::before,*/
+#actividad .content .texto_curso .bck-ul li::before,
+#actividad .content .workspace ul li .bck-ul li::before,
+#actividad .popover-background.shown .popover-content>ul>li::before {
+	content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin: 13px 0 0 -23px;
+    top: 2px;
+}
+
+	.texto_curso ul li,
+	.workspace ul li ul li,
+	.cke_contents ul li {
+		position: relative;
+		padding-left: 18px;
+		margin-bottom: 20px;
+	}
+
+/*LISTA DESORDENADA 1*/
+#actividad .content .cke_contents .bck-ul-1,
+#actividad .content .texto_curso .bck-ul-1,
+#actividad .content .workspace ul li .bck-ul-1 {
+	list-style-type: none;
+    padding-left: 30px;
+}
+
+#actividad .content .cke_contents .bck-ul-1 li,
+#actividad .content .cke_contents .bck-ul-1 li,
+#actividad .content .texto_curso .bck-ul-1 li,
+#actividad .popover-content .bck-ul-1 li,
+#actividad .content .workspace ul li .bck-ul-1 li {
+	position: relative;
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    padding-left: 0px;
+    font-size: var(--theme-font-size);
+    font-family: 'Nunito';
+    color: #676767;
+        margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ul-1 li:before,
+#actividad .content .texto_curso ul.bck-ul-1 li:before,
+#actividad .popover-content ul.bck-ul-1 li:before,
+#actividad .content .workspace ul li ul.bck-ul-1 li:before {
+	content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #1D549E;
+    border-radius: 50%;
+    position: absolute;
+    margin: 13px 0 0 -23px;
+    top: 2px;
+}
+
+
+/*LISTA DESORDENADA 2*/
+#actividad .content .cke_contents .bck-ul-2,
+#actividad .content .texto_curso .bck-ul-2,
+#actividad .content .workspace ul li .bck-ul-2 {
+	list-style-type: none;
+    padding-left: 30px;
+}
+
+#actividad .content .cke_contents .bck-ul-2 li,
+#actividad .content .cke_contents .bck-ul-2 li,
+#actividad .content .texto_curso .bck-ul-2 li,
+#actividad .popover-content .bck-ul-2 li,
+#actividad .content .workspace ul li .bck-ul-2 li {
+	position: relative;
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    padding-left: 0px;
+    font-size: var(--theme-font-size);
+    font-family: 'Nunito';
+    color: #676767;
+    margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ul-2 li:before,
+#actividad .content .texto_curso ul.bck-ul-2 li:before,
+#actividad .popover-content ul.bck-ul-2 li:before,
+#actividad .content .workspace ul li ul.bck-ul-2 li:before {
+	content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #F8B100;
+    border-radius: 50%;
+    position: absolute;
+    margin: 13px 0 0 -23px;
+    top: 2px;
+}
+/**/
+
+	.content figure:first-child:last-child,
+	.content .js--row figure,
+	.cke_contents figure:first-child:last-child,
+	.cke_contents .js--row figure {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	.content figure figcaption,
+	.cke_contents figure figcaption {
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	.cke_contents table:not(.rf-tablegrid),
+	.content table:not(.rf-tablegrid) {
+		border: 1px solid #CBCCCD;
+	}
+
+	.cke_contents table:not(.rf-tablegrid) td,
+	.cke_contents table:not(.rf-tablegrid) th,
+	.content table:not(.rf-tablegrid) td,
+	.content table:not(.rf-tablegrid) th {
+		border: 1px solid #CBCCCD;
+		padding: 7px;
+	}
+
+	.cke_contents table:not(.rf-tablegrid) caption,
+	.content table:not(.rf-tablegrid) caption {
+		margin-bottom: 10px;
+	}
+
+
+
+	/*.bck-box {
+		margin-bottom: 30px;
+	}
+	.bck-box.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.bck-box .bck-title {
+		font-size: 2.5rem;
+		margin-bottom: 10px;
+	}*/
+
+
+	/*caja 01*/
+	.bck-box.box-1 {
+	border: 1px solid #1D549E;
+    padding: 20px 10px 10px 20px;
+    /* margin-top: 30px; */
+    border-radius: 25px;
+    /* margin-bottom: 30px; */
+    /* position: relative; */
+    width: 100%;
+    margin: 40px 0;
+	}
+
+	.bck-box.box-1 > .bck-title {
+	background-color: #fff;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: -10px;
+    padding: 5px 14px 0px 14px;
+}
+
+
+
+.bck-box.box-1 > .bck-title p {
+    color: #000;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+	.bck-box.box-1 > .bck-content {
+background-color: #DBE4EF;
+    border-radius: 20px;
+    padding: 68px 13px 21px 30px;
+    position: relative;
+    margin-top: -63px;
+    margin-left: -31px;
+    z-index: -1;
+	}	
+
+	.bck-box.box-1 > .bck-content p {
+    color: #000;
+
+}
+
+
+/*caja 02*/
+	.bck-box.box-2 {
+	position: relative;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--theme-color-main);
+    padding: 20px 20px 36px 20px;
+    color: var(--theme-text-color-bright);
+    font-weight: 300;
+    box-shadow: 0px 4px 5px rgb(9 48 84 / 15%);
+    margin: 40px 0;
+}
+
+.bck-box.box-2 > .bck-title p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.bck-box.box-2 > .bck-title {
+/*margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 40px 40px 0 0;
+    padding: 14px 20px 10px;
+    color: #ffffff;
+    background: none;*/
+    font-size: var(--theme-font-size-h3);
+    margin: 0 0 -4px 0;
+}
+
+.bck-box.box-2 > .bck-content p {
+    color: #fff;
+
+}
+
+/*caja 03*/
+.bck-box.box-3 {
+    /*border: 0;
+    padding: 20px;
+    border: 2px solid #f8b100;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 1px #0003;*/
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--theme-color-secondary);
+    background-color: #FFF;
+    padding: 17px 17px 33px 17px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
+}
+
+.bck-box.box-3 > .bck-title {
+ background: none;
+margin: 0 0 -4px 0;
+}
+
+
+.bck-box.box-3 > .bck-title p {
+	    color: #000;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.bck-box.box-3 > .bck-content p {
+    color: #676767;
+
+}
+
+
+/*caja 04*/
+.bck-box.box-4 {
+	position: relative;
+    width: 100.2%;
+    background-image: url(images/box-4.svg);
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
+    border-radius: 22px;
+}
+
+.bck-box.box-4 > .bck-title {
+ background: none;
+ margin: 0 0 -4px 0;
+}
+
+
+.bck-box.box-4 > .bck-title p {
+	    color: #1d549e;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.bck-box.box-4 > .bck-content p {
+    color: #676767;
+
+}
+
+/*caja 05*/
+.bck-box.box-5 {
+    /*border: 0;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-image: url(images/icono_caja05c.jpg);
+    background-image: url(images/ui-pattern-01.png); 
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: right;
+    box-shadow: 0px 4px 8px 1px #0003;*/
+        position: relative;
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 20%);
+    margin: 60px 0 40px 0;
+    color: var(--theme-text-color-dark);
+    grid-column: 1 / 3;
+    background-image: var(--theme-pattern-01);
+    background-size: 121px;
+}
+
+
+.bck-box.box-5 > .bck-title {
+color: #1d549e;
+    position: relative;
+    top: -45px;
+    text-align: center;
+}
+
+.bck-box.box-5 > .bck-title p {
+	    color: #1d549e;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.bck-box.box-5 > .bck-title:before {
+/*background-image: url(images/icono_caja05.png);
+background-image: url(images/ui-graphic-tape.svg);
+    content: " ";
+    position: absolute;
+    left: -53px;
+    top: 22px;
+    z-index: 100;
+    padding: 38px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;*/
+	content: '';
+    position: absolute;
+    left: calc(100% - 35px);
+    top: 23px;
+    width: 72px;
+    height: 26px;
+    background-image: var(--theme-graphic-tape);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: rotate(19deg);
+    mix-blend-mode: multiply;
+}
+
+.bck-box.box-5 > .bck-title:after {
+    /*background-image: url(images/icono_caja05b.png);
+    background-image: url(images/ui-graphic-tape.svg);
+    content: " ";
+    position: absolute;
+    right: -51px;
+    top: 23px;
+    z-index: 100;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;*/
+    content: '';
+    position: absolute;
+    left: -41px;
+    top: 23px;
+    width: 72px;
+    height: 26px;
+    background-image: var(--theme-graphic-tape);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: rotate(-19deg);
+    mix-blend-mode: multiply;
+}
+
+.bck-box.box-5 >.bck-content {
+    margin-top: -38px;
+    padding: 5px;
+    margin-bottom: -10px;
+}
+
+.bck-box.box-5 >.bck-content p{
+	color: #000;
+}
+
+/*desplegables*/
+.bck-dropdown {
+    border-radius: 10px 10px 0 0;
+    background-color: transparent;
+    /*box-shadow: 0px 10px 9px -8px #d0d0d0;*/
+}
+
+.bck-dropdown-icon {
+width: 50px;
+    height: 52px;
+    background-color: #4a76b1;
+    display: inline-block;
+    float: right;
+    margin-top: -3px;
+    margin-right: 0px;
+    border-radius: 0 10px 10px 0;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+    color: #fff;
+    vertical-align: sub;
+}
+
+.fa-chevron-up:before {
+    content: "\f077";
+    color: #fff;
+    vertical-align: sub;
+}
+
+.bck-dropdown-content {
+    /*border-left: 2px dotted #1d549e;
+    border-right: 2px dotted #1d549e;
+    border-bottom: 2px dotted #1d549e;
+    border-radius: 0 0 10px 10px;
+    overflow-y: auto;
+    display: inline-block;
+    max-height: none;
+    padding: 22px 22px 10px 22px;
+    background-color: white;*/
+    overflow-y: auto;
+    display: inline-block;
+    max-height: none;
+    background-color: white;
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 0 0 10px 10px;
+    border: 2px dotted var(--theme-color-main);
+    border-top: none;
+}
+
+.bck-dropdown-content p {
+    color: var(--theme-text-color-dark);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bck-dropdown-button {
+    /*padding: 10px;
+    border-radius: 10px;
+    background-color: #1d549e;*/
+    width: 100%;
+    height: 48px;
+    background-color: var(--theme-color-main);
+    border-radius: 10px;
+    line-height: 48px;
+    color: #FFF;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
+}
+
+.bck-dropdown-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #fff;
+    font-family: 'Nunito';
+    padding-left: 31px;
+}
+
+.bck-dropdown-icon>.fa {
+    display: inline-block;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/*flipbox*/
+body:not(.edit) .bck-flipbox-face.front {
+	    color: #1d549e;
+    background-color: #DBE4EF;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: none;
+        border-radius: 10px;
+        box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
+}
+
+body:not(.edit) .front .bck-flipbox-section,
+body:not(.edit) .front .bck-flipbox-title {
+	color: #1d549e;
+
+}
+
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: #1d549e;
+    border: none;
+        border-radius: 10px;
+        box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
+}
+
+body:not(.edit) .back .bck-flipbox-title, body:not(.edit) .back .bck-flipbox-section {
+    color: #fff;
+}
+
+body:not(.edit) .bck-flipbox-face.front p {
+	padding: 10px 30px;
+    color: var(--theme-color-main);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+body:not(.edit) .bck-flipbox-face.back p {
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+
+}
+
+/*taBlas*/
+.cke_contents table:not(.rf-tablegrid),
+.content table:not(.rf-tablegrid) {
+    border: 1px dotted #CBCCCD;
+}
+
+
+	.bck-td {
+		background: #dcdcdc;
+	}
+
+	/*tablas*/
+
+.bck-table,table {
+    border: 2px dotted #1D549E;
+}
+
+.bck-table td,table td {
+    border-color: #1D549E;
+}
+
+td,th {
+    padding-left: 10px
+}
+
+.cke_contents table:not(.rf-tablegrid) td, 
+.cke_contents table:not(.rf-tablegrid) th, 
+.content table:not(.rf-tablegrid) td, 
+.content table:not(.rf-tablegrid) th {
+	border: 2px dotted #1d549e;
+	margin: 40px 0;
+    grid-column: 1 / 3;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/*celdas*/
+.bck-td-2 {
+    background: #4A76B1;
+    text-align: center;
+    color: #fff;
+}
+
+.bck-td-3 {
+    background: #E9EFF5;
+    text-align: center;
+    color: #000;
+}
+
+.bck-td-4 {
+    background: #ffffff;
+    text-align: center;
+    color: #000;
+}
+
+/*tabs*/
+.bck-tabslists {
+    /* overflow: hidden; */
+    display: flex;
+    border-bottom: 0px solid var(--theme-color-main);
+}
+
+body:not(.edit) .bck-tabs-box {
+	background-color: #ffffff;
+    border: none;
+}
+
+.body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+    font-size: var(--theme-font-size);
+    color: var(--theme-color-main);
+        font-weight: 600;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    margin-left: 5px;
+    margin-top: 4px;
+    margin-bottom: -1px;
+    border-radius: 20px 20px 0 0;
+}
+
+#actividad .bck-tabs-box .bck-tabslists .bck-tabtitles:hover {
+    background-color: #1d549e;
+    color:#fff
+}
+
+.body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
+    background-color: var(--theme-color-main);
+    color: var(--theme-text-color-bright);
+    box-shadow: 1px -2px 5px rgb(11 52 96 / 15%);
+}
+
+
+.bck-tabtitles:hover {
+    background-color: #1d549e;
+    color: #fff;
+}
+
+
+body:not(.edit) .bck-tabcontents .div-contents {
+    display: none;
+    background-color: #fff;
+        padding: 40px 12px;
+    border-left: 0;
+    border-top: 1px solid #1d549e;
+    max-height: 100%;
+    max-width: 100%;
+    color: #676767;
+    border-bottom: 1px solid #1d549e;
+}
+
+
+
+/*botonera*/
+#actividad .btn-danger, 
+#actividad .btn-danger[disabled] {
+	color: #fff;
+    background-color: var(--theme-widget-ok-color);
+    border-radius: 10px;
+    border-color: transparent;
+    opacity: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
+}
+
+#actividad .btn-danger:hover, .btn-danger:focus, 
+#actividad .btn-danger:active, .btn-danger.active, 
+#actividad .open .dropdown-toggle.btn-danger {
+	    color: #fff;
+    background-color: #90bf55;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+
+#actividad .btn-primary {
+color: #fff;
+    background-color: #1d549e;
+    border-radius: 10px;
+    border-color: transparent;
+    opacity: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
+}
+
+#actividad .btn-primary:not([disabled]):hover, 
+#actividad .btn-primary:not([disabled]):focus, 
+#actividad .btn-primary:not([disabled]):active, 
+#actividad .btn-primary.active, 
+#actividad .open .dropdown-toggle.btn-primary {
+color: #fff;
+    background-color: #1d549e;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
+    border-color: transparent;
+    opacity: 1;
+    font-weight: 600;
+}
+
+#actividad .btn-primary[disabled], 
+#actividad .btn-primary[disabled]:focus {
+	background-color: var(--theme-widget-disabled-color);
+    color: var(--theme-button-text-color-disabled);
+    border-radius: 10px;
+    border-color: transparent;
+    opacity: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
+}
+
+#actividad .btn-solution, 
+#actividad .btn-solution.disabled, 
+#actividad .btn-solution[disabled], 
+#actividad .btn-next, 
+#actividad .btn-next.disabled, 
+#actividad .btn-next[disabled] {
+	color: #fff;
+    background-color: var(--theme-widget-answer-color);
+    border-radius: 10px;
+    border-color: transparent;
+    opacity: 1;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    font-size: var(--theme-button-font-size);
+    font-weight: var(--theme-button-font-weight);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 10px;
+}
+
+#actividad .btn-solution:hover, 
+#actividad .btn-solution:focus, 
+#actividad .btn-solution:active, 
+#actividad .btn-next:hover, 
+#actividad .btn-next:focus, 
+#actividad .btn-next:active, 
+#actividad .open .dropdown-toggle.btn-solution {
+	color: #fff;
+    background-color: #1eb3c6;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
+    border-color: transparent;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+}
+
+#actividad .content .review .attemps span {
+    width: 35px;
+    height: 35px;
+    font-weight: 900;
+    color: #000;
+    background-color: #e1e1e1;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+    padding: 6px 12px;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+/*actividades*/
+/*verdadero falso*/
+.true-false .checkbox-option label.filter-label {
+    font-size: 18px;
+}
+
+.workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+#actividad .workspace.true-false .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label, 
+#actividad .workspace.test .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]+label.filter-label {
+    padding: 5px;
+    padding-left: 32px;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    font-size: var(--theme-boolean-font-size);
+    font-weight: var(--theme-boolean-font-weight);
+    color: var(--theme-boolean-text-color);
+}
+
+/*Damos formatos a los checkbox*/
+.true-false .radio-option label.filter-label::before {
+    background: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f8b100;
+    border-radius: 50%;
+	color: #f8b100;
+}
+
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+position: absolute;
+    border-color: #f8b100;
+    background-color: transparent;
+    content: '';
+    background-image: linear-gradient(180deg, #f8b100 0%, #f8b100 100%);
+    background-size: 26px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+
+/*ok*/
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+    border: 2px solid #90BF55;
+    /*color: #90BF55;*/
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+	content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+}
+
+#actividad .workspace.test .respuesta_ok, 
+#actividad .workspace.true-false .respuesta_ok {
+    background-color: #EDF5E4;
+    border-color: #EDF5E4;
+}
+
+
+/*ko*/
+
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+    border: 2px solid #E33939;
+    /*color: #E33939;*/
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+    outline: 3px solid #f9d7d7;
+}
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+    content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+}
+
+#actividad .workspace.test .respuesta_ko, 
+#actividad .workspace.true-false .respuesta_ko {
+    background-color: #F9D7D7;
+    border-color: #f9d7d7;
+}
+
+/*solucion*/
+#actividad .workspace.test .solucion, 
+#actividad .workspace.true-false .solucion {
+    border: transparent;
+    background-color: #D2F0F4;
+}
+
+ .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+.true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+    display: none;
+}
+
+#actividad .workspace.true-false li img {
+    max-width: 100%;
+    box-shadow: none;
+}
+
+
+/*respuesta multiple*/
+#actividad .workspace.multiple-choice .opcion {
+	border-color: var(--theme-widget-normal-color);
+    background-color: var(--theme-widget-normal-color-brighter);
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+	border-color: var(--theme-color-secondary);
+    background-color: var(--theme-color-secondary-b2);
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+	border-color: var(--theme-widget-ok-color);
+    background-color: var(--theme-widget-ok-color-bright);
+    padding-right: 34px;
+}
+
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    border-color: var(--theme-widget-fail-color);
+    background-color: var(--theme-widget-fail-color-bright);
+    padding-right: 34px;
+}
+
+#actividad .workspace.multiple-choice .opcion.solucion {
+    border-color: var(--theme-widget-answer-color);
+    background-color: var(--theme-widget-answer-color-bright);
+}
+
+#actividad .workspace.multiple-choice {
+    clear: both;
+    font-size: 18px;
+    line-height: 2.1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 30%;
+    margin: auto;
+}
+
+#actividad .workspace.multiple-choice .opcion {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    min-height: 34px;
+    min-width: 50%;
+    padding: 0 20px;
+    font-size: var(--theme-multi-choice-font-size);
+    font-weight: var(--theme-multi-choice-font-weight);
+    color: var(--theme-multi-choice-text-color);
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+#actividad .workspace.multiple-choice .opcion p {
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_over {
+	background-color: #fff;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+	background-image: none;
+}
+
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+	background-image: none;
+}
+
+/*#actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
+#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+    font-family: FontAwesome;
+    font-size: 27px;
+    margin: 0 10px 0 0;
+
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko:after {
+content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+    line-height: 1em;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+   content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+    line-height: 1em;
+}*/
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ok {
+	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_ko {
+	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+/*rellenar espacios*/
+.content_type_clase_castillopreescolar2022demo .slide_main input {
+	/*border: 2px solid #fbd066;
+    border-radius: 10px;
+    height: 1.8em;
+    margin: 0;*/
+}
+
+.content_type_clase_castillopreescolar2022demo .slide_main input:focus {
+    border-top-color: #3AC62A;
+    border-right-color: #3AC62A;
+    border-bottom-color: #3AC62A;
+    border-left-color: #3AC62A;
+    outline-width: 0px;
+    outline-style: none;
+    box-shadow: none;
+    border: 2px solid #f8b100;
+    border-radius: 10px;
+}
+
+.fillblanks-draggable .drag-over {
+	box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+}
+
+.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ko {
+    border-color: #e33939;
+    background: #f9d7d7;
+}
+
+.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ok {
+    border-color: #90bf55;
+    background: #edf5e4;
+}
+.content_type_clase_castillopreescolar2022demo .slide_main input.solucion {
+    border-color: #1eb3c6 !important;
+    background: #d2f0f4;
+}
+
+.popover.multiple-solution {
+    background-color: #b6ecff;
+    border: 2px solid #1eb3c6;
+    border-radius: 10px;
+}
+
+.fillblanks-draggable-wrapper .response {
+    margin: 2px;
+    min-width: 100px;
+    border: 1.5px solid #fbd066;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fillblanks-draggable-wrapper .response.respuesta_over {
+    background-color: #FFF;
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
+}
+
+.fillblanks-draggable-wrapper .response.used p {
+    text-decoration: line-through;
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
+    background-color: var(--theme-widget-normal-color-bright);
+    border-radius: 10px;
+}
+
+#actividad .workspace.multiple-choice .opcion img {
+	box-shadow: none;
+	border: none;
+}
+
+/*.content_type_clase_castillopreescolar2022demo .slide_main input[disabled],
+.content_type_clase_castillopreescolar2022demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castillopreescolar2022demo .slide_main input {
+    cursor: not-allowed;
+    background-color: #fef5e0;
+    opacity: 1;
+}*/
+
+/*drag and drop*/
+#actividad .drag .circulo_gris p {
+    padding: 0 10px 0 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: var(--theme-drag-drop-text-item-font-size);
+    font-weight: var(--theme-drag-drop-text-item-font-weight);
+    color: var(--theme-drag-drop-text-item-color);
+    margin: 0 0 15px 0;
+    margin-right: 10px;
+    background: url(images/drop_izquierda2.png) 0 0 no-repeat;
+}
+
+#actividad .multimedia-container .circulo_gris.ver:after {
+background-color: #fff;
+border: 2px solid var(--theme-color-secondary);
+    box-shadow: 0 0 5px 1px rgb(0 0 0 / 23%);
+    height: 15px;
+    width: 15px;
+}
+
+
+.multimedia-container .respuesta.drop_ok:after, 
+.multimedia-container .answer.drop_ok span:before {
+background-color: #90bf55;
+box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+.multimedia-container .respuesta.drop_ok:after, 
+.multimedia-container .answer.drop_ok span:before, 
+.multimedia-container .respuesta.drop_ko:after, 
+.multimedia-container .answer.drop_ko span:before {
+    background-image: none;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 0px 3px;
+    -webkkit-transform: translate(-12%, -5%);
+    -moz-transform: translate(-12%, -5%);
+    transform: translate(-12%, -5%);
+}
+
+.multimedia-container .respuesta.drop_ko:after, 
+.multimedia-container .answer.drop_ko span:before {
+    background-color: #e33939;;
+    padding: 0 4px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+#actividad .multimedia-container .circulo_gris.editar:before,  
+#actividad .multimedia-container .circulo_gris.respuesta:before {
+min-height: 12px;
+    text-align: center;
+    background: #4D4D4D;
+    font-size: var(--theme-drag-drop-text-label-font-size);
+    font-weight: var(--theme-drag-drop-text-label-font-weight);
+    color: var(--theme-drag-drop-text-label-color);
+    margin: -7px 21px -14px 25px;
+    margin-right: 10px;
+    padding: 2px 6px;
+    z-index: -1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 25%);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#actividad .multimedia-container .circulo_gris.respuesta.drop_ok:before, 
+#actividad .multimedia-container .circulo_gris.respuesta.drop_ko:before {
+    text-align: center;
+}
+
+
+#actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
+    background: #1EB3C6;
+    -webkit-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
+    box-shadow: 0 0 5px 1px rgb(0 0 0 / 75%);
+    border-radius: 50%;
+    border: 2px solid #1EB3C6;
+}
+
+#actividad .multimedia-container .circulo_gris.drop_solucion:before {
+	min-height: 12px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    margin: 7px 21px -14px 32px;
+    padding: 2px 5px;
+    z-index: -1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    min-width: 100px;
+    border-radius: 4px;
+}
+
+/*arrastrar imagenes*/
+.fillblankimages-draggable-wrapper .response {
+	border: 3px solid #fff;
+}
+
+.fillblankimages-draggable-wrapper .response.used p:before {
+	border-top: 2px solid #000;
+    transform: rotateZ(-45deg);
+    top: 50%;
+}
+
+.fillblankimages-draggable-wrapper .response.used {
+	opacity: .3!important;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container {
+    /*max-height: 190px;*/
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px dashed #A4A4A4;
+    overflow: hidden;
+    background-color: #EDEDED;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.respuesta_ok {
+    border-color: #90BF55;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+    border: solid 2px #90BF55;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.respuesta_ko {
+	border: solid 2px #E33939;
+	box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.slide_main .fillblankimages-draggable .img-input-container.solucion {
+		border: solid 2px #1EB3C6;
+		box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.fillblankimages-draggable .img-input-container.imgFilled img {
+	box-shadow: none !important;
+
+}
+
+/*arrastrar imagen a imagen*/
+#actividad .image-over-image .drag_image-over-image li img {
+	box-shadow: none;
+	border: none;
+}
+
+.layout-panel.right .drop_solucion span img {
+	border: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.layout-panel.right .answer span img {
+		border: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.layout-panel.left .answer span img {
+		border: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
+/*marcar palabras*/
+#actividad .markword-active {
+    border-radius: 12px !important;
+    padding: 4px !important;
+    border: 2px solid #F8B100 !important;
+}
+
+#actividad .markword-correct {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #d8efbe !important;
+    border-radius: 12px !important;
+    border: 2px solid #90BF55 !important;
+}
+
+#actividad .markword-false {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #ffbfbf !important;
+    border-radius: 12px !important;
+    border: 2px solid #E33939 !important;
+}
+
+#actividad .markword-solution {
+	    padding: 4px !important;
+    color: #000 !important;
+    background-color: #D2F0F4 !important;
+    border-radius: 12px !important;
+    border: 2px solid #1EB3C6 !important;
+}
+
+/*cálculo num*/
+#actividad .workspace.calculo .cifra {
+    text-align: center;
+    width: 18px;
+    padding: 0;
+    font-weight: 700;
+    color: #000;
+}
+
+#actividad .workspace.calculo .cifra input[type=text], 
+#actividad .workspace.calculo .cifra input[type=tel] {
+text-align: center;
+    min-width: 25px !important;
+    border-radius: 5px;
+    height: 40px;
+    margin: 2px;
+    padding: 0px;
+    color: #000;
+    border: 1.5px solid #fbd066;
+}
+
+#actividad .workspace.calculo .cifra input[type=text]:focus,
+#actividad .workspace.calculo .cifra input[type=tel]:focus {
+    border: 2px solid #F8B100;
+}
+
+.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ok {
+    border-color: #90bf55;
+    border: 2px solid #90BF55!important;
+    background: #EDF5E4;
+}
+
+.content_type_clase_castillopreescolar2022demo .slide_main input.respuesta_ko {
+    border-color: #e33939 !important;
+    background: #f9d7d7;
+}
+
+#actividad .workspace.calculo .respuesta_ko .marco {
+	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+}
+
+#actividad .workspace.calculo .respuesta_ok .marco {
+	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+}
+
+/*match*/
+#actividad .workspace.matching .opcion {
+	border: 2px solid #F8B100;
+}
+#actividad .workspace.matching .opcion img {
+    max-width: 80%;
+    margin: 0;
+    box-shadow: none;
+}
+
+#actividad .workspace.matching .box {
+    font-size: 18px;
+}
+
+/*ordenar*/
+#actividad .workspace.ordenar .js-rank-item {
+    border: 2px solid #F8B100;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    min-height: 34px;
+    min-width: 50%;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+#actividad .workspace.ordenar .respuesta_over {
+    background-color: var(--theme-color-secondary-b2);
+}
+
+#actividad .workspace.ordenar li.ejercicio_ko {
+	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-color: var(--theme-color-fail);
+    background-color: var(--theme-color-fail-b1);
+    padding-right: 34px;
+}
+
+#actividad .workspace.ordenar li.ejercicio_ok {
+	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-color: var(--theme-color-ok);
+    background-color: var(--theme-color-ok-b1);
+    padding-right: 34px;
+}
+
+#actividad .workspace.ordenar .solucion {
+	border-color: var(--theme-color-answer);
+    background-color: var(--theme-color-answer-b1);
+}
+
+#actividad .workspace.ordenar {
+    max-width: 100%;
+    display: flex;
+    border-width: 2px;
+    border-style: none;
+    border-radius: 10px;
+    min-height: 34px;
+    min-width: 50%;
+    padding: 0 20px;
+    font-size: var(--theme-multi-choice-font-size);
+    font-weight: var(--theme-multi-choice-font-weight);
+    color: var(--theme-multi-choice-text-color);
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+
+/*clasificar*/
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 0;
+    background-image: url(images/box-4.svg);
+    border-radius: 22px;
+    background-color: transparent;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+    border-bottom: 1px solid #EDF1F7;
+    display: table;
+    width: 100%;
+    margin: 0px;
+    border-radius: 8.5px;
+    margin-top: -1px;
+    background-color: #EDF1F7;
+    color: #1D549E;
+    padding: 10px;
+    font-size: var(--theme-font-size-h3);
+    font-weight: 500;
+    color: var(--theme-color-main);
+    text-align: center;
+    padding: 8px;
+}
+
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border: 1.5px solid #F8B100;
+    border-radius: 10px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    height: 34px !important;;
+    padding: 0 20px;
+    min-width: 120px;
+    font-size: var(--theme-fill-font-size);
+    font-weight: var(--theme-fill-font-weight);
+    color: var(--theme-fill-text-color);
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
+}
+
+#actividad .workspace.clasificar .clasificar_lista li>p {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 40%;
+    transform: translateY(-35%);
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .clasify-group {
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    word-wrap: break-word;
+    TEXT-ALIGN: CENTER;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
+    margin-bottom: 5px;
+    MARGIN-TOP: 10PX;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    width: 78%;
+    display: inline-flex;
+    text-align: left;
+    background-color: #fff;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+    text-align: left;
+    border: 2px solid #F8B100;
+    color: #000;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
+border: 2px solid #E33939;
+    BACKGROUND-COLOR: #F9D7D7;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
+    background-color: #EDF5E4;
+    border: 2px solid #90BF55;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
+	border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+
+/*analisis sintactico*/
+#actividad .workspace.syntax .bloque, 
+#actividad .slide-syntax .sintaxis_frase .bloque {
+	position: relative;
+    border-bottom: 2px #F8B100 solid;
+    border-left: 2px #F8B100 solid;
+    border-right: 2px #F8B100 solid;
+    padding-bottom: 0.25em;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 25px;
+    color: #000;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#actividad .workspace.syntax .bloque:before, 
+#actividad .slide-syntax .bloque:before {
+border-radius: 4px;
+}
+
+#actividad .workspace.syntax .circulo {
+    background-color: #525252;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 0.7em;
+    line-height: 1.8em;
+    font-size: 12px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #FBD066;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control:focus, 
+.form-control:focus-within {
+    border-top-color: #F8B100;
+    border-right-color: #F8B100;
+    border-bottom-color: #F8B100;
+    border-left-color: #F8B100;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: none;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .filled {
+    border: 2px solid #f8b100;
+    color: #000;
+    background-color: #fff;
+}
+
+#actividad .workspace.syntax .bloque.filled {
+    border-bottom: 2px #f8b100 dashed;
+    border-left: 2px #f8b100 dashed;
+    border-right: 2px #f8b100 dashed;
+    border-radius: 3px;
+}
+
+#actividad .workspace.syntax .filled:before, 
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled {
+    background-color: #f8b100;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #fff;
+    opacity: 1;
+}
+
+#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko {
+background-color: #F9D7D7;
+border: none;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
+	border: 3px solid #E33939;
+	background-color: #F9D7D7;
+}
+
+#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ko:before, 
+#actividad .workspace.syntax .circulo.respuesta_ko {
+    background-color: #E33939;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ko,
+#actividad .workspace.syntax .circulo.respuesta_ko {
+ background-color: #E33939 !important;
+ border: none;
+}
+
+#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok {
+background-color: #EDF5E4;
+padding-top: 6px;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
+	border: 3px solid #90BF55;
+    background-color: #EDF5E4;
+}
+
+#actividad .workspace.syntax .sintaxis_frase .bloque.respuesta_ok:before, 
+#actividad .workspace.syntax .circulo.respuesta_ok {
+    background-color: #90bf55;
+}
+
+#actividad .workspace.syntax .sintaxis_adder .circulo.filled .respuesta_ok,
+#actividad .workspace.syntax .circulo.respuesta_ok {
+background-color: #90BF55 !important;
+border: none;
+}
+
+
+#actividad .workspace.syntax.solucion .bloque, 
+#actividad .workspace.syntax.solucion .sintaxis_adder select {
+    border-color: #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+#actividad .workspace.syntax.solucion .sintaxis_adder .circulo.filled,
+#actividad .workspace.syntax.solucion .circulo {
+ background-color: #1EB3C6 !important;
+ border: none;
+}
+
+/*señalar respuesta*/
+#actividad .workspace.chooseblanks select {
+    border: 0;
+    border-bottom: 2px solid #F8B100;
+    color: #000;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #FBD066;
+    padding: 3px 18px;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 8px;
+    color: #000;
+        height: 2.2em;
+    line-height: 32px;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a:hover {
+    color: #000;
+    border-color: var(--theme-color-secondary);
+    background-color: var(--theme-color-secondary-b2);
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+    background-color: var(--theme-color-secondary-b2);
+    border: 3px solid #F8B100;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.selected {
+    font-weight: inherit;
+}
+
+#actividad .workspace.chooseblanks .respuesta_ok {
+    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 18px;
+}
+
+#actividad .workspace.chooseblanks .respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+    border-radius: 8px;
+    padding: 3px 18px;
+}
+
+
+#actividad .workspace.chooseblanks .solucion {
+    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 18px;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+	    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 18px;
+    color: #000;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+    border-radius: 8px;
+    padding: 3px 18px;
+    color: #000;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.solucion {
+	    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 18px;
+    color: #000;
+}
+
+
+#actividad .workspace.chooseblanks img {
+	box-shadow: none;
+
+}
+
+/*test*/
+.radio-option label.filter-label {
+font-size: 18px;
+}
+
+#actividad .workspace.test {
+    font-size: 18px;
+}
+
+#actividad .workspace.test .checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label, 
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]+label.filter-label {
+	padding: 5px;
+    padding-left: 32px;
+    border-radius: 3px;
+    border: 5px solid transparent;
+    border-radius: 7px;
+    color: #000;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+}
+
+/*Damos formatos a los checkbox
+#actividad .workspace.test .radio-option label.filter-label::before {
+    position: absolute;
+    border-color: #f8b100;
+    background-color: transparent;
+    content: '';
+    background-image: linear-gradient(180deg, #f8b100 0%, #f8b100 100%);
+    background-size: 26px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 3px solid white;
+    outline-offset: -5px;
+}*/
+
+#actividad .workspace.test .radio-option label.filter-label::before {
+	background: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f8b100;
+    border-radius: 50%;
+    color: #f8b100;
+}
+
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    position: absolute;
+    border-color: #f8b100;
+    background-color: transparent;
+    content: '';
+    background-image: linear-gradient(180deg, #f8b100 0%, #f8b100 100%);
+    background-size: 26px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+
+/*ok*/
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+    border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+    content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 0px;
+    position: relative;
+}
+
+#actividad .workspace.test .respuesta_ok {
+    background-color: #EDF5E4;
+    border-color: #EDF5E4;
+}
+
+
+/*ko*/
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+    border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+/*#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+	content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    left: 93px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 4px;
+        position: absolute;
+}*/
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+    content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: 0px;
+    position: relative;
+}
+
+#actividad .workspace.test .respuesta_ko {
+    background-color: #F9D7D7;
+    border-color: #f9d7d7;
+}
+
+/*solucion*/
+#actividad .workspace.test .solucion {
+    border: transparent;
+    background-color: #D2F0F4;
+}
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+	background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+    display: none;
+}
+
+/*respuestas cprtas*/
+.shortanswer-container .js-rich-group {
+	border-radius: 12px;
+}
+
+/*palabras cryuzadas*/
+.slide.crosswords .respuestas .respuesta .caracter {
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    margin-left: 0;
+    text-transform: uppercase;
+    border: 1px solid #F8B100;
+    border-radius: 4px;
+    font-weight: 800;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta .caracter.solucion {
+    background-color: #FEF5E0;
+    color: #000;
+    font-weight: bold;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
+    background-color: #90BF55;
+    color: #000;
+}
+
+.body_clase #actividad .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter.solucion {
+    background-color: #90BF55;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
+    background-color: #EDF5E4;
+    border: 1px solid #fff;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ko .caracter.solucion {
+    background-color: #E33939;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
+    background-color: #F9D7D7;
+    border: 1px solid #fff;
+}
+
+.slide.crosswords .respuestas .respuesta.solucion .caracter.solucion {
+    background-color: #1EB3C6;
+    color: #000;
+}
+
+.slide.crosswords .respuestas .respuesta.solucion .caracter {
+    background-color: #D2F0F4;
+    border: 1px solid #fff;
+}
+
+.slide.crosswords .respuesta .indice {
+	width: 20px;
+    color: #1D549E;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.slide.crosswords .enunciados {
+	border: 2px solid #BECDE2;
+	padding: 1.5rem 4rem;
+	margin-top: -18px;
+}
+
+.body_clase:not(.edit):not(.edit) .form-control:focus, 
+.body_clase:not(.edit):not(.edit) .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit)  input[type="text"]:focus {
+    border: 2px solid;
+    box-shadow: none;
+    border-color: var(--theme-widget-selected-color);
+    background-color: var(--theme-widget-selected-color-bright);
+}
+
+/*sopa de letras*/
+.rf-tgrid td {
+	padding: 7px;
+}
+
+.rf-tgrid {
+    height: 30px;
+    width: 30px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-align: center;
+    padding: 9px 1px;
+}
+
+.rf-wordcontainer {
+	color: #676767;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    cursor: default;
+    max-width: 450px;
+    border: 2px solid;
+    border-color: transparent;
+    line-height: 2.1rem;
+FONT-FAMILY: 'Nunito';
+}
+
+.rf-tablestyle {
+	border-color: #BECDE2;
+}
+
+.rf-searchgamecontainer {
+	width: 40%;
+}
+
+.slide.wordsearch .rf-tgrid.rf-selected.selected-vertical {
+    border-right-color: #EDF5E4;
+    background-color: #EDF5E4;
+}
+
+.slide.wordsearch .rf-tgrid.selected-horizontal.solucion {
+    border-bottom-color: #D2F0F4 !important;
+    background-color: #D2F0F4 !important;
+}
+
+.rf-wordcontainer li {
+	margin-bottom: 20px;
+}
+
+.rf-wordcontainer li .index {
+    margin-right: 5px;
+    color: #1d549e;
+    font-weight: 900;
+    font-family: 'Nunito';
+}
+
+.rf-wordcontainer li .rf-ptrue .span.query {
+    font-family: 'Nunito';
+    color: #676767;
+    font-size: 16px
+}
+
+.rf-searchgamecontainer .rf-mask {
+    background-color: rgb(255 255 255 / 20%);
+    position: absolute;
+}
+
+.slide.wordsearch .rf-tgrid.rf-selected.selected-horizontal {
+    border-bottom-color: #EDF5E4;
+    background-color: #EDF5E4;
+}
+
+
+
+.slide.wordsearch .rf-tgrid.selected-vertical.solucion {
+    border-right-color: #D2F0F4 !important;
+    background-color: #D2F0F4 !important;
+}
+
+.slide.wordsearch .rf-tgrid.rf-selected.selected-vertical {
+    border-right-color: #EDF5E4;
+    background-color: #EDF5E4;
+}
+
+.slide.wordsearch .rf-tgrid.not-found, 
+.slide.wordsearch .rf-wordcontainer .rf-ptrue.found .query span {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span:after {
+padding: 0 14px;
+    content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    font-size: 38px;
+    background-color: transparent;
+    position: absolute;
+}
+
+/*Posición relativa para que no se vaya por ahí el before*/
+.rf-wordcontainer.no-queries .rf-foundword {
+    position: relative;
+    color: red;
+}
+/*Padding para que no pise al icono*/
+.rf-wordcontainer.no-queries .rf-foundword .query {
+    padding-right: 30px;
+}
+/*Aquí va el check
+.rf-wordcontainer.no-queries .rf-foundword .query:after {
+    content: "";
+    background: red;
+    position: absolute;
+    padding: 10px;
+    right: 0;
+}*/
+
+.rf-foundword {
+    font-family: 'Nunito';
+    text-decoration: none;
+    color: #676767;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.rf-foundword:after {
+    padding: 0 14px;
+        content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    font-size: 38px;
+    background-color: transparent;
+    position: absolute;
+}
+
+/*crucigrama*/
+.slide.crosswords {
+    color: #525252;
+    font-size: 1.5rem;
+    margin-top: 45px;
+}
+
+.puzzle-wrapper {
+	width: 50%;
+}
+
+#actividad .slide.crosswords-puzzle table.puzzle td {
+    padding: 0px;
+    border: 0;
+}
+
+#actividad .slide.crosswords-puzzle table.puzzle td.hasEntry {
+    border: 1px solid transparent;
+    padding: 0px;
+}
+
+.slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
+    border-color: #F8B100;
+    border: 2px solid  #F8B100;
+    border-radius:5px;
+}
+
+.slide.crosswords-puzzle table.puzzle td input {
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #fbd066;
+    border-radius: 5px;
+    margin: 0;
+    font-family: 'Nunito';
+}
+
+.slide.crosswords-puzzle table.puzzle input.fail {
+    border-color: #F9D7D7;
+    background-color: #F9D7D7;
+}
+
+.slide.crosswords-puzzle table.puzzle input.done {
+    background-color: #EDF5E4;
+    border-color: #EDF5E4;
+}
+
+.slide.crosswords-puzzle table.puzzle input.solution {
+    background-color: #D2F0F4;
+    border-color: #D2F0F4
+}
+
+.slide.crosswords-puzzle .enunciados {
+    border: 2px solid #A5BBD8;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: inline-block;
+    width: 350px;
+    padding: 1rem 3rem;
+    line-height: 2.1rem;
+    margin-top: 13px;
+}
+
+.slide.crosswords-puzzle .ta-table-cw.down {
+    padding-left: 10px;
+}
+
+/*memory*/
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background: url('images/fondo_memorys.png') center center / 50px auto no-repeat;
+    background-size: cover;
+    transition: all .5s ease;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+
+#actividad .workspace.memory .opcion img {
+    max-height: 132px;
+    margin: 0 !important;
+    box-shadow: none;
+}
+
+#actividad .workspace.memory .back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #f8b100;
+    overflow: hidden;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+#actividad .workspace.memory .still .back {
+    border-color: #90BF55;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+
+#actividad .workspace.memory .on.ko .back {
+    border-color: #E33939;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+#actividad .workspace.memory .still.solucion .back {
+    border: 3px solid #11B6C1 !important;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+}
+
+/*archivo entregable*/
+.deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: var(--theme-color-main);
+}
+
+/*************COURSETAG***********/
+/*coursetag_lenguajes_castillo*/
+.coursetag_lenguajes_castillo .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1.5px solid #FBD066;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*coursetag_pensamiento_cientifico_castillo*/
+/*fondo slide*/
+.coursetag_pensamiento_cientifico_castillo #swipeview-slider>div {
+	background-color: #FCECE7;
+}
+
+/*navbar*/
+	.coursetag_pensamiento_cientifico_castillo .slider-indicators li,
+	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators li {
+		background-color: #E66638;
+		opacity: 0.5;
+	}
+
+	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators .concat.active {
+		color: #E66638;
+	}
+
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castillopreescolar2022demo .slider-indicators li.active {
+    opacity: 1;
+    background: #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castillopreescolar2022demo .publisher-navbar .slider-indicators li:hover {
+    background: #E66638;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:hover,
+.coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:focus {
+    color: #E66638 !important;
+}
+
+.coursetag_pensamiento_cientifico_castillo #top-navigator.show_left:before, 
+.coursetag_pensamiento_cientifico_castillo #top-navigator.show_right:after {
+    color: #E66638;
+    background: linear-gradient(to left, #a13cc352, transparent);
+}
+
+/*título slide*/
+ .content_type_clase_castillopreescolar2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3 {
+    background-color: #E66638;
+}
+
+/*imagen en navbar sup.*/
+	.coursetag_pensamiento_cientifico_castillo #actividad .carousel-inner .item-container {
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    background-image: url(images/fondo_slide_01_pensamiento_cientifico.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+	}
+
+.content_type_clase_castillopreescolar2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:before {
+	background: url(images/decoracion_01izda_pensamiento_cientifico.png);
+	content: '';
+    position: absolute;
+    width: 96px;
+    height: 103px;
+    top: 28px;
+    left: -89px;
+    background-repeat: no-repeat;
+    background-size: 92% auto;
+}
+
+
+.content_type_clase_castillopreescolar2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
+	content: '';
+    position: absolute;
+    width: 124px;
+    height: 68px;
+    top: 0px;
+    left: 100%;
+    background-image: url(images/decoracion_01dcha_pensamiento_cientifico.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/*botonera*/
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):hover, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):focus, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):active, 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary.active, 
+.coursetag_pensamiento_cientifico_castillo #actividad .open .dropdown-toggle.btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled], 
+.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled]:focus {
+    background-color: var(--theme-widget-disabled-color);
+}
+
+
+/*titulo 01*/
+	.coursetag_pensamiento_cientifico_castillo .bck-title1 {
+	    color: #E66638;
+	}
+
+/*titulo 03*/
+	.coursetag_pensamiento_cientifico_castillo .bck-title3 {
+color: #E66638;
+	}
+
+/*titulo 04*/
+	.coursetag_pensamiento_cientifico_castillo .bck-title4 {
+color: #E66638;
+	}	
+
+/*tooltip*/
+.coursetag_pensamiento_cientifico_castillo .bck-tooltip {
+	    text-decoration: dotted;
+    border-bottom: 1px dotted #E66638;
+    color: #E66638;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coursetag_pensamiento_cientifico_castillo .popover-title {
+    background-color: #E66638;
+}
+
+
+/**subrayado*/
+.coursetag_pensamiento_cientifico_castillo .bck-underline {
+    color: #E66638;
+}
+
+/*hr*/
+	.coursetag_pensamiento_cientifico_castillo .content hr,
+	.coursetag_pensamiento_cientifico_castillo .cke_contents hr {
+		border-top: 2px dashed #E66638;
+	}
+
+/*cajas*/
+/*caja 01*/
+	.coursetag_pensamiento_cientifico_castillo .bck-box.box-1 {
+    border: 1px solid #E66638;
+	}
+
+
+
+	.coursetag_pensamiento_cientifico_castillo .bck-box.box-1 > .bck-content {
+	background-color: #FAE0D7;
+	}	
+
+
+/*caja 02*/
+	.coursetag_pensamiento_cientifico_castillo .bck-box.box-2 {
+    background-color: #E66638;
+    box-shadow: 0px 4px 8px 1px #f3dfd8;
+}
+
+
+/*caja 03*/
+.coursetag_pensamiento_cientifico_castillo .bck-box.box-3 {
+    border: 3px solid #773DBD;
+}
+
+/*caja 04*/
+.coursetag_pensamiento_cientifico_castillo .bck-box.box-4 {
+background-image: url(images/box-4_pensamiento_cientifico.svg);
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-box.box-4 > .bck-title p {
+	    color: #E66638;
+}
+
+
+/*caja 05*/
+
+.coursetag_pensamiento_cientifico_castillo .bck-box.box-5 > .bck-title p {
+	    color: #E66638;
+    }
+
+/*LISTA ORDENADA 1*/
+
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-1 li:before {
+    color: #E66638;
+}
+
+
+
+/*LISTA ORDENADA 2*/
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-2 li:before {
+    color: #773DBD;
+}
+
+
+/*LISTA ORDENADA 3*/
+
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li {
+     color: #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #E66638;
+}
+
+/*LISTA ORDENADA 4*/
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-4 li:before {
+    color: #E66638;
+}
+
+
+/*lista desordenada 01*/
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-1 li:before {
+    background-color: #E66638;
+}
+
+
+/*lista desordenada 02*/
+.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-2 li:before {
+    background-color: #773DBD;
+}
+
+/*desplegables*/
+
+.coursetag_pensamiento_cientifico_castillo .bck-dropdown-icon {
+    background-color: #EB8560;
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-dropdown-content {
+    border-left: 2px dotted #E66638;
+    border-right: 2px dotted #E66638;
+    border-bottom: 2px dotted #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-dropdown-button {
+    background-color: #E66638;
+}
+
+
+/*flipbox*/
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.front {
+	    color: #E66638;
+    background-color: #FAE0D7;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .front .bck-flipbox-section,
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .front .bck-flipbox-title {
+	color: #E66638;
+	padding-bottom: 0px;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.back {
+    background-color: #E66638;
+}
+
+
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.front p {
+    color: #E66638;
+    text-align: center;
+}
+
+/*tablas*/
+.coursetag_pensamiento_cientifico_castillo .bck-table {
+    border: 2px dotted #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-table td {
+    border-color: #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) td, 
+.coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) th, 
+.coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) td, 
+.coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) th {
+    border: 2px dotted #E66638;
+}
+
+/*celdas*/
+.coursetag_pensamiento_cientifico_castillo .bck-td-2 {
+    background: #EB8560;
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-td-3 {
+    background: #FCECE7;
+}
+
+/*tabs*/
+.body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+	background-color: #FCECE7;
+    color: #E66638;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo .bck-tabtitles {
+    background-color: #FCECE7;
+    color: #E66638;
+}
+
+.coursetag_pensamiento_cientifico_castillo .bck-tabtitles:hover {
+    background-color: #E66638;
+	color:#fff
+}
+
+
+.coursetag_pensamiento_cientifico_castillo .bck-tabslists {
+border-bottom: 0px solid #E66638;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #E66638;
+}
+
+.body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
+background-color: #E66638;
+	color:#fff;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #E66638;
+}
+
+body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+    border-bottom: 1px solid #E66638;
+}
+
+
+/*textarea*/
+.coursetag_pensamiento_cientifico_castillo .form-control {
+	border: 1.5px solid #AD8BD7;
+}
+
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo .form-control:focus, 
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo input[type="text"]:focus {
+	border-color: #773dbd;
+}
+
+/*audio*/
+.coursetag_pensamiento_cientifico_castillo #actividad .player.audio {
+	background: url(images/ui-icon-color-audio_pensamiento_cientifico.svg) 0 0 no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+
+/*pop up*/
+.coursetag_pensamiento_cientifico_castillo #actividad .info-button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 5px;
+    cursor: pointer;
+    /*background: url(images/icono_pop-up_pensamiento.png);*/
+    background: url(images/ui-icon-color-info_pensamiento_cientifico.svg);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+
+/*actividades*/
+/*palabras cruzadas*/
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta .caracter {
+	border: 1px solid #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta .caracter.solucion {
+    background-color: #E4D8F2;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .enunciados {
+    border: 2px solid #F5C2AF;
+} 
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
+    background-color: #F9D7D7;
+    border: 1px solid #fff;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
+    background-color: #EDF5E4;
+    border: 1px solid #fff;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.solucion .caracter {
+    background-color: #D2F0F4;
+    border: 1px solid #fff;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuesta .indice {
+	color: #E66638;
+}
+
+/*sopa de letras*/
+
+.coursetag_pensamiento_cientifico_castillo .rf-tablestyle {
+	border-color: #F5C2AF;
+}
+
+.coursetag_pensamiento_cientifico_castillo .rf-wordcontainer li .index {
+    margin-right: 5px;
+    color: #e66638;
+    font-weight: 900;
+    font-family: 'Nunito';
+}
+
+/*crucigrama*/
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
+    border-color: #773DBD;
+    border: 2px solid  #773DBD;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle table.puzzle td input {
+    border: 2px solid #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle .enunciados {
+    border: 2px solid #F5C2AF;
+}
+
+/*memory*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background: url('images/fondo_memorys_pensamiento_cientifico.png') center center / 50px auto no-repeat;
+    background-size: cover;
+    transition: all .5s ease;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .back {
+    border: 2px solid #773DBD;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .still .back {
+    border-color: #90BF55;
+}
+
+/*respuesta multiple*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion {
+	border-color: #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #773DBD;
+    background-color: #E4D8F2;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok {
+    border-color: #90bf55;
+    background-color: #edf5e4;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    border-color: #e33939;
+    background-color: #f9d7d7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.solucion {
+    border-color: #1eb3c6;
+    background-color: #d2f0f4;
+}
+
+
+
+/*verdadero falso*/
+/*Damos formatos a los checkbox*/
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option label.filter-label::before {
+    background: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #773DBD;
+    border-radius: 50%;
+	color: #773DBD;
+}
+
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    position: absolute;
+    border-color: #773DBD;
+    background-color: transparent;
+    content: '';
+    background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
+    background-size: 26px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+/*ok*/
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+    border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+	content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+}
+
+
+/*ko*/
+
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+    border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+    content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+}
+
+/*solucion*/
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+    display: none;
+}
+
+
+/*rellenar espacios*/
+ .coursetag_pensamiento_cientifico_castillo.content_type_clase_castillopreescolar2022demo .slide_main input {
+		border-width: 1.5px;
+    border-color: #AD8BD7;
+    /*background-color: #E4D8F2;*/
+}
+
+ .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response {
+    border-color: #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response.used p {
+ 	background-color: #E4D8F2;
+    border-radius: 8px;
+
+}
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castillopreescolar2022demo .slide_main input.solucion {
+    border-color: #1eb3c6 !important;
+    background: #d2f0f4;
+}
+
+/*.content_type_clase_castillopreescolar2022demo .slide_main input[disabled],
+.content_type_clase_castillopreescolar2022demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castillopreescolar2022demo .slide_main input {
+    cursor: not-allowed;
+    background-color: #fef5e0;
+    opacity: 1;
+}*/
+
+/*drag and drop*/
+.coursetag_pensamiento_cientifico_castillo #actividad .drag .circulo_gris p {
+    background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
+    padding: 0 10px 0 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: var(--theme-drag-drop-text-item-font-size);
+    font-weight: var(--theme-drag-drop-text-item-font-weight);
+    color: var(--theme-drag-drop-text-item-color);
+    margin: 0 0 15px 0;
+    margin-right: 10px;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver:after {
+    border: 2px solid #773DBD;
+}
+
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ok:after, 
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ok span:before {
+background-color: #90bf55;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ko:after, 
+.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ko span:before {
+    background-color: #e33939;;
+    padding: 0 4px;
+}
+
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
+    background: #e66638;
+    border: 2px solid #e66638;
+}
+
+
+/*arrastrar imagenes*/
+
+
+/*marcar palabras*/
+.coursetag_pensamiento_cientifico_castillo #actividad .markword-active {
+    border-radius: 12px !important;
+    padding: 4px !important;
+    border: 2px solid #773dbd !important;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .markword-correct {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #d8efbe !important;
+    border-radius: 12px !important;
+    border: 2px solid #90BF55 !important;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .markword-false {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #ffbfbf !important;
+    border-radius: 12px !important;
+    border: 2px solid #E33939 !important;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .markword-solution {
+	    padding: 4px !important;
+    color: #000 !important;
+    background-color: #D2F0F4 !important;
+    border-radius: 12px !important;
+    border: 2px solid #1EB3C6 !important;
+}
+
+/*calculo numerico*/
+.coursetag_pensamiento_cientifico_castillo div.calculo table.marco, 
+.coursetag_pensamiento_cientifico_castillo div.calculo table.marco * {
+    border: none;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text], 
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=tel] {
+    border: 1.5px solid #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=tel]:focus {
+    border: 2px solid #773DBD;
+}
+
+/*match*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.matching .opcion {
+	border: 2px solid #773DBD;
+}
+
+/*ordenar*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .js-rank-item {
+    border: 2px solid #773DBD;
+ -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+    min-height: 34px;
+    min-width: 50%;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .respuesta_over {
+	background-color: #E4D8F2;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar li.ejercicio_ok {
+	border-color: var(--theme-color-ok);
+    background-color: var(--theme-color-ok-b1);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar li.ejercicio_ko {
+border-color: var(--theme-color-fail);
+    background-color: var(--theme-color-fail-b1);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .solucion {
+	border-color: var(--theme-color-answer);
+    background-color: var(--theme-color-answer-b1);
+}
+
+/*clasificar*/
+/*.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 0;
+    border-radius: 25px;
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;
+}*/
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    background-image: url(images/box-4_pensamiento_cientifico.svg);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #FDF3EF;
+    display: table;
+    width: 100%;
+    margin: 0px;
+    border-radius: 8.5px;
+    margin-top: -1px;
+    background-color: #FDF3EF;
+    color: #E66638;
+    padding: 10px;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border-color: #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
+    border: 2px solid #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
+border: 2px solid #E33939;
+    BACKGROUND-COLOR: #F9D7D7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
+    background-color: #EDF5E4;
+    border: 2px solid #90BF55;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
+	border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+/*analisis sintactico*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .bloque, 
+.coursetag_pensamiento_cientifico_castillo #actividad .slide-syntax .sintaxis_frase .bloque {
+	position: relative;
+    border-bottom: 2px #AD8BD7 solid;
+    border-left: 2px #AD8BD7 solid;
+    border-right: 2px #AD8BD7 solid;
+}
+
+.coursetag_pensamiento_cientifico_castillo .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1.5px solid #AD8BD7;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.coursetag_pensamiento_cientifico_castillo .form-control:focus, 
+.coursetag_pensamiento_cientifico_castillo .form-control:focus-within {
+    border-top-color: #773DBD;
+    border-right-color: #773DBD;
+    border-bottom-color: #773DBD;
+    border-left-color: #773DBD;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: none;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
+    border-color: #773DBD;
+    color: #000;
+    background-color: #fff;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .bloque.filled {
+    border-bottom: 2px #773DBD dashed;
+    border-left: 2px #773DBD dashed;
+    border-right: 2px #773DBD dashed;
+    border-radius: 3px;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .filled:before, 
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
+    background-color: #773DBD;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
+	border: 3px solid #E33939;
+	background-color: #F9D7D7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
+	border: 3px solid #90BF55;
+    background-color: #EDF5E4;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax.solucion .bloque, 
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax.solucion .sintaxis_adder select {
+    border-color: #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+/*señalar respuesta*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks select {
+    border: 0;
+    border-bottom: 2px solid #773DBD;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a {
+    border: 2px solid #AD8BD7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a:hover {
+    background-color: #e4d8f2;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+    background-color: #e4d8f2;
+    border: 3px solid #773DBD;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .respuesta_ok {
+    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .solucion {
+    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+	    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 10px;
+    color: #000;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.solucion {
+	    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 10px;
+    color: #000;
+}
+
+/*test*/
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option label.filter-label::before {
+    border: 2px solid #773DBD;
+    color: #773DBD;
+}
+
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    border-color: #773DBD;
+    background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+	border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+	border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+
+.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+/*archivo entregable*/
+.coursetag_pensamiento_cientifico_castillo .deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: #E66638;
+}
+
+
+/*coursetag_naturaleza_castillo*/
+/*fondo slide*/
+.coursetag_naturaleza_castillo #swipeview-slider>div {
+	background-color: #F5F9F1;
+}
+
+/*navbar*/
+	.coursetag_naturaleza_castillo .slider-indicators li,
+	.coursetag_naturaleza_castillo.edit .slider-indicators li {
+		background-color: #85B04C;
+		opacity: 0.5;
+	}
+
+	.coursetag_naturaleza_castillo.edit .slider-indicators .concat.active {
+		color: #85B04C;
+	}
+
+.coursetag_naturaleza_castillo.content_type_clase_castillopreescolar2022demo .slider-indicators li.active {
+    opacity: 1;
+    background: #85B04C;
+}
+
+.coursetag_naturaleza_castillo.content_type_clase_castillopreescolar2022demo .publisher-navbar .slider-indicators li:hover {
+    background: #85B04C;
+}
+
+
+.coursetag_naturaleza_castillo .dropdown-menu>li>a:hover,
+.coursetag_naturaleza_castillo .dropdown-menu>li>a:focus {
+    color: #85B04C !important;
+}
+
+.coursetag_naturaleza_castillo #top-navigator.show_left:before, 
+.coursetag_naturaleza_castillo #top-navigator.show_right:after {
+    color: #85B04C;
+    background: linear-gradient(to left, #85b04c42, transparent);
+}
+
+/*título slide*/
+ .content_type_clase_castillopreescolar2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3 {
+    background-color: #85B04C;
+}
+
+/*imagen en navbar sup.*/
+	.coursetag_naturaleza_castillo #actividad .carousel-inner .item-container {
+    padding: 0px;
+    padding-bottom: 90px;
+    position: relative;
+    background-image: url(images/fondo_slide_01_naturaleza.png);
+    background-position-y: top;
+    background-repeat: no-repeat;
+	}
+
+.content_type_clase_castillopreescolar2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:before {
+	background: url(images/decoracion_01izda_naturaleza.png);
+    content: '';
+    position: absolute;
+    width: 96px;
+    height: 103px;
+    top: 28px;
+    left: -89px;
+    background-repeat: no-repeat;
+    background-size: 92% auto;
+}
+
+
+.content_type_clase_castillopreescolar2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:after {
+	content: '';
+    position: absolute;
+    width: 124px;
+    height: 68px;
+    top: 0px;
+    left: 100%;
+    background-image: url(images/decoracion_01dcha_naturaleza.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/*botonera*/
+.coursetag_naturaleza_castillo #actividad .btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):hover, 
+.coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):focus, 
+.coursetag_naturaleza_castillo #actividad .btn-primary:not([disabled]):active, 
+.coursetag_naturaleza_castillo #actividad .btn-primary.active, 
+.coursetag_naturaleza_castillo #actividad .open .dropdown-toggle.btn-primary {
+    background-color: #e66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .btn-primary[disabled], 
+.coursetag_naturaleza_castillo #actividad .btn-primary[disabled]:focus {
+    background-color: #EDEDED;
+}
+
+
+/*titulo 01*/
+	.coursetag_naturaleza_castillo .bck-title1 {
+	    color: #85B04C;
+	}
+
+/*titulo 03*/
+	.coursetag_naturaleza_castillo .bck-title3 {
+color: #85B04C;
+	}
+
+/*titulo 04*/
+	.coursetag_naturaleza_castillo .bck-title4 {
+color: #85B04C;
+	}	
+
+/*tooltip*/
+.coursetag_naturaleza_castillo .bck-tooltip {
+	    text-decoration: dotted;
+    border-bottom: 1px dotted #85B04C;
+    color: #85B04C;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.coursetag_naturaleza_castillo .popover-title {
+    background-color: #85B04C;
+}
+
+
+/**subrayado*/
+.coursetag_naturaleza_castillo .bck-underline {
+    color: #85B04C;
+}
+
+/*hr*/
+	.coursetag_naturaleza_castillo .content hr,
+	.coursetag_naturaleza_castillo .cke_contents hr {
+		border-top: 2px dashed #85B04C;
+	}
+
+/*cajas*/
+/*caja 01*/
+	.coursetag_naturaleza_castillo .bck-box.box-1 {
+    border: 1px solid #9DC070;
+	}
+
+
+
+	.coursetag_naturaleza_castillo .bck-box.box-1 > .bck-content {
+	background-color: #E7EFDB;
+	}	
+
+
+/*caja 02*/
+	.coursetag_naturaleza_castillo .bck-box.box-2 {
+    background-color: #85B04C;
+}
+
+
+/*caja 03*/
+.coursetag_naturaleza_castillo .bck-box.box-3 {
+    border: 3px solid #E66638;
+}
+
+/*caja 04*/
+.coursetag_naturaleza_castillo .bck-box.box-4 {
+    background-image: url(images/box-4_naturaleza.svg);
+}
+.coursetag_naturaleza_castillo .bck-box.box-4 > .bck-title p {
+        color: #85B04C;
+}
+
+
+/*caja 05*/
+
+.coursetag_naturaleza_castillo .bck-box.box-5 > .bck-title p {
+	    color: #85B04C;
+}
+
+/*LISTA ORDENADA 1*/
+
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso .bck-ol-1 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-1 li:before {
+    color: #85B04C;
+}
+
+
+
+/*LISTA ORDENADA 2*/
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-2 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso .bck-ol-2 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-2 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-2 li:before {
+    color: #E66638;
+}
+
+
+/*LISTA ORDENADA 3*/
+
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso .bck-ol-3 li,
+.coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-3 li,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-3 li {
+     color: #85B04C;
+}
+
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-3 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso .bck-ol-3 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-3 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #85B04C;
+}
+
+/*LISTA ORDENADA 4*/
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ol-4 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso .bck-ol-4 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content .bck-ol-4 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li .bck-ol-4 li:before {
+    color: #85B04C;
+}
+
+/*lista desordenada 01*/
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso ul.bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content ul.bck-ul-1 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li ul.bck-ul-1 li:before {
+    background-color: #85B04C;
+}
+
+/*lista desordenada 02*/
+.coursetag_naturaleza_castillo #actividad .content .cke_contents .bck-ul-2 li:before,
+.coursetag_naturaleza_castillo #actividad .content .texto_curso ul.bck-ul-2 li:before,
+.coursetag_naturaleza_castillo #actividad .popover-content ul.bck-ul-2 li:before,
+.coursetag_naturaleza_castillo #actividad .content .workspace ul li ul.bck-ul-2 li:before {
+    background-color: #E66638;
+}
+
+/*desplegables*/
+.coursetag_naturaleza_castillo .bck-dropdown-icon {
+    background-color: #9dc070;
+}
+
+.coursetag_naturaleza_castillo .bck-dropdown-content {
+    border-left: 2px dotted #85B04C;
+    border-right: 2px dotted #85B04C;
+    border-bottom: 2px dotted #85B04C;
+}
+
+.coursetag_naturaleza_castillo .bck-dropdown-button {
+    background-color: #85B04C;
+}
+
+
+/*flipbox*/
+body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front {
+	    color: #85B04C;
+    background-color: #E7EFDB;
+}
+
+ body:not(.edit).coursetag_naturaleza_castillo .front .bck-flipbox-section,
+body:not(.edit).coursetag_naturaleza_castillo .front .bck-flipbox-title {
+	color: #85B04C;
+}
+
+body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.back {
+    background-color: #85B04C;
+}
+
+
+
+body:not(.edit).coursetag_naturaleza_castillo .bck-flipbox-face.front p {
+    color: #85B04C;
+    text-align: center;
+}
+
+/*tablas*/
+.coursetag_naturaleza_castillo .bck-table {
+    border: 2px dotted #85B04C;
+}
+
+.coursetag_naturaleza_castillo .bck-table td {
+    border-color: #85B04C;
+}
+
+.coursetag_naturaleza_castillo .cke_contents table:not(.rf-tablegrid) td, 
+.coursetag_naturaleza_castillo .cke_contents table:not(.rf-tablegrid) th, 
+.coursetag_naturaleza_castillo .content table:not(.rf-tablegrid) td, 
+.coursetag_naturaleza_castillo .content table:not(.rf-tablegrid) th {
+    border: 2px dotted #85B04C;
+}
+
+/*celdas*/
+.coursetag_naturaleza_castillo .bck-td-2 {
+    background: #9DC070;
+}
+
+.coursetag_naturaleza_castillo .bck-td-3 {
+    background: #F5F9F1;
+}
+
+/*tabs*/
+
+.coursetag_naturaleza_castillo .bck-tabtitles {
+    background-color: #FCECE7;
+    color: #85B04C;
+}
+
+.body_clase.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+	background-color: #e7efdb;
+	color: #85b04c;
+}
+
+.coursetag_naturaleza_castillo .bck-tabtitles:hover {
+    background-color: #85B04C;
+	color:#fff
+}
+
+body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #85B04C;
+}
+
+body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #85B04C;
+}
+
+/**/
+
+
+/*tabs*/
+.coursetag_naturaleza_castillo .bck-tabtitles {
+    background-color: #F5F9F1;
+    color: #85B04C;
+}
+
+.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles:hover {
+    background-color: #85B04C;
+    color:#fff
+}
+
+body:not(.edit).coursetag_naturaleza_castillo .bck-tabcontents .div-contents {
+    border-top: 1px solid #85B04C;
+    border-bottom: 1px solid #85B04C;
+}
+
+.body_clase.coursetag_naturaleza_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
+background-color: #85B04C;
+    color: #fff
+}
+
+.coursetag_naturaleza_castillo .bck-tabslists {
+	border-bottom: 0px solid #85B04C;
+}
+
+
+/*textarea*/
+.coursetag_naturaleza_castillo .form-control {
+	border: 1.5px solid #E66638;
+}
+
+.body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo .form-control:focus, 
+.body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit).coursetag_naturaleza_castillo input[type="text"]:focus {
+	border-color: #E66638;
+}
+
+/*audio*/
+.coursetag_naturaleza_castillo #actividad .player.audio {
+	background: url(images/ui-icon-color-audio_naturaleza.svg) 0 0 no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 42px !important;
+	vertical-align: text-top;
+    margin-top: -9px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-right: 5px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+
+/*pop up*/
+.coursetag_naturaleza_castillo #actividad .info-button {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: url(images/ui-icon-color-info_naturaleza.svg);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: none;
+}
+
+/*actividades*/
+/*palabras cruzadas*/
+.coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta .caracter {
+	border: 1px solid #F0A388;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta .caracter.solucion {
+    background-color: #FAE0D7;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords .enunciados {
+    border: 2px solid #CEDFB7;
+} 
+
+.coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
+    background-color: #F9D7D7;
+    border: 1px solid #fff;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
+    background-color: #EDF5E4;
+    border: 1px solid #fff;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords .respuestas .respuesta.solucion .caracter {
+    background-color: #D2F0F4;
+    border: 1px solid #fff;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords .respuesta .indice {
+    color: #85B04C;
+}
+
+/*sopa de letras*/
+
+.coursetag_naturaleza_castillo .rf-tablestyle {
+	border-color: #CEDFB7;
+}
+
+.coursetag_naturaleza_castillo .rf-wordcontainer li .index {
+    color: #85B04C;
+}
+
+/*crucigrama*/
+.coursetag_naturaleza_castillo .slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
+    border-color: #E66638;
+    border: 2px solid  #E66638;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords-puzzle table.puzzle td input {
+    border: 2px solid #F0A388;
+}
+
+.coursetag_naturaleza_castillo .slide.crosswords-puzzle .enunciados {
+    border: 2px solid #CEDFB7;
+}
+
+/*memory*/
+.coursetag_naturaleza_castillo #actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background: url('images/fondo_memorys_naturaleza.png') center center / 50px auto no-repeat;
+    background-size: cover;
+    transition: all .5s ease;
+}
+
+
+.coursetag_naturaleza_castillo #actividad .workspace.memory .back {
+    border: 2px solid #E66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.memory .still .back {
+    border-color: #90BF55;
+}
+
+/*respuesta multiple*/
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion {
+	border-color: #F0A388;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: #E66638;
+    background-color: #FAE0D7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok {
+    border-color: #90bf55;
+    background-color: #edf5e4;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko {
+    border-color: #e33939;
+    background-color: #f9d7d7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.solucion {
+    border-color: #1eb3c6;
+    background-color: #d2f0f4;
+}
+
+/*.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+    font-family: FontAwesome;
+    font-size: 27px;
+    margin: 0 10px 0 0;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko:after {
+content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    line-height: 0.1;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
+   content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    line-height: 0.1;
+}*/
+
+/*verdadero falso*/
+/*Damos formatos a los checkbox*/
+.coursetag_naturaleza_castillo .true-false .radio-option label.filter-label::before {
+    background: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #E66638;
+    border-radius: 50%;
+	color: #E66638;
+}
+
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    position: absolute;
+    border-color: #E66638;
+    background-color: transparent;
+    content: '';
+    background-image: linear-gradient(180deg, #E66638 0%, #E66638 100%);
+    background-size: 26px 21px;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+/*ok*/
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+    border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+	content: "\f00c";
+    color: #90BF55;
+    font-family: 'FontAwesome';
+    margin-left: 3px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -3px;
+    position: relative;
+}
+
+
+/*ko*/
+
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+    border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+    content: "\f00d";
+    color: #E33939;
+    font-family: 'FontAwesome';
+    margin-left: 6px;
+    font-size: 43px;
+    background-color: transparent;
+    top: -1px;
+    position: relative;
+}
+
+/*solucion*/
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+.coursetag_naturaleza_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+    display: none;
+}
+
+
+/*rellenar espacios*/
+ .coursetag_naturaleza_castillo.content_type_clase_castillopreescolar2022demo .slide_main input {
+	border-width: 1.5px;
+    border-color: #F0A388;
+    /*background-color: #FAE0D7;*/
+}
+
+ .coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response {
+    border-color: #F0A388;
+}
+
+.coursetag_naturaleza_castillo .fillblanks-draggable-wrapper .response.used p {
+ 	background-color: #FAE0D7;
+    border-radius: 8px;
+ }
+
+.coursetag_naturaleza_castillo.content_type_clase_castillopreescolar2022demo .slide_main input.solucion {
+    border-color: #1eb3c6 !important;
+    background: #d2f0f4;
+}
+
+/*.content_type_clase_castillopreescolar2022demo .slide_main input[disabled],
+.content_type_clase_castillopreescolar2022demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castillopreescolar2022demo .slide_main input {
+    padding: 0px;
+    border-width: 1.5px;
+    border-color: var(--theme-widget-normal-color);
+    background-color: var(--theme-widget-normal-color-bright);
+}*/
+
+/*drag and drop*/
+.coursetag_naturaleza_castillo #actividad .drag .circulo_gris p {
+    background: url(images/drop_izquierda2_naturaleza.png) 0 0 no-repeat;
+    padding: 0 10px 0 30px;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: var(--theme-drag-drop-text-item-font-size);
+    font-weight: var(--theme-drag-drop-text-item-font-weight);
+    color: var(--theme-drag-drop-text-item-color);
+    margin: 0 0 15px 0;
+    margin-right: 10px;
+}
+
+.coursetag_naturaleza_castillo #actividad .multimedia-container .circulo_gris.ver:after {
+    border: 2px solid #E66638;
+}
+
+.coursetag_naturaleza_castillo .multimedia-container .respuesta.drop_ok:after, 
+.coursetag_naturaleza_castillo .multimedia-container .answer.drop_ok span:before {
+background-color: #90bf55;
+}
+
+
+.coursetag_naturaleza_castillo .multimedia-container .respuesta.drop_ko:after, 
+.coursetag_naturaleza_castillo .multimedia-container .answer.drop_ko span:before {
+    background-color: #e33939;;
+    padding: 0 4px;
+}
+
+
+
+.coursetag_naturaleza_castillo #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
+    background: #85B04C;
+    border: 2px solid #85B04C;
+}
+
+
+/*arrastrar imagenes*/
+
+/*marcar palabras*/
+.coursetag_naturaleza_castillo #actividad .markword-active {
+    border: 2px solid #E66638 !important;
+}
+
+/*marcar palabras*/
+.coursetag_naturaleza_castillo #actividad .markword-active {
+    border-radius: 12px !important;
+    padding: 4px !important;
+    border: 2px solid #E66638 !important;
+}
+
+.coursetag_naturaleza_castillo #actividad .markword-correct {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #d8efbe !important;
+    border-radius: 12px !important;
+    border: 2px solid #90BF55 !important;
+}
+
+.coursetag_naturaleza_castillo #actividad .markword-false {
+    padding: 4px !important;
+    color: #000 !important;
+    background-color: #ffbfbf !important;
+    border-radius: 12px !important;
+    border: 2px solid #E33939 !important;
+}
+
+.coursetag_naturaleza_castillo #actividad .markword-solution {
+	    padding: 4px !important;
+    color: #000 !important;
+    background-color: #D2F0F4 !important;
+    border-radius: 12px !important;
+    border: 2px solid #1EB3C6 !important;
+}
+
+/*calculo numerico*/
+.coursetag_naturaleza_castillo div.calculo table.marco, 
+.coursetag_naturaleza_castillo div.calculo table.marco * {
+    border: none;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text], 
+.coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=tel] {
+    border: 1.5px solid #F0A388;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
+.coursetag_naturaleza_castillo #actividad .workspace.calculo .cifra input[type=tel]:focus {
+    border: 2px solid #E66638;
+}
+
+/*match*/
+.coursetag_naturaleza_castillo #actividad .workspace.matching .opcion {
+	border: 2px solid #E66638;
+}
+
+/*ordenar*/
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar .js-rank-item {
+	border: 2px solid #E66638;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 100%;
+    min-height: 34px;
+    min-width: 50%;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar .respuesta_over {
+	background-color: #FAE0D7;
+}
+
+
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar li.ejercicio_ok {
+	border-color: var(--theme-color-ok);
+    background-color: var(--theme-color-ok-b1);
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar li.ejercicio_ko {
+border-color: var(--theme-color-fail);
+    background-color: var(--theme-color-fail-b1);
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.ordenar .solucion {
+	border-color: var(--theme-color-answer);
+    background-color: var(--theme-color-answer-b1);
+}
+
+/*clasificar*/
+/*.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 0;
+    padding: 0px;
+    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #CEDFB7, 0 0 0 5px #CEDFB7, 0 0 0 6px #85B04C;
+    outline: dashed 7px #85B04C;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    margin: 0 10px;
+}*/
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    
+    background-image: url(images/box-4_naturaleza.svg);
+    /*border-radius: 25px;
+    border: 0;
+    background-color: #FFF;
+    padding: 20px 20px 36px 20px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    margin: 40px 0;*/
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #F5F9F1;
+    display: table;
+    width: 100%;
+    margin: 0px;
+    border-radius: 8.5px;
+    margin-top: -1px;
+    background-color: #F5F9F1;
+    color: #85B04C;
+    padding: 10px;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border-color: #e66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
+    border: 2px solid #E66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
+border: 2px solid #E33939;
+    BACKGROUND-COLOR: #F9D7D7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
+    background-color: #EDF5E4;
+    border: 2px solid #90BF55;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
+	border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+/*analisis sintactico*/
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque, 
+.coursetag_naturaleza_castillo #actividad .slide-syntax .sintaxis_frase .bloque {
+	position: relative;
+    border-bottom: 2px #f0a388 solid;
+    border-left: 2px #f0a388 solid;
+    border-right: 2px #f0a388 solid;
+}
+
+.coursetag_naturaleza_castillo .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #f0a388;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.coursetag_naturaleza_castillo .form-control:focus, 
+.coursetag_naturaleza_castillo .form-control:focus-within {
+    border-top-color: #85B04C;
+    border-right-color: #85B04C;
+    border-bottom-color: #85B04C;
+    border-left-color: #85B04C;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: none;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
+    border-color: #e66638;
+    color: #000;
+    background-color: #fff;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .bloque.filled {
+    border-bottom: 2px #e66638 dashed;
+    border-left: 2px #e66638 dashed;
+    border-right: 2px #e66638 dashed;
+    border-radius: 3px;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .filled:before, 
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
+    background-color: #e66638;
+border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top:none; 
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
+	border: 3px solid #E33939;
+	background-color: #F9D7D7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
+	border: 3px solid #90BF55;
+    background-color: #EDF5E4;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.syntax.solucion .bloque, 
+.coursetag_naturaleza_castillo #actividad .workspace.syntax.solucion .sintaxis_adder select {
+    border-color: #1EB3C6;
+    background-color: #D2F0F4;
+}
+
+/*señalar respuesta*/
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks select {
+    border: 0;
+    border-bottom: 2px solid #e66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a {
+    border: 2px solid #e66638;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a:hover {
+    background-color: #fae0d7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+    background-color: #fae0d7;
+    border:3px solid #e66638;
+}
+
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .respuesta_ok {
+    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .solucion {
+    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 10px;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+	    border: 2px solid #90BF55;
+    background-color: #EDF5E4;
+    border-radius: 8px;
+    padding: 3px 10px;
+    color: #000;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    border: 2px solid #E33939;
+    background-color: #F9D7D7;
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.chooseblanks .inline-answer a.solucion {
+	    border: 2px solid #1EB3C6;
+    background-color: #D2F0F4;
+        border-radius: 8px;
+    padding: 3px 10px;
+    color: #000;
+}
+
+/*test*/
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option label.filter-label::before {
+    border: 2px solid #e66638;
+    color: #e66638;
+}
+
+
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+    border-color: #e66638;
+    background-image: linear-gradient(180deg, #e66638 0%, #e66638 100%);
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+	border: 2px solid #E33939;
+    background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+	border: 2px solid #90BF55;
+    background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
+}
+
+.coursetag_naturaleza_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+	border-color: #1EB3C6;
+    background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
+}
+
+
+/*archivo entregable*/
+.coursetag_naturaleza_castillo .deliverablefile .divtitle .title-deliverablefile {
+	font-size: var(--theme-font-size-h2);
+    font-weight: 700;
+    color: #e66638;
+}
+
+/**/
+
+@media screen and (max-width: 1099px) {
+    .body_clase .content-wrapper {
+        max-width: 100%;
+    }
+
+    #actividad .content {
+        border-radius: 0;
+    }
+
+    #actividad .carousel-inner .item-container {
+        width: 100% !important;
+        max-width: none;
+        box-shadow: none;
+    }
+
+    .ipad #actividad .carousel-inner .item-container {
+  		border-right: 1px solid #eee;
+    }
+
+    .content_type_clase_castillopreescolar2022demo .logo-publisher {
+		margin-right: 0px;
+        margin-left: -70px;
+	}
+}
+
+
+/*querys*/
+@media screen and (max-width: 992px) {
+	#actividad .class_slide {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3 {
+		margin-left: 10px;
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+	.js-slide-wrapper > .header .single-pagination {
+		right: 0;
+		left: auto;
+		border-radius: 0 0 0 120px;
+		padding-left: 16px;
+		padding-right: 2px;
+	}
+	.navigator {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.content_type_clase_castillopreescolar2022demo .publish {
+		padding-left: 25px;
+	}
+	.content_type_clase_castillopreescolar2022demo .logo-publisher {
+		margin-left: -20px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+    .body_clase #actividad .carousel-inner .item-container {
+        margin-top: 20px;
+    }
+
+    .navigator {
+        padding: 0px 20px;
+    }
+
+    .bck-img.right, img[style~="float:right"] {
+        max-width: 50%
+    }
+
+    .bck-img.left, img[style~="float:left"] {
+        max-width: 50%
+    }
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar {
+		top: 88px;
+	}
+
+	.content_type_clase_castillopreescolar2022demo .logo-publisher {
+		margin-right: -20px;
+	}
+
+}
+
+@media screen and (max-width: 580px) {
+    #actividad .carousel-inner .item-container {
+        margin: 20px 0;
+    }    
+}
+
+@media screen and (max-width: 579px) {
+	.bck-row .col-xs-1,
+	.bck-row .col-xs-2,
+	.bck-row .col-xs-3,
+	.bck-row .col-xs-4,
+	.bck-row .col-xs-5,
+	.bck-row .col-xs-6,
+	.bck-row .col-xs-7,
+	.bck-row .col-xs-8,
+	.bck-row .col-xs-9,
+	.bck-row .col-xs-10,
+	.bck-row .col-xs-11,
+	.bck-row .col-xs-12 {
+		width: 100%;
+		float: none;
+		padding-bottom: 20px;
+	}
+
+    .body_clase #actividad .carousel-inner .item-container {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #actividad .carousel-inner .item-container {
+        padding-top: 0;
+    }
+
+    .bck-img.right, img[style~="float:right"] {
+        width: 100%;
+    }
+
+    .bck-img.left, img[style~="float:left"] {
+        width: 100%;
+    }
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .navbar-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.content_type_clase_castillopreescolar2022demo .publisher-navbar .logo-publisher:before {
+		content: none;
+		display: none;
+
+	}
+	.js-slide-wrapper > .header .single-pagination {
+		padding-top: 15px;
+		font-size: 2.4rem;
+		width: 60px;
+	}
+	.content_type_clase_castillopreescolar2022demo #actividad .content .header .title h3 {
+		padding-right: 20px;
+		margin-left: -8px;
+	}
+
+}
+
+/*BK-10860*/
+/*
+ * Me cargo todos los border que hay por debajo de un ejercicio de cálculo y restauro los necesarios
+ *
+ */
+div.calculo table.marco,
+div.calculo table.marco * {
+	border:none;
+}
+
+.content hr, .cke_contents hr {
+    border-top: 2px solid #F8B100 !important;
+}
+
+/*.content_type_clase_castillopreescolar2022demo .slide_main input {
+    border: 1px solid #ccc !important;
+}*/
+
+/* TMPUX STYLES */
+.tmpux.content_type_clase_castillopreescolar2022demo.modo_revision .castillopreescolar2022demo-navbar,
+.tmpux.content_type_clase_castillopreescolar2022demo.modo-correccion .castillopreescolar2022demo-navbar,
+.tmpux.content_type_clase_castillopreescolar2022demo.modo-deber .castillopreescolar2022demo-navbar {
+		top: 0;
+		display: block !important;
+	}
+	
+.tmpux.body_clase .content-wrapper {
+	margin-top: 10px;
+}
+
+.body_clase.android.app.is_app.isTablet #actividad .carousel-inner .item-container.tmpux {
+	margin-top: 10px;
+}
+
+body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castillopreescolar2022demo.content_type_curso_castillopreescolar2022demo .content-wrapper,
+body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castillopreescolar2022demo.content_type_curso_castillopreescolar2022demo .content-wrapper,
+ body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castillopreescolar2022demo.content_type_curso_castillopreescolar2022demo .content-wrapper, 
+ body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castillopreescolar2022demo.content_type_curso_castillopreescolar2022demo .content-wrapper {
+	margin-top: 10px;
+ }
