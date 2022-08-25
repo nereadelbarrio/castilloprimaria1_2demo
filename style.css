@@ -2015,15 +2015,6 @@ content: '';
 }
 
 .bck-dropdown-content {
-    /*border-left: 2px dotted #1d549e;
-    border-right: 2px dotted #1d549e;
-    border-bottom: 2px dotted #1d549e;
-    border-radius: 0 0 10px 10px;
-    overflow-y: auto;
-    display: inline-block;
-    max-height: none;
-    padding: 22px 22px 10px 22px;
-    background-color: white;*/
     overflow-y: auto;
     display: inline-block;
     max-height: none;
@@ -2031,7 +2022,7 @@ content: '';
     width: 100%;
     padding: 10px 30px;
     border-radius: 0 0 10px 10px;
-    border: 2px dotted var(--theme-color-main);
+    border: 2px solid var(--theme-color-main);
     border-top: none;
 }
 
@@ -2138,7 +2129,7 @@ body:not(.edit) .bck-flipbox-face.back p {
 	/*tablas*/
 
 .bck-table,table {
-    border: 2px dotted #1D549E;
+    border: 2px solid #1D549E;
 }
 
 .bck-table td,table td {
@@ -2153,7 +2144,7 @@ td,th {
 .cke_contents table:not(.rf-tablegrid) th, 
 .content table:not(.rf-tablegrid) td, 
 .content table:not(.rf-tablegrid) th {
-	border: 2px dotted #1d549e;
+	border: 2px solid #1d549e;
 	margin: 40px 0;
     grid-column: 1 / 3;
     text-align: center;
@@ -2211,7 +2202,7 @@ body:not(.edit) .bck-tabs-box {
 
 .body_clase #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
     background-color: var(--theme-color-main);
-    color: var(--theme-text-color-bright);
+    color: #fff;
     box-shadow: 1px -2px 5px rgb(11 52 96 / 15%);
 }
 
