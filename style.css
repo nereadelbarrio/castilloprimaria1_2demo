@@ -1793,6 +1793,19 @@ width: 100%;
     margin: 40px 0;
 }
 
+.bck-box.box-2:before {
+        content: '';
+    position: absolute;
+    top: -53px;
+    left: 50%;
+    width: 80px;
+    height: 65px;
+    background-image: url(.images/ui-graphic-character-02.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: translateX(-50%);
+}
+
 .bck-box.box-2 > .bck-title p {
     color: #fff;
     font-size: 21px;
