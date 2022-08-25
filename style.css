@@ -171,7 +171,7 @@ CASTILLO PREESCOLAR Estilo Castillo Preescolar 2022
     font-style: italic;
 }
 
-
+/*VAR ANTERIORES
 :root {
     --theme-font-family: 'Nunito', sans-serif;
     --theme-text-color: #676767;
@@ -240,7 +240,7 @@ CASTILLO PREESCOLAR Estilo Castillo Preescolar 2022
     --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
     --theme-pattern-01: url(images/ui-pattern-01.png);
 
-/**/
+/*
 --theme-color-text: #676767;
     --theme-color-text-black: #000;
     --theme-color-text-white: #FFF;
@@ -281,9 +281,100 @@ CASTILLO PREESCOLAR Estilo Castillo Preescolar 2022
 
 }
 
+*/
 
-
-
+:root {
+--theme-widget-color-main: var(--theme-color-main);
+    --theme-widget-color-main-bright: #DBE4EF;
+    --theme-widget-color-secondary: var(--theme-color-secondary);
+    --theme-widget-color-secondary-bright: #FEF5E0;
+    --theme-widget-normal-color: #FBD066;
+    --theme-widget-normal-color-bright: #FEF5E0;
+    --theme-widget-normal-color-brighter: #FFF;
+    --theme-widget-selected-color: var(--theme-color-secondary);
+    --theme-widget-selected-color-bright: #FFF;
+    --theme-widget-ok-color: #90BF55;
+    --theme-widget-ok-color-bright: #EDF5E4;
+    --theme-widget-fail-color: #E33939;
+    --theme-widget-fail-color-bright: #F9D7D7;
+    --theme-widget-answer-color: #1EB3C6;
+    --theme-widget-answer-color-bright: #D2F0F4;
+    --theme-widget-disabled-color: #EDEDED;
+    --theme-widget-disabled-color-bright: #EDEDED;
+    --theme-button-font-size: 16px;
+    --theme-button-font-weight: 600;
+    --theme-button-text-color: #FFF;
+    --theme-button-text-color-disabled: #A4A4A4;
+    --theme-fill-font-size: 18px;
+    --theme-fill-font-weight: 300;
+    --theme-fill-text-color: #000;
+    --theme-boolean-font-size: 18px;
+    --theme-boolean-font-weight: 300;
+    --theme-boolean-text-color: #676767;
+    --theme-drag-drop-text-item-font-size: 18px;
+    --theme-drag-drop-text-item-font-weight: 600;
+    --theme-drag-drop-text-item-color: #000;
+    --theme-drag-drop-text-label-font-size: 18px;
+    --theme-drag-drop-text-label-font-weight: 400;
+    --theme-drag-drop-text-label-color: #FFF;
+    --theme-multi-choice-font-size: 18px;
+    --theme-multi-choice-font-weight: 400;
+    --theme-multi-choice-text-color: #000;
+    --theme-icon-arrow-up: url(../img/ui-icon-arrow-up.svg);
+    --theme-icon-arrow-down: url(../img/ui-icon-arrow-down.svg);
+    --theme-icon-color-ok: url(images/ui-icon-color-ok.svg);
+    --theme-icon-color-fail: url(../img/ui-icon-color-fail.svg);
+    --theme-icon-color-video: url(../img/ui-icon-color-video.svg);
+    --theme-icon-color-info: url(images/ui-icon-color-info.svg);
+    --theme-graphic-tape: url(images/ui-graphic-tape.svg);
+    --theme-graphic-boolean-normal-off: url(../img/ui-icon-bool-normal-off.svg);
+    --theme-graphic-boolean-normal-on: url(../img/ui-icon-bool-normal-on.svg);
+    --theme-graphic-boolean-ok-off: url(../img/ui-icon-bool-ok-off.svg);
+    --theme-graphic-boolean-ok-on: url(../img/ui-icon-bool-ok-on.svg);
+    --theme-graphic-boolean-fail-off: url(../img/ui-icon-bool-fail-off.svg);
+    --theme-graphic-boolean-fail-on: url(../img/ui-icon-bool-fail-on.svg);
+    --theme-graphic-boolean-answer-off: url(../img/ui-icon-bool-answer-off.svg);
+    --theme-graphic-boolean-answer-on: url(../img/ui-icon-bool-answer-on.svg);
+    --theme-graphic-memory-card: url(../img/ui-graphic-memory-card.png);
+    --theme-pattern-01: url(images/ui-pattern-01.png);
+    --theme-color-text: #676767;
+    --theme-color-text-black: #000;
+    --theme-color-text-white: #FFF;
+    --theme-color-text-disabled: #A4A4A4;
+    --theme-color-main: #1D549E;
+    --theme-color-main-b1: #4A76B1;
+    --theme-color-main-b2: #7798C5;
+    --theme-color-main-b3: #A5BBD8;
+    --theme-color-main-b4: #DBE4EF;
+    --theme-color-main-b5: #E9EFF5;
+    --theme-color-main-b6: #EDF1F7;
+    --theme-color-main-d1: #093054;
+    --theme-color-hex-main-d1: 9, 48, 84;
+    --theme-color-secondary: #F8B100;
+    --theme-color-secondary-b1: #FBD066;
+    --theme-color-secondary-b2: #FEF5E0;
+    --theme-color-ok: #90BF55;
+    --theme-color-ok-b1: #EDF5E4;
+    --theme-color-fail: #E33939;
+    --theme-color-fail-b1: #F9D7D7;
+    --theme-color-answer: #1EB3C6;
+    --theme-color-answer-b1: #D2F0F4;
+    --theme-color-disabled: #A4A4A4;
+    --theme-color-disabled-b1: #EDEDED;
+    --theme-font-family: 'Nunito', sans-serif;
+    --theme-font-size: 18px;
+    --theme-font-weight: 300;
+    --theme-font-size-h1: 36px;
+    --theme-font-size-h2: 27px;
+    --theme-font-size-h3: 21px;
+    --theme-font-size-h4: 21px;
+    --theme-font-size-button: 16px;
+    --theme-font-size-fill: 18px;
+    --theme-font-size-boolean: 18px;
+    --theme-font-size-drag-drop-item: 18px;
+    --theme-font-size-drag-drop-label: 18px;
+    --theme-font-size-multi-choice: 18px;
+}
 
 body {
     font: 400 15px 'Nunito',sans-serif;
@@ -449,48 +540,40 @@ font-family: 'Nunito';
     font-weight: 700;
     color: #fff;
     display: block;
-    padding: 20px 36px 20px 36px;
-    border-radius: 0 0 37.5px 37.5px;
-    margin-top: -30px;
-    margin-bottom: 22px;
-    background-color: #1d549e;
-    margin-left: 1px;
-    width: fit-content;
+    padding: 30px;
     position: relative;
-    box-shadow: 0px 4px 8px rgb(9 48 84 / 25%);
+    display: inline-block;
     max-width: 100%;
+    /* padding: 0 30px; */
+    margin-bottom: 22px;
+    border-radius: 37.5px;
+    margin-top: 0px;
+    margin-left: -30px;
+    background-color: var(--theme-color-main);
+    box-shadow: 0px 4px 8px rgba(var(--theme-color-hex-main-d1), .25);
 }
 
 .content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3:before {
-	/*background: url(images/decoracion_01izda_lenguaje.png);
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 63px;
+	content: '';
     position: absolute;
-    left: -107px;
-    z-index: -1;
-    margin-top: -30px;*/
-    content: '';
-    position: absolute;
-    width: 96px;
-    height: 103px;
-    top: 28px;
-    left: -89px;
-    background-image: url(images/ui-graphic-header-back.svg);
+    width: 24px;
+    height: 24px;
+    top: -14px;
+    left: 44px;
+    background-image: url(images/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
-    background-size: 92% auto;
+    background-size: 100% auto;
 }
 
 
 .content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3:after {
     content: '';
     position: absolute;
-    width: 124px;
-    height: 68px;
-    top: 0px;
-    left: 100%;
-    background-image: url(images/decoracion_01dcha_lenguaje.png);
+    width: 16px;
+    height: 12px;
+    bottom: -7px;
+    right: 24px;
+    background-image: url(images/ui-graphic-leafs-02.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
