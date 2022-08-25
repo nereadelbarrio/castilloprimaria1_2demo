@@ -433,6 +433,11 @@ body {
     background-size: 100% auto;
 	}
 
+
+    #actividad .carousel-inner .item-container {
+        border-radius: 10px;
+    }
+
 /*imagenes*/	
 #actividad .content img {
     height: auto;
@@ -544,7 +549,6 @@ font-family: 'Nunito';
     position: relative;
     display: inline-block;
     max-width: 100%;
-    /* padding: 0 30px; */
     margin-bottom: 22px;
     border-radius: 37.5px;
     margin-top: 0px;
@@ -607,7 +611,7 @@ font-family: 'Nunito';
 
 	#actividad .class_slide {
     	padding: 40px 88px 0px;
-    	margin-top: -18px;
+    	/*margin-top: -18px;*/
 	}
 
 	#actividad .class_slide:last-of-type {
