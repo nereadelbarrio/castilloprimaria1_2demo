@@ -1892,7 +1892,7 @@ margin: 0 0 -4px 0;
     padding: 20px 20px 36px 20px;
     box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
     margin: 40px 0;
-    border-radius: 22px;
+    border-radius: 20px;
 }
 
 .bck-box.box-4 > .bck-title {
@@ -1914,17 +1914,6 @@ margin: 0 0 -4px 0;
 
 /*caja 05*/
 .bck-box.box-5 {
-    /*border: 0;
-    padding: 20px;
-    background-color: #fff;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    background-image: url(images/icono_caja05c.jpg);
-    background-image: url(images/ui-pattern-01.png); 
-    background-size: contain;
-    background-repeat: repeat-y;
-    background-position: right;
-    box-shadow: 0px 4px 8px 1px #0003;*/
         position: relative;
     width: 100%;
     border-radius: 6px;
@@ -1969,7 +1958,7 @@ background-image: url(images/ui-graphic-tape.svg);
     top: 23px;
     width: 72px;
     height: 26px;
-    background-image: var(--theme-graphic-tape);
+    background-image: url(images/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     transform: rotate(19deg);
@@ -1994,7 +1983,7 @@ background-image: url(images/ui-graphic-tape.svg);
     top: 23px;
     width: 72px;
     height: 26px;
-    background-image: var(--theme-graphic-tape);
+    background-image: url(../img/ui-graphic-character-03.png), url(../img/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     transform: rotate(-19deg);
