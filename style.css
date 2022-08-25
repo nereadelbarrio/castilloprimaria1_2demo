@@ -889,21 +889,17 @@ font-family: 'Nunito';
 		padding-right: 50px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .logo-publisher {
-		display: block;
-		margin-left: -48px;
-	}
-	.content_type_clase_preescolarCastillo2022demo .logo-publisher {
-		content: " ";
-		background-image: url(images/ui-logo-castillo.svg);
-		height: 64px;
+.content_type_clase_preescolarCastillo2022demo .logo-publisher {
+    content: " ";
+    background-image: url(images/ui-logo-castillo.svg);
+    height: 64px;
     background-repeat: no-repeat;
-    width: 181px;
-    margin-top: -12px;
-    margin-left: -150px;
+    width: 125px;
+    margin-top: -10px;
+    margin-left: -103px;
     float: left;
     background-size: contain;
-	}
+}
 
 	.content_type_clase_preescolarCastillo2022demo .slider-indicators {
 		padding: 0;
@@ -1101,14 +1097,7 @@ font-family: 'Nunito';
 
 /*titulo 01*/
 	.bck-title1 {
-		/*font-size: 27px;
-	    padding: 10px 40px 10px 98px;
-	    margin-bottom: 25px;
-	    color: #1D549E;
-	    margin-left: -98px;
-	    font-weight: 700;
-	    font-family: 'Nunito';*/
-	    position: relative;
+	position: relative;
     font-size: var(--theme-font-size-h2);
     font-weight: 700;
     color: var(--theme-color-main);
@@ -1116,23 +1105,14 @@ font-family: 'Nunito';
 
 /*titulo 02*/
 	.bck-title2 {
-	/*font-weight: 700;
-    color: #000;
-    font-size: 2rem;
-    font-family: 'Nunito';
-    font-size: 25px;*/
     position: relative;
     font-size: var(--theme-font-size-h3);
     font-weight: 600;
-    color: var(--theme-text-color-dark);
+    color: var(--theme-color-text-black);
 	}
 
 /*titulo 03*/
 	.bck-title3 {
-	/*font-weight: 700;
-    color: #1d549e;
-    font-family: 'Nunito';
-    font-size: 25px;*/
     position: relative;
     font-size: var(--theme-font-size-h3);
     font-weight: 600;
@@ -1141,10 +1121,6 @@ font-family: 'Nunito';
 
 /*titulo 04*/
 	.bck-title4 {
-	/*font-weight: 800;
-    color: #1d549e;
-    font-family: 'Nunito';
-    font-size: 25px;*/
     position: relative;
     font-size: var(--theme-font-size-h3);
     font-weight: 700;
@@ -1153,14 +1129,9 @@ font-family: 'Nunito';
 
 /*tooltip*/
 .bck-tooltip {
-	/*    
-    border-bottom: 1px dotted #1d549e;
-    color: #1d549e;
-    font-weight: 600;
-    cursor: pointer;*/
     border-bottom: 1px dotted;
     color: var(--theme-color-main);
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     text-decoration: dotted;
 }
@@ -1235,8 +1206,8 @@ font-family: 'Nunito';
 /*pop up*/
 #actividad .info-button {
     display: inline-block;
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
     margin: 0 5px;
     cursor: pointer;
     background: url(images/ui-icon-color-info.svg);
@@ -1764,24 +1735,31 @@ content: counter(bck-li-counter) ".";
 
 	/*caja 01*/
 	.bck-box.box-1 {
-	border: 1px solid #1D549E;
-    padding: 20px 10px 10px 20px;
-    /* margin-top: 30px; */
-    border-radius: 25px;
-    /* margin-bottom: 30px; */
-    /* position: relative; */
-    width: 100%;
-    margin: 40px 0;
+width: 100%;
+    border-radius: 30px;
+    background-color: var(--theme-color-main-b4);
+    padding: 20px 20px 36px 20px;
+    color: var(--theme-color-text-black);
+    font-weight: 300;
+    margin: 50px 0 40px 0;
 	}
 
+    .bck-box.box-1:before {
+        content: '';
+        position: absolute;
+        top: -14px;
+        right: 44px;
+        width: 24px;
+        height: 24px;
+        background-image: url(images/ui-graphic-leafs-01.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
 	.bck-box.box-1 > .bck-title {
-	background-color: #fff;
-    width: fit-content;
-    border-radius: 10px;
-    position: relative;
-    margin-top: -25px;
-    margin-left: -10px;
-    padding: 5px 14px 0px 14px;
+	    padding: 5px 14px 0px 14px;
+        font-size: var(--theme-font-size-h3);
+        margin: 0 0 -4px 0;
 }
 
 
@@ -1793,18 +1771,12 @@ content: counter(bck-li-counter) ".";
 }
 
 	.bck-box.box-1 > .bck-content {
-background-color: #DBE4EF;
+    background-color: #DBE4EF;
     border-radius: 20px;
-    padding: 68px 13px 21px 30px;
-    position: relative;
-    margin-top: -63px;
-    margin-left: -31px;
-    z-index: -1;
 	}	
 
 	.bck-box.box-1 > .bck-content p {
     color: #000;
-
 }
 
 
@@ -4311,8 +4283,8 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 .coursetag_pensamiento_cientifico_castillo #actividad .player.audio {
 	background: url(images/ui-icon-color-audio_pensamiento_cientifico.svg) 0 0 no-repeat;
     background-size: contain;
-    width: 42px;
-    height: 42px !important;
+    width: 48px;
+    height: 48px !important;
 	vertical-align: text-top;
     margin-top: -9px;
     display: inline-block;
