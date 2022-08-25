@@ -1941,52 +1941,29 @@ color: #1d549e;
 }
 
 .bck-box.box-5 > .bck-title:after {
-/*background-image: url(images/icono_caja05.png);
-background-image: url(images/ui-graphic-tape.svg);
-    content: " ";
+content: '';
     position: absolute;
-    left: -53px;
-    top: 22px;
-    z-index: 100;
-    padding: 38px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;*/
-    content: '';
-    position: absolute;
-    left: -41px;
-    top: 23px;
-    width: 72px;
-    height: 26px;
+    top: -57px;
+    right: 44px;
+    width: 124px;
+    height: 67px;
     background-image: url(images/ui-graphic-character-03.png), url(images/ui-graphic-leafs-01.svg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    transform: rotate(-19deg);
-    mix-blend-mode: multiply;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90px 65px, 24px 24px;
+    background-position: left top, right bottom;
 }
 
 .bck-box.box-5 > .bck-title:before {
-    /*background-image: url(images/icono_caja05b.png);
-    background-image: url(images/ui-graphic-tape.svg);
-    content: " ";
+    content: '';
     position: absolute;
-    right: -51px;
-    top: 23px;
-    z-index: 100;
-    padding: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;*/
-        content: '';
-    position: absolute;
-    left: calc(100% - 35px);
-    top: 23px;
-    width: 72px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
+    top: -14px;
+    left: 44px;
     background-image: url(images/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    transform: rotate(19deg);
+    transform: scaleX(-1);
 }
 
 .bck-box.box-5 >.bck-content {
