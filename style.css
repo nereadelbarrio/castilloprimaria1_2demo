@@ -1958,7 +1958,7 @@ background-image: url(images/ui-graphic-tape.svg);
     top: 23px;
     width: 72px;
     height: 26px;
-    background-image: url(../img/ui-graphic-character-03.png), url(../img/ui-graphic-leafs-01.svg);
+    background-image: url(images/ui-graphic-character-03.png), url(images/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     transform: rotate(-19deg);
