@@ -1,5 +1,5 @@
 /* General 
-CASTILLO PREESCOLAR
+CASTILLO PREESCOLAR Estilo Castillo Preescolar 2022
 */
 
 
@@ -336,7 +336,7 @@ body {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/fondo_slide_01.png);
+    background-image: url(images/ui-graphic-header-back.svg);
     background-position-y: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -477,7 +477,7 @@ font-family: 'Nunito';
     height: 103px;
     top: 28px;
     left: -89px;
-    background-image: url(images/decoracion_01izda_lenguaje.png);
+    background-image: url(images/ui-graphic-header-back.svg);
     background-repeat: no-repeat;
     background-size: 92% auto;
 }
@@ -4870,7 +4870,7 @@ border-bottom: none;
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/fondo_slide_01_naturaleza.png);
+    background-image: url(images/ui-graphic-header-back.svg);
     background-position-y: top;
     background-repeat: no-repeat;
 	}
