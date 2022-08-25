@@ -1952,16 +1952,16 @@ background-image: url(images/ui-graphic-tape.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;*/
-	content: '';
+    content: '';
     position: absolute;
-    left: calc(100% - 35px);
+    left: -41px;
     top: 23px;
     width: 72px;
     height: 26px;
-    background-image: url(images/ui-graphic-leafs-01.svg);
+    background-image: url(../img/ui-graphic-character-03.png), url(../img/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    transform: rotate(19deg);
+    transform: rotate(-19deg);
     mix-blend-mode: multiply;
 }
 
@@ -1977,17 +1977,16 @@ background-image: url(images/ui-graphic-tape.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;*/
-    content: '';
+        content: '';
     position: absolute;
-    left: -41px;
+    left: calc(100% - 35px);
     top: 23px;
     width: 72px;
     height: 26px;
-    background-image: url(../img/ui-graphic-character-03.png), url(../img/ui-graphic-leafs-01.svg);
+    background-image: url(images/ui-graphic-leafs-01.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    transform: rotate(-19deg);
-    mix-blend-mode: multiply;
+    transform: rotate(19deg);
 }
 
 .bck-box.box-5 >.bck-content {
