@@ -2393,7 +2393,7 @@ color: #fff;
     padding: 5px;
     padding-left: 32px;
     border: 5px solid transparent;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: var(--theme-boolean-font-size);
     font-weight: var(--theme-boolean-font-weight);
     color: var(--theme-boolean-text-color);
@@ -2431,14 +2431,15 @@ position: absolute;
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-	content: "\f00c";
-    color: #90BF55;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 3px;
-    font-size: 43px;
-    background-color: transparent;
     top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-ok.svg);
 }
 
 #actividad .workspace.test .respuesta_ok, 
@@ -2456,15 +2457,18 @@ position: absolute;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
     outline: 3px solid #f9d7d7;
 }
+
 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-    content: "\f00d";
-    color: #E33939;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 6px;
-    font-size: 43px;
     background-color: transparent;
-    top: -1px;
+    top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-fail.svg);
 }
 
 #actividad .workspace.test .respuesta_ko, 
@@ -2582,47 +2586,17 @@ position: absolute;
 	background-image: none;
 }
 
-/*#actividad .workspace.multiple-choice .opcion.respuesta_ko:after, 
-#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
-    font-family: FontAwesome;
-    font-size: 27px;
-    margin: 0 10px 0 0;
 
-}
-
-#actividad .workspace.multiple-choice .opcion.respuesta_ko:after {
-content: "\f00d";
-    color: #E33939;
-    font-family: 'FontAwesome';
-    margin-left: 6px;
-    font-size: 43px;
-    background-color: transparent;
-    top: -1px;
-    position: relative;
-    line-height: 1em;
-}
-
-#actividad .workspace.multiple-choice .opcion.respuesta_ok:after {
-   content: "\f00c";
-    color: #90BF55;
-    font-family: 'FontAwesome';
-    margin-left: 3px;
-    font-size: 43px;
-    background-color: transparent;
-    top: -3px;
-    position: relative;
-    line-height: 1em;
-}*/
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
-	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+    background-image: url(images/ui-icon-color-ok.svg);
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
 }
 
 #actividad .workspace.multiple-choice .opcion.respuesta_ko {
-	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+    background-image: url(images/ui-icon-color-fail.svg);
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
@@ -4450,14 +4424,15 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 .coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-	content: "\f00c";
-    color: #90BF55;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 3px;
-    font-size: 43px;
-    background-color: transparent;
     top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-ok.svg);
 }
 
 
@@ -4468,14 +4443,16 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
 .coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-    content: "\f00d";
-    color: #E33939;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 6px;
-    font-size: 43px;
     background-color: transparent;
-    top: -1px;
+    top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-fail.svg);
 }
 
 /*solucion*/
@@ -5446,14 +5423,15 @@ content: "\f00d";
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 .coursetag_naturaleza_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
-	content: "\f00c";
-    color: #90BF55;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 3px;
-    font-size: 43px;
-    background-color: transparent;
     top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-ok.svg);
 }
 
 
@@ -5464,14 +5442,16 @@ content: "\f00d";
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
 .coursetag_naturaleza_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
-    content: "\f00d";
-    color: #E33939;
-    font-family: 'FontAwesome';
+    content: "";
     margin-left: 6px;
-    font-size: 43px;
     background-color: transparent;
-    top: -1px;
+    top: -3px;
     position: relative;
+    width: 43px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/ui-icon-color-fail.svg);
 }
 
 /*solucion*/
