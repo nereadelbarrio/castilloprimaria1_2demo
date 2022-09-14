@@ -3908,51 +3908,51 @@ padding: 0 14px;
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-/*coursetag_pensamiento_cientifico_castillo*/
+/*coursetag_pensamiento_cientifico_castillo_1_2*/
 /*fondo slide*/
-.coursetag_pensamiento_cientifico_castillo #swipeview-slider>div {
+.coursetag_pensamiento_cientifico_castillo_1_2 #swipeview-slider>div {
 	background-color: #FCECE7;
 }
 
 /*navbar*/
-	.coursetag_pensamiento_cientifico_castillo .slider-indicators li,
-	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators li {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .slider-indicators li,
+	.coursetag_pensamiento_cientifico_castillo_1_2.edit .slider-indicators li {
 		background-color: #E66638;
 		opacity: 0.5;
 	}
 
-	.coursetag_pensamiento_cientifico_castillo.edit .slider-indicators .concat.active {
+	.coursetag_pensamiento_cientifico_castillo_1_2.edit .slider-indicators .concat.active {
 		color: #E66638;
 	}
 
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slider-indicators li.active {
+.coursetag_pensamiento_cientifico_castillo_1_2.content_type_clase_castilloprimaria1_2demo .slider-indicators li.active {
     opacity: 1;
     background: #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
+.coursetag_pensamiento_cientifico_castillo_1_2.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
     background: #E66638;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:hover,
-.coursetag_pensamiento_cientifico_castillo .dropdown-menu>li>a:focus {
+.coursetag_pensamiento_cientifico_castillo_1_2 .dropdown-menu>li>a:hover,
+.coursetag_pensamiento_cientifico_castillo_1_2 .dropdown-menu>li>a:focus {
     color: #E66638 !important;
 }
 
-.coursetag_pensamiento_cientifico_castillo #top-navigator.show_left:before, 
-.coursetag_pensamiento_cientifico_castillo #top-navigator.show_right:after {
+.coursetag_pensamiento_cientifico_castillo_1_2 #top-navigator.show_left:before, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #top-navigator.show_right:after {
     color: #E66638;
     background: linear-gradient(to left, #a13cc352, transparent);
 }
 
 /*título slide*/
- .content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3 {
+ .content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .header .title h3 {
     background-color: #E66638;
 }
 
 /*imagen en navbar sup.*/
-	.coursetag_pensamiento_cientifico_castillo #actividad .carousel-inner .item-container {
+	.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .carousel-inner .item-container {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
@@ -3961,7 +3961,7 @@ padding: 0 14px;
     background-repeat: no-repeat;
 	}
 
-.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_pensamiento_cientifico.png);
 	content: '';
     position: absolute;
@@ -3974,7 +3974,7 @@ padding: 0 14px;
 }
 
 
-.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
+.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .header .title h3:after {
 	content: '';
     position: absolute;
     width: 124px;
@@ -3987,41 +3987,41 @@ padding: 0 14px;
 }
 
 /*botonera*/
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary {
     background-color: #e66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):hover, 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):focus, 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary:not([disabled]):active, 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary.active, 
-.coursetag_pensamiento_cientifico_castillo #actividad .open .dropdown-toggle.btn-primary {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary:not([disabled]):hover, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary:not([disabled]):focus, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary:not([disabled]):active, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary.active, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .open .dropdown-toggle.btn-primary {
     background-color: #e66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled], 
-.coursetag_pensamiento_cientifico_castillo #actividad .btn-primary[disabled]:focus {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary[disabled], 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary[disabled]:focus {
     background-color: var(--theme-widget-disabled-color);
 }
 
 
 /*titulo 01*/
-	.coursetag_pensamiento_cientifico_castillo .bck-title1 {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-title1 {
 	    color: #E66638;
 	}
 
 /*titulo 03*/
-	.coursetag_pensamiento_cientifico_castillo .bck-title3 {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-title3 {
 color: #E66638;
 	}
 
 /*titulo 04*/
-	.coursetag_pensamiento_cientifico_castillo .bck-title4 {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-title4 {
 color: #E66638;
 	}	
 
 /*tooltip*/
-.coursetag_pensamiento_cientifico_castillo .bck-tooltip {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-tooltip {
 	    text-decoration: dotted;
     border-bottom: 1px dotted #E66638;
     color: #E66638;
@@ -4029,244 +4029,244 @@ color: #E66638;
     cursor: pointer;
 }
 
-.coursetag_pensamiento_cientifico_castillo .popover-title {
+.coursetag_pensamiento_cientifico_castillo_1_2 .popover-title {
     background-color: #E66638;
 }
 
 
 /**subrayado*/
-.coursetag_pensamiento_cientifico_castillo .bck-underline {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-underline {
     color: #E66638;
 }
 
 /*hr*/
-	.coursetag_pensamiento_cientifico_castillo .content hr,
-	.coursetag_pensamiento_cientifico_castillo .cke_contents hr {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .content hr,
+	.coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents hr {
 		border-top: 2px dashed #E66638;
 	}
 
 /*cajas*/
 /*caja 01*/
-	.coursetag_pensamiento_cientifico_castillo .bck-box.box-1 {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-1 {
     border: 1px solid #E66638;
 	}
 
 
 
-	.coursetag_pensamiento_cientifico_castillo .bck-box.box-1 > .bck-content {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-1 > .bck-content {
 	background-color: #FAE0D7;
 	}	
 
 
 /*caja 02*/
-	.coursetag_pensamiento_cientifico_castillo .bck-box.box-2 {
+	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-2 {
     background-color: #E66638;
     box-shadow: 0px 4px 8px 1px #f3dfd8;
 }
 
 
 /*caja 03*/
-.coursetag_pensamiento_cientifico_castillo .bck-box.box-3 {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-3 {
     border: 3px solid #773DBD;
 }
 
 /*caja 04*/
-.coursetag_pensamiento_cientifico_castillo .bck-box.box-4 {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-4 {
 background-image: url(images/box-4_pensamiento_cientifico.svg);
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-box.box-4 > .bck-title p {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-4 > .bck-title p {
 	    color: #E66638;
 }
 
 
 /*caja 05*/
 
-.coursetag_pensamiento_cientifico_castillo .bck-box.box-5 > .bck-title p {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-5 > .bck-title p {
 	    color: #E66638;
     }
 
 /*LISTA ORDENADA 1*/
 
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-1 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content .bck-ol-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li .bck-ol-1 li:before {
     color: #E66638;
 }
 
 
 
 /*LISTA ORDENADA 2*/
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-2 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content .bck-ol-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li .bck-ol-2 li:before {
     color: #773DBD;
 }
 
 
 /*LISTA ORDENADA 3*/
 
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content .bck-ol-3 li,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li .bck-ol-3 li {
      color: #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-3 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-3 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-3 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-3 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content .bck-ol-3 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li .bck-ol-3 li:before {
     color: #E66638;
 }
 
 /*LISTA ORDENADA 4*/
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ol-4 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso .bck-ol-4 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content .bck-ol-4 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li .bck-ol-4 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content .bck-ol-4 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li .bck-ol-4 li:before {
     color: #E66638;
 }
 
 
 /*lista desordenada 01*/
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-1 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-1 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content ul.bck-ul-1 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li ul.bck-ul-1 li:before {
     background-color: #E66638;
 }
 
 
 /*lista desordenada 02*/
-.coursetag_pensamiento_cientifico_castillo #actividad .content .cke_contents .bck-ul-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .texto_curso ul.bck-ul-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .popover-content ul.bck-ul-2 li:before,
-.coursetag_pensamiento_cientifico_castillo #actividad .content .workspace ul li ul.bck-ul-2 li:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .cke_contents .bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .texto_curso ul.bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .popover-content ul.bck-ul-2 li:before,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .content .workspace ul li ul.bck-ul-2 li:before {
     background-color: #773DBD;
 }
 
 /*desplegables*/
 
-.coursetag_pensamiento_cientifico_castillo .bck-dropdown-icon {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-icon {
     background-color: #EB8560;
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-dropdown-content {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-content {
     border-left: 2px dotted #E66638;
     border-right: 2px dotted #E66638;
     border-bottom: 2px dotted #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-dropdown-button {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-button {
     background-color: #E66638;
 }
 
 
 /*flipbox*/
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.front {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.front {
 	    color: #E66638;
     background-color: #FAE0D7;
 }
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .front .bck-flipbox-section,
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .front .bck-flipbox-title {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .front .bck-flipbox-section,
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .front .bck-flipbox-title {
 	color: #E66638;
 	padding-bottom: 0px;
 }
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.back {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.back {
     background-color: #E66638;
 }
 
 
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-flipbox-face.front p {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.front p {
     color: #E66638;
     text-align: center;
 }
 
 /*tablas*/
-.coursetag_pensamiento_cientifico_castillo .bck-table {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-table {
     border: 2px dotted #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-table td {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-table td {
     border-color: #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) td, 
-.coursetag_pensamiento_cientifico_castillo .cke_contents table:not(.rf-tablegrid) th, 
-.coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) td, 
-.coursetag_pensamiento_cientifico_castillo .content table:not(.rf-tablegrid) th {
+.coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid) td, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid) th, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid) td, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid) th {
     border: 2px dotted #E66638;
 }
 
 /*celdas*/
-.coursetag_pensamiento_cientifico_castillo .bck-td-2 {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-td-2 {
     background: #EB8560;
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-td-3 {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-td-3 {
     background: #FCECE7;
 }
 
 /*tabs*/
-.body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+.body_clase.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
 	background-color: #FCECE7;
     color: #E66638;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo .bck-tabtitles {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabtitles {
     background-color: #FCECE7;
     color: #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo .bck-tabtitles:hover {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabtitles:hover {
     background-color: #E66638;
 	color:#fff
 }
 
 
-.coursetag_pensamiento_cientifico_castillo .bck-tabslists {
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabslists {
 border-bottom: 0px solid #E66638;
 }
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .div-contents {
     border-top: 1px solid #E66638;
 }
 
-.body_clase.coursetag_pensamiento_cientifico_castillo #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
+.body_clase.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .bck-tabs-box .bck-tabslists .bck-tabs-active {
 background-color: #E66638;
 	color:#fff;
 }
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .div-contents {
     border-top: 1px solid #E66638;
 }
 
-body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-contents {
+body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .div-contents {
     border-bottom: 1px solid #E66638;
 }
 
 
 /*textarea*/
-.coursetag_pensamiento_cientifico_castillo .form-control {
+.coursetag_pensamiento_cientifico_castillo_1_2 .form-control {
 	border: 1.5px solid #AD8BD7;
 }
 
-.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo .form-control:focus, 
-.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo .form-control:focus-within, 
-.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo input[type="text"]:focus {
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .form-control:focus, 
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .form-control:focus-within, 
+.body_clase:not(.edit):not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 input[type="text"]:focus {
 	border-color: #773dbd;
 }
 
 /*audio*/
-.coursetag_pensamiento_cientifico_castillo #actividad .player.audio {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .player.audio {
 	background: url(images/ui-icon-color-audio_pensamiento_cientifico.svg) 0 0 no-repeat;
     background-size: contain;
     width: 48px;
@@ -4283,7 +4283,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 
 /*pop up*/
-.coursetag_pensamiento_cientifico_castillo #actividad .info-button {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .info-button {
     display: inline-block;
     width: 42px;
     height: 42px;
@@ -4299,44 +4299,44 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 /*actividades*/
 /*palabras cruzadas*/
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta .caracter {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuestas .respuesta .caracter {
 	border: 1px solid #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta .caracter.solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuestas .respuesta .caracter.solucion {
     background-color: #E4D8F2;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .enunciados {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .enunciados {
     border: 2px solid #F5C2AF;
 } 
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuestas .respuesta.respuesta_ko .caracter {
     background-color: #F9D7D7;
     border: 1px solid #fff;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuestas .respuesta.respuesta_ok .caracter {
     background-color: #EDF5E4;
     border: 1px solid #fff;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuestas .respuesta.solucion .caracter {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuestas .respuesta.solucion .caracter {
     background-color: #D2F0F4;
     border: 1px solid #fff;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords .respuesta .indice {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords .respuesta .indice {
 	color: #E66638;
 }
 
 /*sopa de letras*/
 
-.coursetag_pensamiento_cientifico_castillo .rf-tablestyle {
+.coursetag_pensamiento_cientifico_castillo_1_2 .rf-tablestyle {
 	border-color: #F5C2AF;
 }
 
-.coursetag_pensamiento_cientifico_castillo .rf-wordcontainer li .index {
+.coursetag_pensamiento_cientifico_castillo_1_2 .rf-wordcontainer li .index {
     margin-right: 5px;
     color: #e66638;
     font-weight: 900;
@@ -4344,21 +4344,21 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 }
 
 /*crucigrama*/
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords-puzzle table.puzzle td span.ta-mask.visible {
     border-color: #773DBD;
     border: 2px solid  #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle table.puzzle td input {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords-puzzle table.puzzle td input {
     border: 2px solid #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo .slide.crosswords-puzzle .enunciados {
+.coursetag_pensamiento_cientifico_castillo_1_2 .slide.crosswords-puzzle .enunciados {
     border: 2px solid #F5C2AF;
 }
 
 /*memory*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .front {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.memory .front {
     z-index: 2;
     width: 120px;
     height: 140px;
@@ -4371,35 +4371,35 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 }
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .back {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.memory .back {
     border: 2px solid #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.memory .still .back {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.memory .still .back {
     border-color: #90BF55;
 }
 
 /*respuesta multiple*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.multiple-choice .opcion {
 	border-color: #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_checked {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.multiple-choice .opcion.respuesta_checked {
     border-color: #773DBD;
     background-color: #E4D8F2;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.multiple-choice .opcion.respuesta_ok {
     border-color: #90bf55;
     background-color: #edf5e4;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.respuesta_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.multiple-choice .opcion.respuesta_ko {
     border-color: #e33939;
     background-color: #f9d7d7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.multiple-choice .opcion.solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.multiple-choice .opcion.solucion {
     border-color: #1eb3c6;
     background-color: #d2f0f4;
 }
@@ -4408,7 +4408,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 /*verdadero falso*/
 /*Damos formatos a los checkbox*/
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option label.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option label.filter-label::before {
     background: none;
     display: inline-block;
     width: 20px;
@@ -4418,7 +4418,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 	color: #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
     position: absolute;
     border-color: #773DBD;
     background-color: transparent;
@@ -4432,11 +4432,11 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 }
 
 /*ok*/
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
     border: 2px solid #90BF55;
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::after {
 	content: "\f00c";
     color: #90BF55;
     font-family: 'FontAwesome';
@@ -4450,11 +4450,11 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 /*ko*/
 
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
     border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
     content: "\f00d";
     color: #E33939;
     font-family: 'FontAwesome';
@@ -4466,33 +4466,33 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 }
 
 /*solucion*/
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
 	border-color: #1EB3C6;
     background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
 }
 
-.coursetag_pensamiento_cientifico_castillo .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
+.coursetag_pensamiento_cientifico_castillo_1_2 .true-false .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::after {
     display: none;
 }
 
 
 /*rellenar espacios*/
- .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input {
+ .coursetag_pensamiento_cientifico_castillo_1_2.content_type_clase_castilloprimaria1_2demo .slide_main input {
 		border-width: 1.5px;
     border-color: #AD8BD7;
     /*background-color: #E4D8F2;*/
 }
 
- .coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response {
+ .coursetag_pensamiento_cientifico_castillo_1_2 .fillblanks-draggable-wrapper .response {
     border-color: #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo .fillblanks-draggable-wrapper .response.used p {
+.coursetag_pensamiento_cientifico_castillo_1_2 .fillblanks-draggable-wrapper .response.used p {
  	background-color: #E4D8F2;
     border-radius: 8px;
 
 }
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
     background: #d2f0f4;
 }
@@ -4506,7 +4506,7 @@ fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input
 }*/
 
 /*drag and drop*/
-.coursetag_pensamiento_cientifico_castillo #actividad .drag .circulo_gris p {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .drag .circulo_gris p {
     background: url(images/drop_izquierda2_pensamiento_cientifico.png) 0 0 no-repeat;
     padding: 0 10px 0 30px;
     font-weight: bold;
@@ -4518,25 +4518,25 @@ fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input
     margin-right: 10px;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver:after {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .multimedia-container .circulo_gris.ver:after {
     border: 2px solid #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ok:after, 
-.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ok span:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .multimedia-container .respuesta.drop_ok:after, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .multimedia-container .answer.drop_ok span:before {
 background-color: #90bf55;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo .multimedia-container .respuesta.drop_ko:after, 
-.coursetag_pensamiento_cientifico_castillo .multimedia-container .answer.drop_ko span:before {
+.coursetag_pensamiento_cientifico_castillo_1_2 .multimedia-container .respuesta.drop_ko:after, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .multimedia-container .answer.drop_ko span:before {
     background-color: #e33939;;
     padding: 0 4px;
 }
 
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .multimedia-container .circulo_gris.ver.drop_solucion:after {
     background: #e66638;
     border: 2px solid #e66638;
 }
@@ -4546,13 +4546,13 @@ background-color: #90bf55;
 
 
 /*marcar palabras*/
-.coursetag_pensamiento_cientifico_castillo #actividad .markword-active {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .markword-active {
     border-radius: 12px !important;
     padding: 4px !important;
     border: 2px solid #773dbd !important;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .markword-correct {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .markword-correct {
     padding: 4px !important;
     color: #000 !important;
     background-color: #d8efbe !important;
@@ -4560,7 +4560,7 @@ background-color: #90bf55;
     border: 2px solid #90BF55 !important;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .markword-false {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .markword-false {
     padding: 4px !important;
     color: #000 !important;
     background-color: #ffbfbf !important;
@@ -4568,7 +4568,7 @@ background-color: #90bf55;
     border: 2px solid #E33939 !important;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .markword-solution {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .markword-solution {
 	    padding: 4px !important;
     color: #000 !important;
     background-color: #D2F0F4 !important;
@@ -4577,28 +4577,28 @@ background-color: #90bf55;
 }
 
 /*calculo numerico*/
-.coursetag_pensamiento_cientifico_castillo div.calculo table.marco, 
-.coursetag_pensamiento_cientifico_castillo div.calculo table.marco * {
+.coursetag_pensamiento_cientifico_castillo_1_2 div.calculo table.marco, 
+.coursetag_pensamiento_cientifico_castillo_1_2 div.calculo table.marco * {
     border: none;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text], 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=tel] {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=text], 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=tel] {
     border: 1.5px solid #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=text]:focus,
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.calculo .cifra input[type=tel]:focus {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=text]:focus,
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=tel]:focus {
     border: 2px solid #773DBD;
 }
 
 /*match*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.matching .opcion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.matching .opcion {
 	border: 2px solid #773DBD;
 }
 
 /*ordenar*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .js-rank-item {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.ordenar .js-rank-item {
     border: 2px solid #773DBD;
  -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -4621,28 +4621,28 @@ background-color: #90bf55;
     background-size: auto 100%;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .respuesta_over {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.ordenar .respuesta_over {
 	background-color: #E4D8F2;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar li.ejercicio_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.ordenar li.ejercicio_ok {
 	border-color: var(--theme-color-ok);
     background-color: var(--theme-color-ok-b1);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar li.ejercicio_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.ordenar li.ejercicio_ko {
 border-color: var(--theme-color-fail);
     background-color: var(--theme-color-fail-b1);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.ordenar .solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.ordenar .solucion {
 	border-color: var(--theme-color-answer);
     background-color: var(--theme-color-answer-b1);
 }
 
 /*clasificar*/
-/*.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+/*.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 0;
     border-radius: 25px;
     background-color: #FFF;
@@ -4651,11 +4651,11 @@ border-color: var(--theme-color-fail);
     margin: 40px 0;
 }*/
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background-image: url(images/box-4_pensamiento_cientifico.svg);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
 text-align: center;
     font-weight: bold;
     border-bottom: 1px solid #FDF3EF;
@@ -4669,39 +4669,39 @@ text-align: center;
     padding: 10px;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_lista .classify-item {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_lista .classify-item {
     border-color: #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
     border: 2px solid #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
 border: 2px solid #E33939;
     BACKGROUND-COLOR: #F9D7D7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ok {
     background-color: #EDF5E4;
     border: 2px solid #90BF55;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos span.solucion {
 	border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
 }
 
 /*analisis sintactico*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .bloque, 
-.coursetag_pensamiento_cientifico_castillo #actividad .slide-syntax .sintaxis_frase .bloque {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .bloque, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .slide-syntax .sintaxis_frase .bloque {
 	position: relative;
     border-bottom: 2px #AD8BD7 solid;
     border-left: 2px #AD8BD7 solid;
     border-right: 2px #AD8BD7 solid;
 }
 
-.coursetag_pensamiento_cientifico_castillo .form-control {
+.coursetag_pensamiento_cientifico_castillo_1_2 .form-control {
     display: block;
     width: 100%;
     height: 34px;
@@ -4719,8 +4719,8 @@ border: 2px solid #E33939;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.coursetag_pensamiento_cientifico_castillo .form-control:focus, 
-.coursetag_pensamiento_cientifico_castillo .form-control:focus-within {
+.coursetag_pensamiento_cientifico_castillo_1_2 .form-control:focus, 
+.coursetag_pensamiento_cientifico_castillo_1_2 .form-control:focus-within {
     border-top-color: #773DBD;
     border-right-color: #773DBD;
     border-bottom-color: #773DBD;
@@ -4731,21 +4731,21 @@ border: 2px solid #E33939;
     -webkit-box-shadow: none;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .filled {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .sintaxis_adder .filled {
     border-color: #773DBD;
     color: #000;
     background-color: #fff;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .bloque.filled {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .bloque.filled {
     border-bottom: 2px #773DBD dashed;
     border-left: 2px #773DBD dashed;
     border-right: 2px #773DBD dashed;
     border-radius: 3px;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .filled:before, 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .filled:before, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .sintaxis_adder .circulo.filled {
     background-color: #773DBD;
 border-bottom: none;
     border-left: none;
@@ -4753,50 +4753,50 @@ border-bottom: none;
     border-top: none;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .sintaxis_adder .respuesta_ko {
 	border: 3px solid #E33939;
 	background-color: #F9D7D7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax .sintaxis_adder .respuesta_ok {
 	border: 3px solid #90BF55;
     background-color: #EDF5E4;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax.solucion .bloque, 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.syntax.solucion .sintaxis_adder select {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax.solucion .bloque, 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.syntax.solucion .sintaxis_adder select {
     border-color: #1EB3C6;
     background-color: #D2F0F4;
 }
 
 /*señalar respuesta*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks select {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks select {
     border: 0;
     border-bottom: 2px solid #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a {
     border: 2px solid #AD8BD7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a:hover {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a:hover {
     background-color: #e4d8f2;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
     background-color: #e4d8f2;
     border: 3px solid #773DBD;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .respuesta_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .respuesta_ok {
     border: 2px solid #90BF55;
     background-color: #EDF5E4;
     border-radius: 8px;
     padding: 3px 10px;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .respuesta_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .respuesta_ko {
     border: 2px solid #E33939;
     background-color: #F9D7D7;
     border-radius: 8px;
@@ -4804,14 +4804,14 @@ border-bottom: none;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .solucion {
     border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
         border-radius: 8px;
     padding: 3px 10px;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
 	    border: 2px solid #90BF55;
     background-color: #EDF5E4;
     border-radius: 8px;
@@ -4819,12 +4819,12 @@ border-bottom: none;
     color: #000;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
     border: 2px solid #E33939;
     background-color: #F9D7D7;
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.chooseblanks .inline-answer a.solucion {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.chooseblanks .inline-answer a.solucion {
 	    border: 2px solid #1EB3C6;
     background-color: #D2F0F4;
         border-radius: 8px;
@@ -4833,34 +4833,34 @@ border-bottom: none;
 }
 
 /*test*/
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option label.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option label.filter-label::before {
     border: 2px solid #773DBD;
     color: #773DBD;
 }
 
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.filter-label::before {
     border-color: #773DBD;
     background-image: linear-gradient(180deg, #773DBD 0%, #773DBD 100%);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
 	border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
 	border: 2px solid #90BF55;
     background-image: linear-gradient(180deg, #90BF55 0%, #90BF55 100%);
 }
 
-.coursetag_pensamiento_cientifico_castillo #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.solucion.filter-label::before {
 	border-color: #1EB3C6;
     background-image: linear-gradient(180deg, #1EB3C6 0%, #1EB3C6 100%);
 }
 
 /*archivo entregable*/
-.coursetag_pensamiento_cientifico_castillo .deliverablefile .divtitle .title-deliverablefile {
+.coursetag_pensamiento_cientifico_castillo_1_2 .deliverablefile .divtitle .title-deliverablefile {
 	font-size: var(--theme-font-size-h2);
     font-weight: 700;
     color: #E66638;
