@@ -1410,7 +1410,7 @@ content: counter(bck-li-counter) ".";
 #actividad .popover-content .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
-    padding-left: 0px;
+    padding-left: 1px;
     position: relative;
     z-index: 0;
     font-size: var(--theme-font-size);
@@ -1620,7 +1620,7 @@ content: counter(bck-li-counter) ".";
 	list-style: none;
 	margin-bottom: 10px;
 	margin-left: 10px;
-    padding-left: 0px;
+    padding-left: 1px;
     font-size: var(--theme-font-size);
     font-family: 'Nunito';
     color: #676767;
@@ -1659,7 +1659,7 @@ content: counter(bck-li-counter) ".";
 	list-style: none;
 	margin-bottom: 10px;
 	margin-left: 10px;
-    padding-left: 0px;
+    padding-left: 1px;
     font-size: var(--theme-font-size);
     font-family: 'Nunito';
     color: #676767;
@@ -1701,15 +1701,24 @@ content: counter(bck-li-counter) ".";
 
 	.cke_contents table:not(.rf-tablegrid),
 	.content table:not(.rf-tablegrid) {
-		border: 1px solid #CBCCCD;
+		position: relative;
+    width: 100%;
+    margin: 40px 0;
+    grid-column: 1 / 3;
+    color: var(--theme-color-text-black);
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px var(--theme-color-main);
 	}
 
 	.cke_contents table:not(.rf-tablegrid) td,
 	.cke_contents table:not(.rf-tablegrid) th,
 	.content table:not(.rf-tablegrid) td,
 	.content table:not(.rf-tablegrid) th {
-		border: 1px solid #CBCCCD;
-		padding: 7px;
+		padding: 3px;
 	}
 
 	.cke_contents table:not(.rf-tablegrid) caption,
@@ -3890,7 +3899,7 @@ padding: 0 14px;
 }
 
 /*************COURSETAG***********/
-/*coursetag_naturaleza_castillo_1_2*/
+/*coursetag_naturaleza_castillo_1_2 VERDE*/
 .coursetag_naturaleza_castillo_1_2 .form-control {
     display: block;
     width: 100%;
@@ -3908,7 +3917,7 @@ padding: 0 14px;
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-/*coursetag_pensamiento_cientifico_castillo_1_2*/
+/*coursetag_pensamiento_cientifico_castillo_1_2 NARANJA*/
 /*fondo slide*/
 .coursetag_pensamiento_cientifico_castillo_1_2 #swipeview-slider>div {
 	background-color: #FCECE7;
@@ -4867,7 +4876,7 @@ border-bottom: none;
 }
 
 
-/*coursetag_naturaleza_castillo_1_2_1_2*/
+/*coursetag_naturaleza_castillo_1_2 VERDE*/
 /*fondo slide*/
 .coursetag_naturaleza_castillo_1_2 #swipeview-slider>div {
 	background-color: #F5F9F1;
