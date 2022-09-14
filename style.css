@@ -2125,10 +2125,10 @@ body:not(.edit) .bck-flipbox-face.back p {
 }
 
 /*taBlas*/
-.cke_contents table:not(.rf-tablegrid),
+/*.cke_contents table:not(.rf-tablegrid),
 .content table:not(.rf-tablegrid) {
     border: 1px dotted #CBCCCD;
-}
+}*/
 
 
 	.bck-td {
