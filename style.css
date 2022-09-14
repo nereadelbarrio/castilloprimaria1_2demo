@@ -2237,6 +2237,10 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 
 /*botonera*/
+#actividad .class_slide .review {
+    margin-bottom: 55PX;
+}
+
 #actividad .btn-danger, 
 #actividad .btn-danger[disabled] {
 	color: #fff;
@@ -6074,3 +6078,59 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
  body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper {
 	margin-top: 10px;
  }
+
+
+/*********************MEJORAS*****************/
+/*NOTAS*/
+.revision-budget {
+    margin-top: -55px;
+    z-index: 1000;
+}
+
+.coursetag_pensamiento_cientifico_castillo .revision-budget {
+    left: 50px;
+}
+
+.coursetag_naturaleza_castillo .revision-budget {
+    left: 50px;
+}
+
+.coursetag_lenguajes_castillo .revision-budget {
+    left: 50px;
+}
+
+.bck-title-activity {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    padding: inherit;
+    margin-bottom: inherit;
+    background: inherit;
+    color: inherit;
+    margin-left: inherit;
+    border-radius: inherit;
+}
+
+
+/*menun navbar*/
+@media screen and (max-width: 579px) {
+.open>.dropdown-menu {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    cursor: pointer;
+    margin-left: -150px;
+    margin-top: 12px;
+}   
+}
+
+@media screen and (max-width: 480px) {
+    .open>.dropdown-menu {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    cursor: pointer;
+    margin-left: -165px;
+    margin-top: 12px;
+}
+}
