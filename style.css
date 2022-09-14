@@ -1,5 +1,5 @@
 /* General 
-CASTILLO PREESCOLAR Estilo Castillo Preescolar 2022
+CASTILLO PREESCOLAR Estilo castilloprimaria1-2
 */
 
 
@@ -406,11 +406,11 @@ body {
 		margin-bottom: 10px;
 	}
 
-	.is_app.content_type_clase_preescolarCastillo2022demo {
+	.is_app.content_type_clase_castilloprimaria1_2demo {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo #actividad {
+	.content_type_clase_castilloprimaria1_2demo #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -486,8 +486,8 @@ body {
 		margin-top: 75px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title img,
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .chapter {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title img,
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .chapter {
 		display: none;
 	}
 
@@ -497,7 +497,7 @@ body {
 		visibility: hidden;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header {
 		border: none;
 	}
 
@@ -531,7 +531,7 @@ body {
 
 /*título slide*/
 
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title {
 		margin-top: -40px;
 		padding-top: 30px;
 		padding-bottom: 20px;
@@ -539,7 +539,7 @@ body {
     	position: relative;
 	}
 
-.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3 {
+.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3 {
 font-family: 'Nunito';
     font-size: 36px;
     font-weight: 700;
@@ -557,7 +557,7 @@ font-family: 'Nunito';
     box-shadow: 0px 4px 8px rgba(var(--theme-color-hex-main-d1), .25);
 }
 
-.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3:before {
 	content: '';
     position: absolute;
     width: 24px;
@@ -570,7 +570,7 @@ font-family: 'Nunito';
 }
 
 
-.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3:after {
+.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3:after {
     content: '';
     position: absolute;
     width: 16px;
@@ -583,13 +583,13 @@ font-family: 'Nunito';
 }
 
 
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3 span {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
 		font-weight: 400;
 	}
-	.content_type_clase_preescolarCastillo2022demo #actividad .texto_curso,
-	.content_type_clase_preescolarCastillo2022demo #actividad .slide_content_type_1 .pregunta .texto_curso {
+	.content_type_clase_castilloprimaria1_2demo #actividad .texto_curso,
+	.content_type_clase_castilloprimaria1_2demo #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 1.8rem;
 		margin-bottom: 20px;
 		line-height: 1.43em!important;
@@ -626,7 +626,7 @@ font-family: 'Nunito';
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input {
 		/*color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -656,7 +656,7 @@ font-family: 'Nunito';
     margin: 10px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input {
     border-width: 1.5px;
     border-color: var(--theme-widget-normal-color);
     border-radius: 10px;
@@ -665,7 +665,7 @@ font-family: 'Nunito';
     margin: 0;
 }
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input:focus {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input:focus {
 		border-top-color: #3AC62A;
 		border-right-color: #3AC62A;
 		border-bottom-color: #3AC62A;
@@ -675,8 +675,8 @@ font-family: 'Nunito';
 		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input[readonly],
-	.fieldset[disabled] .content_type_clase_preescolarCastillo2022demo .slide_main input {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input[readonly],
+	.fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input {
 	padding: 0px;
     border-width: 2px;
     border-color: var(--theme-widget-normal-color);
@@ -685,23 +685,23 @@ font-family: 'Nunito';
 	}
 
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input[disabled] {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input[disabled] {
 		background-color: #fff;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ok {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ok {
 		border-color: var(--theme-widget-ok-color);
     background-color: var(--theme-widget-ok-color-bright);
 		border-width: 2px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ko {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ko {
     border-color: var(--theme-widget-fail-color);
     background-color: var(--theme-widget-fail-color-bright);
     border-width: 2px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slide_main input.solucion {
+	.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
 		border-color: var(--theme-widget-answer-color);
     background-color: var(--theme-widget-answer-color-bright);
 		border-width: 2px;
@@ -843,7 +843,7 @@ font-family: 'Nunito';
 /**/
 
 /* Navbar (Breadcums) */
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar {
 		position: fixed;
 		top: 44px;
 		background: #ffffff;
@@ -854,11 +854,11 @@ font-family: 'Nunito';
 	}
 
 	/* BK-18572 Ajustar estilo en UX */
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar.tmpux {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar.tmpux {
 		top: 0px;
 	}
 
-	.is_app.content_type_clase_preescolarCastillo2022demo .publisher-navbar {
+	.is_app.content_type_clase_castilloprimaria1_2demo .publisher-navbar {
 		position: fixed;
 		top: 0px;
 	}
@@ -882,14 +882,14 @@ font-family: 'Nunito';
     	background: linear-gradient(to left, #1d549e4f, transparent);
     }
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .navbar-content {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
 		padding-right: 50px;
 	}
 
-.content_type_clase_preescolarCastillo2022demo .logo-publisher {
+.content_type_clase_castilloprimaria1_2demo .logo-publisher {
     content: " ";
     background-image: url(images/ui-logo-castillo.svg);
     height: 64px;
@@ -901,7 +901,7 @@ font-family: 'Nunito';
     background-size: contain;
 }
 
-	.content_type_clase_preescolarCastillo2022demo .slider-indicators {
+	.content_type_clase_castilloprimaria1_2demo .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: center;
@@ -915,8 +915,8 @@ font-family: 'Nunito';
 	}
 
 /*navaegacion navabar sup.*/
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown button,
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar li {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown button,
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: transparent;
@@ -931,12 +931,12 @@ font-family: 'Nunito';
 		background: #5ebdb2;
 		border-radius: 120px;
 	}
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown button {
 		background: none;
 		color: #676767;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slider-indicators:after {
+	.content_type_clase_castilloprimaria1_2demo .slider-indicators:after {
 		content: '';
 		display: block;
 		clear: both;
@@ -945,7 +945,7 @@ font-family: 'Nunito';
 		height: 0;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slider-indicators li {
+	.content_type_clase_castilloprimaria1_2demo .slider-indicators li {
 		width: 35px;
 		height: 35px;
 		margin: 0 8px 0 0;
@@ -955,8 +955,8 @@ font-family: 'Nunito';
 		background: #A5BBD8;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .slider-indicators li.active,
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar li:hover {
+	.content_type_clase_castilloprimaria1_2demo .slider-indicators li.active,
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar li:hover {
 		opacity: 1;
 		background:#1d549e;
 	}
@@ -967,19 +967,19 @@ font-family: 'Nunito';
 	    box-shadow: 0 2.5px 0 rgb(0 0 0 / 10%);
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar #top-navigator {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar #top-navigator {
 		float: none;
 		margin-top: 10px;
 		display: block;
 		padding: 0 0px 0px 4px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown {
 		float: left;
 		display: block;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -991,7 +991,7 @@ font-family: 'Nunito';
     cursor: pointer;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown button {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown button {
 		border: none;
 		color: #676767;
 		font-size: 18px;
@@ -1001,21 +1001,21 @@ font-family: 'Nunito';
     cursor: pointer;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown button:focus {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown li {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 		background: none;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown li a {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown li a {
 		color: #676767;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .dropdown .caret {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .dropdown .caret {
 		border-color: #878787 transparent transparent transparent;
     	margin-left: 10px;
 	}
@@ -1073,7 +1073,7 @@ font-family: 'Nunito';
 }
 
 /*#actividad .player.video {
-	background: url(images/preescolarCastillo2022demo_video.png) 0 0 no-repeat;
+	background: url(images/castilloprimaria1_2demo_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -2617,14 +2617,14 @@ content: "\f00d";
 
 
 /*rellenar espacios*/
-.content_type_clase_preescolarCastillo2022demo .slide_main input {
+.content_type_clase_castilloprimaria1_2demo .slide_main input {
 	/*border: 2px solid #fbd066;
     border-radius: 10px;
     height: 1.8em;
     margin: 0;*/
 }
 
-.content_type_clase_preescolarCastillo2022demo .slide_main input:focus {
+.content_type_clase_castilloprimaria1_2demo .slide_main input:focus {
     border-top-color: #3AC62A;
     border-right-color: #3AC62A;
     border-bottom-color: #3AC62A;
@@ -2640,16 +2640,16 @@ content: "\f00d";
 	box-shadow: 0 4px 5px rgb(0 0 0 / 15%);
 }
 
-.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ko {
+.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ko {
     border-color: #e33939;
     background: #f9d7d7;
 }
 
-.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ok {
+.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ok {
     border-color: #90bf55;
     background: #edf5e4;
 }
-.content_type_clase_preescolarCastillo2022demo .slide_main input.solucion {
+.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
     background: #d2f0f4;
 }
@@ -2690,9 +2690,9 @@ content: "\f00d";
 	border: none;
 }
 
-/*.content_type_clase_preescolarCastillo2022demo .slide_main input[disabled],
-.content_type_clase_preescolarCastillo2022demo .slide_main input[readonly],
-fieldset[disabled] .content_type_clase_preescolarCastillo2022demo .slide_main input {
+/*.content_type_clase_castilloprimaria1_2demo .slide_main input[disabled],
+.content_type_clase_castilloprimaria1_2demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input {
     cursor: not-allowed;
     background-color: #fef5e0;
     opacity: 1;
@@ -2939,13 +2939,13 @@ text-align: center;
     border: 2px solid #F8B100;
 }
 
-.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ok {
+.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ok {
     border-color: #90bf55;
     border: 2px solid #90BF55!important;
     background: #EDF5E4;
 }
 
-.content_type_clase_preescolarCastillo2022demo .slide_main input.respuesta_ko {
+.content_type_clase_castilloprimaria1_2demo .slide_main input.respuesta_ko {
     border-color: #e33939 !important;
     background: #f9d7d7;
 }
@@ -3925,12 +3925,12 @@ padding: 0 14px;
 		color: #E66638;
 	}
 
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_preescolarCastillo2022demo .slider-indicators li.active {
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slider-indicators li.active {
     opacity: 1;
     background: #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_preescolarCastillo2022demo .publisher-navbar .slider-indicators li:hover {
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
     background: #E66638;
 }
 
@@ -3947,7 +3947,7 @@ padding: 0 14px;
 }
 
 /*título slide*/
- .content_type_clase_preescolarCastillo2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3 {
+ .content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3 {
     background-color: #E66638;
 }
 
@@ -3961,7 +3961,7 @@ padding: 0 14px;
     background-repeat: no-repeat;
 	}
 
-.content_type_clase_preescolarCastillo2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_pensamiento_cientifico.png);
 	content: '';
     position: absolute;
@@ -3974,7 +3974,7 @@ padding: 0 14px;
 }
 
 
-.content_type_clase_preescolarCastillo2022demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
+.content_type_clase_castilloprimaria1_2demo.coursetag_pensamiento_cientifico_castillo #actividad .content .header .title h3:after {
 	content: '';
     position: absolute;
     width: 124px;
@@ -4477,7 +4477,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
 
 
 /*rellenar espacios*/
- .coursetag_pensamiento_cientifico_castillo.content_type_clase_preescolarCastillo2022demo .slide_main input {
+ .coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input {
 		border-width: 1.5px;
     border-color: #AD8BD7;
     /*background-color: #E4D8F2;*/
@@ -4492,14 +4492,14 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo .bck-tabcontents .div-
     border-radius: 8px;
 
 }
-.coursetag_pensamiento_cientifico_castillo.content_type_clase_preescolarCastillo2022demo .slide_main input.solucion {
+.coursetag_pensamiento_cientifico_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
     background: #d2f0f4;
 }
 
-/*.content_type_clase_preescolarCastillo2022demo .slide_main input[disabled],
-.content_type_clase_preescolarCastillo2022demo .slide_main input[readonly],
-fieldset[disabled] .content_type_clase_preescolarCastillo2022demo .slide_main input {
+/*.content_type_clase_castilloprimaria1_2demo .slide_main input[disabled],
+.content_type_clase_castilloprimaria1_2demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input {
     cursor: not-allowed;
     background-color: #fef5e0;
     opacity: 1;
@@ -4884,12 +4884,12 @@ border-bottom: none;
 		color: #85B04C;
 	}
 
-.coursetag_naturaleza_castillo.content_type_clase_preescolarCastillo2022demo .slider-indicators li.active {
+.coursetag_naturaleza_castillo.content_type_clase_castilloprimaria1_2demo .slider-indicators li.active {
     opacity: 1;
     background: #85B04C;
 }
 
-.coursetag_naturaleza_castillo.content_type_clase_preescolarCastillo2022demo .publisher-navbar .slider-indicators li:hover {
+.coursetag_naturaleza_castillo.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
     background: #85B04C;
 }
 
@@ -4906,7 +4906,7 @@ border-bottom: none;
 }
 
 /*título slide*/
- .content_type_clase_preescolarCastillo2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3 {
+ .content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo #actividad .content .header .title h3 {
     background-color: #85B04C;
 }
 
@@ -4920,7 +4920,7 @@ border-bottom: none;
     background-repeat: no-repeat;
 	}
 
-.content_type_clase_preescolarCastillo2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_naturaleza.png);
     content: '';
     position: absolute;
@@ -4933,7 +4933,7 @@ border-bottom: none;
 }
 
 
-.content_type_clase_preescolarCastillo2022demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:after {
+.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo #actividad .content .header .title h3:after {
 	content: '';
     position: absolute;
     width: 124px;
@@ -5473,7 +5473,7 @@ content: "\f00d";
 
 
 /*rellenar espacios*/
- .coursetag_naturaleza_castillo.content_type_clase_preescolarCastillo2022demo .slide_main input {
+ .coursetag_naturaleza_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input {
 	border-width: 1.5px;
     border-color: #F0A388;
     /*background-color: #FAE0D7;*/
@@ -5488,14 +5488,14 @@ content: "\f00d";
     border-radius: 8px;
  }
 
-.coursetag_naturaleza_castillo.content_type_clase_preescolarCastillo2022demo .slide_main input.solucion {
+.coursetag_naturaleza_castillo.content_type_clase_castilloprimaria1_2demo .slide_main input.solucion {
     border-color: #1eb3c6 !important;
     background: #d2f0f4;
 }
 
-/*.content_type_clase_preescolarCastillo2022demo .slide_main input[disabled],
-.content_type_clase_preescolarCastillo2022demo .slide_main input[readonly],
-fieldset[disabled] .content_type_clase_preescolarCastillo2022demo .slide_main input {
+/*.content_type_clase_castilloprimaria1_2demo .slide_main input[disabled],
+.content_type_clase_castilloprimaria1_2demo .slide_main input[readonly],
+fieldset[disabled] .content_type_clase_castilloprimaria1_2demo .slide_main input {
     padding: 0px;
     border-width: 1.5px;
     border-color: var(--theme-widget-normal-color);
@@ -5898,7 +5898,7 @@ border-bottom: none;
   		border-right: 1px solid #eee;
     }
 
-    .content_type_clase_preescolarCastillo2022demo .logo-publisher {
+    .content_type_clase_castilloprimaria1_2demo .logo-publisher {
 		margin-right: 0px;
         margin-left: -70px;
 	}
@@ -5912,7 +5912,7 @@ border-bottom: none;
 		padding-left: 30px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3 {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3 {
 		margin-left: 10px;
 		padding-left: 20px;
 		padding-right: 50px;
@@ -5928,10 +5928,10 @@ border-bottom: none;
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.content_type_clase_preescolarCastillo2022demo .publish {
+	.content_type_clase_castilloprimaria1_2demo .publish {
 		padding-left: 25px;
 	}
-	.content_type_clase_preescolarCastillo2022demo .logo-publisher {
+	.content_type_clase_castilloprimaria1_2demo .logo-publisher {
 		margin-left: -20px;
 	}
 
@@ -5953,11 +5953,11 @@ border-bottom: none;
     .bck-img.left, img[style~="float:left"] {
         max-width: 50%
     }
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar {
 		top: 88px;
 	}
 
-	.content_type_clase_preescolarCastillo2022demo .logo-publisher {
+	.content_type_clase_castilloprimaria1_2demo .logo-publisher {
 		margin-right: -20px;
 	}
 
@@ -6004,11 +6004,11 @@ border-bottom: none;
     .bck-img.left, img[style~="float:left"] {
         width: 100%;
     }
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .navbar-content {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.content_type_clase_preescolarCastillo2022demo .publisher-navbar .logo-publisher:before {
+	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .logo-publisher:before {
 		content: none;
 		display: none;
 
@@ -6018,7 +6018,7 @@ border-bottom: none;
 		font-size: 2.4rem;
 		width: 60px;
 	}
-	.content_type_clase_preescolarCastillo2022demo #actividad .content .header .title h3 {
+	.content_type_clase_castilloprimaria1_2demo #actividad .content .header .title h3 {
 		padding-right: 20px;
 		margin-left: -8px;
 	}
@@ -6039,14 +6039,14 @@ div.calculo table.marco * {
     border-top: 2px solid #F8B100 !important;
 }
 
-/*.content_type_clase_preescolarCastillo2022demo .slide_main input {
+/*.content_type_clase_castilloprimaria1_2demo .slide_main input {
     border: 1px solid #ccc !important;
 }*/
 
 /* TMPUX STYLES */
-.tmpux.content_type_clase_preescolarCastillo2022demo.modo_revision .preescolarCastillo2022demo-navbar,
-.tmpux.content_type_clase_preescolarCastillo2022demo.modo-correccion .preescolarCastillo2022demo-navbar,
-.tmpux.content_type_clase_preescolarCastillo2022demo.modo-deber .preescolarCastillo2022demo-navbar {
+.tmpux.content_type_clase_castilloprimaria1_2demo.modo_revision .castilloprimaria1_2demo-navbar,
+.tmpux.content_type_clase_castilloprimaria1_2demo.modo-correccion .castilloprimaria1_2demo-navbar,
+.tmpux.content_type_clase_castilloprimaria1_2demo.modo-deber .castilloprimaria1_2demo-navbar {
 		top: 0;
 		display: block !important;
 	}
@@ -6059,9 +6059,9 @@ div.calculo table.marco * {
 	margin-top: 10px;
 }
 
-body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_preescolarCastillo2022demo.content_type_curso_preescolarCastillo2022demo .content-wrapper,
-body.is_app.tmpux.isTablet.modo-revision.content_type_clase_preescolarCastillo2022demo.content_type_curso_preescolarCastillo2022demo .content-wrapper,
- body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_preescolarCastillo2022demo.content_type_curso_preescolarCastillo2022demo .content-wrapper, 
- body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_preescolarCastillo2022demo.content_type_curso_preescolarCastillo2022demo .content-wrapper {
+body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper,
+body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper,
+ body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper, 
+ body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper {
 	margin-top: 10px;
  }
