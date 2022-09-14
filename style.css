@@ -423,15 +423,15 @@ body {
 
 
 /*imagen en navbar sup.*/
-	#actividad .carousel-inner .item-container {
+#actividad .carousel-inner .item-container {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/ui-graphic-header-back.svg);
-    background-position-y: top;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-	}
+    background-image: url(images/ui-graphic-header-back.svg), url(images/ui-graphic-footer.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto;
+    background-position: left top, left bottom;
+}
 
 
     #actividad .carousel-inner .item-container {
