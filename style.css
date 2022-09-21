@@ -2911,6 +2911,10 @@ min-height: 12px;
     color: #000;
 }
 
+#actividad .workspace.calculo table {
+    width: auto;
+}
+
 #actividad .workspace.calculo .cifra input[type=text], 
 #actividad .workspace.calculo .cifra input[type=tel] {
 text-align: center;
@@ -6029,6 +6033,7 @@ border-bottom: none;
 div.calculo table.marco,
 div.calculo table.marco * {
 	border:none;
+    box-shadow: none;
 }
 
 .content hr, .cke_contents hr {
