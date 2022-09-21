@@ -3049,7 +3049,7 @@ text-align: center;
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     border: 0;
-    background-image: url(images/box-4.svg);
+    background-image: url(images/clasificar.svg);
     border-radius: 22px;
     background-color: transparent;
     padding: 20px 20px 36px 20px;
@@ -3489,6 +3489,7 @@ font-size: 18px;
 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
     border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+    outline: 3px solid #f9d7d7;
 }
 /*#actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::after {
 	content: "\f00d";
@@ -4844,6 +4845,7 @@ border-bottom: none;
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
 	border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+    outline: 3px solid #f9d7d7;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
@@ -5857,6 +5859,7 @@ border-bottom: none;
 .coursetag_naturaleza_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ko.filter-label::before {
 	border: 2px solid #E33939;
     background-image: linear-gradient(180deg, #E33939 0%, #E33939 100%);
+    outline: 3px solid #f9d7d7;
 }
 
 .coursetag_naturaleza_castillo_1_2 #actividad .workspace.test .radio-option input.filter-radio[type="radio"]:checked + label.respuesta_ok.filter-label::before {
