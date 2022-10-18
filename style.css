@@ -3711,12 +3711,16 @@ FONT-FAMILY: 'Nunito';
 
 .slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span:after {
 padding: 0 14px;
-    content: "\f00c";
+    content: "\f00d";
     color: #90BF55;
     font-family: 'FontAwesome';
     font-size: 38px;
     background-color: transparent;
     position: absolute;
+}
+
+.slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span {
+    border-bottom: none;
 }
 
 /*Posición relativa para que no se vaya por ahí el before*/
