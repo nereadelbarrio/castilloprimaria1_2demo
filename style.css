@@ -382,6 +382,8 @@ body {
     color: #414141;
     background-color: #eee;
     font-feature-settings: 'ss01' on;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: GRAYSCALE;
 }
 
 
@@ -6124,3 +6126,8 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
     margin-top: 12px;
 }
 }
+
+
+
+-webkit-font-smoothing: antialiased; 
+-moz-osx-font-smoothing: grayscale;
