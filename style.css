@@ -3709,7 +3709,7 @@ FONT-FAMILY: 'Nunito';
     background-color: transparent;
 }
 
-.slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span:after {
+/*.slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span:after {
 padding: 0 14px;
     content: "\f00d";
     color: #e33939;
@@ -3723,12 +3723,12 @@ padding: 0 14px;
     border-bottom: none;
 }
 
-/*Posición relativa para que no se vaya por ahí el before*/
+Posición relativa para que no se vaya por ahí el before
 .rf-wordcontainer.no-queries .rf-foundword {
     position: relative;
     color: red;
 }
-/*Padding para que no pise al icono*/
+/*Padding para que no pise al icono
 .rf-wordcontainer.no-queries .rf-foundword .query {
     padding-right: 30px;
 }
@@ -3741,23 +3741,13 @@ padding: 0 14px;
     right: 0;
 }*/
 
-.rf-foundword {
+/*.rf-foundword {
     font-family: 'Nunito';
     text-decoration: none;
     color: #676767;
     font-style: normal;
     font-size: 16px;
 }
-
-/*.rf-foundword:after {
-    padding: 0 14px;
-        content: "\f00c";
-    color: #90BF55;
-    font-family: 'FontAwesome';
-    font-size: 38px;
-    background-color: transparent;
-    position: absolute;
-}*/
 
 .rf-foundword:not(.not-found):after {
     content: "\f00c";
@@ -3767,7 +3757,46 @@ padding: 0 14px;
     font-size: 38px;
     background-color: transparent;
     position: absolute;
+}*/
+
+/**/
+.slide.wordsearch .rf-wordcontainer .rf-ptrue.not-found .query span:after {
+    padding: 0 14px;
+    content: "\f00d";
+    color: red;
+    font-family: FontAwesome;
+    font-size: 38px;
+    background-color: transparent;
+    position: absolute
 }
+
+.rf-wordcontainer.no-queries .rf-foundword {
+    position: relative;
+    color: #ef0c24
+}
+
+.rf-wordcontainer.no-queries .rf-foundword .query {
+    padding-right: 30px
+}
+
+.rf-foundword {
+    font-family: Nunito;
+    text-decoration: none;
+    color: #676767;
+    font-style: normal;
+    font-size: 16px
+}
+
+.rf-foundword:not(.not-found):after {
+    content: "\f00c";
+    padding: 0 14px;
+    color: #90bf55;
+    font-family: FontAwesome;
+    font-size: 38px;
+    background-color: transparent;
+    position: absolute
+}
+
 
 /*crucigrama*/
 .slide.crosswords {
