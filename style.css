@@ -1701,20 +1701,20 @@ content: counter(bck-li-counter) ".";
 		margin-top: 10px;
 	}
 
-	.cke_contents table:not(.rf-tablegrid),
-	.content table:not(.rf-tablegrid) {
-		position: relative;
-    width: 100%;
-    margin: 40px 0;
-    grid-column: 1 / 3;
-    color: var(--theme-color-text-black);
-    text-align: center;
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
-    border-style: hidden;
-    box-shadow: 0 0 0 2px var(--theme-color-main);
-	}
+    .cke_contents table:not(.rf-tablegrid,.puzzle),
+    .content table:not(.rf-tablegrid,.puzzle) {
+        position: relative;
+        width: 100%;
+        margin: 40px 0;
+        grid-column: 1 / 3;
+        color: var(--theme-color-text-black);
+        text-align: center;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+        border-style: hidden;
+        box-shadow: 0 0 0 2px var(--theme-color-main);
+    }
 
 	.cke_contents table:not(.rf-tablegrid) td,
 	.cke_contents table:not(.rf-tablegrid) th,
@@ -4360,7 +4360,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background: url(images/fondo_memorys_pensamiento_cientifico.png) center center / 50px auto no-repeat;
+    background: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-memory-card.png) center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
 }
