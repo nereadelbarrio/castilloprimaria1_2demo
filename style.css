@@ -4273,8 +4273,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    /*background: url(images/icono_pop-up_pensamiento.png);*/
-    background: url(images/ui-icon-color-info_pensamiento_cientifico.svg);
+    background: url(images/coursetag_pensamiento_preescolar_castillo_ui-icon-color-info.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
