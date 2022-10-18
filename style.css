@@ -3762,6 +3762,10 @@ FONT-FAMILY: 'Nunito';
 	width: 50%;
 }
 
+.slide.crosswords-puzzle table.puzzle {
+    box-shadow: none;
+}
+
 #actividad .slide.crosswords-puzzle table.puzzle td {
     padding: 0px;
     border: 0;
