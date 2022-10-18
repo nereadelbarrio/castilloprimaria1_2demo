@@ -4044,13 +4044,16 @@ color: #E66638;
 /*caja 01*/
 	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-1 {
     border: 1px solid #E66638;
+    background-color: #FAE0D7;
 	}
-
-
 
 	.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-1 > .bck-content {
 	background-color: #FAE0D7;
 	}	
+
+    .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-1:before {
+        background-image: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-leafs-01.svg);
+    }
 
 
 /*caja 02*/
@@ -4065,9 +4068,13 @@ color: #E66638;
     border: 3px solid #773DBD;
 }
 
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-3:before {
+    background-color: #773DBD;
+}
+
 /*caja 04*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-4 {
-background-image: url(images/box-4_pensamiento_cientifico.svg);
+background-image: url(images/coursetag_pensamiento_preescolar_castillo_border-box04.svg);
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-4 > .bck-title p {
@@ -4262,7 +4269,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
 
 /*audio*/
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .player.audio {
-	background: url(images/ui-icon-color-audio_pensamiento_cientifico.svg) 0 0 no-repeat;
+	background: url(images/coursetag_pensamiento_preescolar_castillo_ui-icon-color-audio.svg) 0 0 no-repeat;
     background-size: contain;
     width: 48px;
     height: 48px !important;
@@ -6126,8 +6133,3 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
     margin-top: 12px;
 }
 }
-
-
-
--webkit-font-smoothing: antialiased; 
--moz-osx-font-smoothing: grayscale;
