@@ -4083,10 +4083,22 @@ background-image: url(images/coursetag_pensamiento_preescolar_castillo_border-bo
 
 
 /*caja 05*/
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-5 {
+    background-image: url(images/ ui-coursetag_pensamiento_preescolar_castillo_pattern-box-05.svg);
+
+}
+
+
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-5 > .bck-title:after {
+background-image: url(images/ui-graphic-character-03.png), url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-leafs-01.svg
+)
+}
+
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-5 > .bck-title p {
 	    color: #E66638;
-    }
+}
+
 
 /*LISTA ORDENADA 1*/
 
