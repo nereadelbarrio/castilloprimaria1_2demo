@@ -3940,6 +3940,10 @@ FONT-FAMILY: 'Nunito';
     background-image: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-leafs-02.svg);
 }
 
+/*imagen fondo titulo slide*/
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .carousel-inner .item-container {
+    background-image: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-header-back.svg), url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-footer.png);  
+}
 
 /*botonera*/
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary {
@@ -3989,7 +3993,7 @@ color: #E66638;
 }
 
 
-/**subrayado*/
+/*subrayado*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-underline {
     color: #E66638;
 }
@@ -4043,7 +4047,7 @@ background-image: url(images/coursetag_pensamiento_preescolar_castillo_border-bo
 
 /*caja 05*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-5 {
-    background-image: url(images/ui-coursetag_pensamiento_preescolar_castillo_pattern-box-05.svg);
+    background-image: url(images/ui-coursetag_pensamiento_preescolar_castillo_pattern-box-05.png);
 
 }
 
