@@ -471,7 +471,7 @@ body {
     top: 22px;
     right: 23px;
     vertical-align: top;
-    background-image: url(images/shared/tools.png);
+    background-image: url(../../../images/shared/tools.png);
     -webkit-background-size: 81px auto;
     -moz-background-size: 81px auto;
     -o-background-size: 81px auto;
