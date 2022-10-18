@@ -469,7 +469,7 @@ body {
     top: 22px;
     right: 23px;
     vertical-align: top;
-    background-image: url('../../../images/shared/tools.png');
+    background-image: url(images/shared/tools.png);
     -webkit-background-size: 81px auto;
     -moz-background-size: 81px auto;
     -o-background-size: 81px auto;
@@ -4887,29 +4887,29 @@ border-bottom: none;
     background: #85B04C;
 }
 
-.coursetag_naturaleza_castillo_1_2_1_2.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
+.coursetag_naturaleza_castillo_1_2.content_type_clase_castilloprimaria1_2demo .publisher-navbar .slider-indicators li:hover {
     background: #85B04C;
 }
 
 
-.coursetag_naturaleza_castillo_1_2_1_2 .dropdown-menu>li>a:hover,
-.coursetag_naturaleza_castillo_1_2_1_2 .dropdown-menu>li>a:focus {
+.coursetag_naturaleza_castillo_1_2 .dropdown-menu>li>a:hover,
+.coursetag_naturaleza_castillo_1_2 .dropdown-menu>li>a:focus {
     color: #85B04C !important;
 }
 
-.coursetag_naturaleza_castillo_1_2_1_2 #top-navigator.show_left:before, 
-.coursetag_naturaleza_castillo_1_2_1_2 #top-navigator.show_right:after {
+.coursetag_naturaleza_castillo_1_2 #top-navigator.show_left:before, 
+.coursetag_naturaleza_castillo_1_2 #top-navigator.show_right:after {
     color: #85B04C;
     background: linear-gradient(to left, #85b04c42, transparent);
 }
 
 /*título slide*/
- .content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2_1_2 #actividad .content .header .title h3 {
+ .content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3 {
     background-color: #85B04C;
 }
 
 /*imagen en navbar sup.*/
-	.coursetag_naturaleza_castillo_1_2_1_2 #actividad .carousel-inner .item-container {
+	.coursetag_naturaleza_castillo_1_2 #actividad .carousel-inner .item-container {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
@@ -4918,7 +4918,7 @@ border-bottom: none;
     background-repeat: no-repeat;
 	}
 
-.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2_1_2 #actividad .content .header .title h3:before {
+.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_naturaleza.png);
     content: '';
     position: absolute;
@@ -4931,7 +4931,7 @@ border-bottom: none;
 }
 
 
-.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2_1_2 #actividad .content .header .title h3:after {
+.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:after {
 	content: '';
     position: absolute;
     width: 124px;
@@ -4944,7 +4944,7 @@ border-bottom: none;
 }
 
 /*botonera*/
-.coursetag_naturaleza_castillo_1_2_1_2 #actividad .btn-primary {
+.coursetag_naturaleza_castillo_1_2 #actividad .btn-primary {
     background-color: #e66638;
 }
 
