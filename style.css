@@ -3945,7 +3945,7 @@ padding: 0 14px;
 }
 
 /*imagen en navbar sup.*/
-	.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .carousel-inner .item-container {
+/*	.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .carousel-inner .item-container {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
@@ -3977,7 +3977,7 @@ padding: 0 14px;
     background-image: url(images/decoracion_01dcha_pensamiento_cientifico.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-}
+}*/
 
 /*botonera*/
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .btn-primary {
@@ -4913,12 +4913,12 @@ border-bottom: none;
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/ui-graphic-header-back.svg);
+    background-image: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-header-back.svg), url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-footer.png);
     background-position-y: top;
     background-repeat: no-repeat;
 	}
 
-.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:before {
+/*.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:before {
 	background: url(images/decoracion_01izda_naturaleza.png);
     content: '';
     position: absolute;
@@ -4941,7 +4941,7 @@ border-bottom: none;
     background-image: url(images/decoracion_01dcha_naturaleza.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-}
+}*/
 
 /*botonera*/
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary {
