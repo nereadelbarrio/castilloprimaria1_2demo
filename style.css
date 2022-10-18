@@ -3749,11 +3749,21 @@ padding: 0 14px;
     font-size: 16px;
 }
 
-.rf-foundword:after {
+/*.rf-foundword:after {
     padding: 0 14px;
         content: "\f00c";
     color: #90BF55;
     font-family: 'FontAwesome';
+    font-size: 38px;
+    background-color: transparent;
+    position: absolute;
+}*/
+
+.rf-foundword:not(.not-found):after {
+    content: "\f00c";
+    padding: 0 14px;
+    color: #90bf55;
+    font-family: FontAwesome;
     font-size: 38px;
     background-color: transparent;
     position: absolute;
