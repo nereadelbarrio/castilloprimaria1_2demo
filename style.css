@@ -3835,7 +3835,7 @@ FONT-FAMILY: 'Nunito';
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background: url('images/fondo_memorys.png') center center / 50px auto no-repeat;
+    background: url(images/ui-graphic-memory-card.png) center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
     box-shadow: 0 0 4px rgb(0 0 0 / 25%);
@@ -4360,7 +4360,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background: url('images/fondo_memorys_pensamiento_cientifico.png') center center / 50px auto no-repeat;
+    background: url(images/fondo_memorys_pensamiento_cientifico.png) center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
 }
