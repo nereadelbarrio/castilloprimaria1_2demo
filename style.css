@@ -1702,10 +1702,10 @@ content: counter(bck-li-counter) ".";
 	}
 
     .cke_contents table:not(.rf-tablegrid,.puzzle),
-    .content table:not(.rf-tablegrid,.puzzle) {
+    .content table:not(.rf-tablegrid,.puzzle,.calculo) {
         position: relative;
         width: 100%;
-        margin: 40px 0;
+        /*margin: 40px 0;*/
         grid-column: 1 / 3;
         color: var(--theme-color-text-black);
         text-align: center;
@@ -4184,8 +4184,8 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.
     border: 2px solid #E66638;
 }
 
-.coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid,.puzzle), 
-.coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid,.puzzle) {
+.coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid,.puzzle,.calculo), 
+.coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid,.puzzle,.calculo) {
         box-shadow: 0 0 0 2px #E66638;
 }    
 
@@ -4568,6 +4568,7 @@ background-color: #90bf55;
 .coursetag_pensamiento_cientifico_castillo_1_2 div.calculo table.marco * {
     border: none;
     box-shadow: none;
+    margin: auto;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=text], 
