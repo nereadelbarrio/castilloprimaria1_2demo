@@ -4131,7 +4131,7 @@ background-image: url(images/ui-graphic-character-03.png), url(images/coursetag_
 /*desplegables*/
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-icon {
-    background-color: #EB8560;
+    background-color: #E66638;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-content {
@@ -4170,7 +4170,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.
 
 /*tablas*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-table {
-    border: 2px dotted #E66638;
+    border: 2px solid #E66638;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-table td {
@@ -4181,7 +4181,7 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-flipbox-face.
 .coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid) th, 
 .coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid) td, 
 .coursetag_pensamiento_cientifico_castillo_1_2 .content table:not(.rf-tablegrid) th {
-    border: 2px dotted #E66638;
+    border: 2px solid #E66638;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .cke_contents table:not(.rf-tablegrid,.puzzle), 
@@ -4567,6 +4567,7 @@ background-color: #90bf55;
 .coursetag_pensamiento_cientifico_castillo_1_2 div.calculo table.marco, 
 .coursetag_pensamiento_cientifico_castillo_1_2 div.calculo table.marco * {
     border: none;
+    box-shadow: none;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.calculo .cifra input[type=text], 
@@ -5572,6 +5573,7 @@ background-color: #90bf55;
 .coursetag_naturaleza_castillo_1_2 div.calculo table.marco, 
 .coursetag_naturaleza_castillo_1_2 div.calculo table.marco * {
     border: none;
+    box-shadow: none;
 }
 
 .coursetag_naturaleza_castillo_1_2 #actividad .workspace.calculo .cifra input[type=text], 
