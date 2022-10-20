@@ -4631,17 +4631,10 @@ border-color: var(--theme-color-fail);
 }
 
 /*clasificar*/
-/*.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 0;
-    border-radius: 25px;
-    background-color: #FFF;
-    padding: 20px 20px 36px 20px;
-    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
-    margin: 40px 0;
-}*/
+
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    background-image: url(images/box-4_pensamiento_cientifico.svg);
+    background-image: url(images/coursetag_pensamiento_preescolar_castillo_border-box04.svg);
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
