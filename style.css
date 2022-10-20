@@ -2270,7 +2270,7 @@ color: #fff;
     font-size: var(--theme-button-font-size);
     font-weight: var(--theme-button-font-weight);
     box-shadow: 0 2px 0 rgb(0 0 0 / 10%);
-    margin: 10px;
+    margin: 0 10px;
 }
 
 #actividad .btn-primary:not([disabled]):hover, 
@@ -4656,7 +4656,7 @@ text-align: center;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
-    border: 2px solid #AD8BD7;
+    border: 2px solid #773DBD;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span.respuesta_ko {
