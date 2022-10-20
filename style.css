@@ -892,6 +892,7 @@ font-family: 'Nunito';
 	}
 
 .content_type_clase_castilloprimaria1_2demo .logo-publisher {
+    display: block;
     content: " ";
     background-image: url(images/logo_castillo.svg);
     height: 64px;
