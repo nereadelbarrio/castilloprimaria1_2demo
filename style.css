@@ -1366,7 +1366,7 @@ counter-increment: bck-li-counter;
     font-family: 'Nunito';
     font-size: var(--theme-font-size);
     font-weight: 500;
-    color: var(--theme-text-color-dark);
+    color: #000;
     margin-bottom: 10px;
 }
 
@@ -1391,7 +1391,7 @@ content: counter(bck-li-counter) ".";
     width: 6rem;
     left: -55px;
     top: -1px;
-    color: #000;
+    color: #1D549E;
     font-size: calc(var(--theme-font-size) * 1.1666);
     font-weight: 700;
 }
