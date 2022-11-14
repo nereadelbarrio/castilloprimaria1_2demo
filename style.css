@@ -1760,23 +1760,24 @@ width: 100%;
 	}
 
     .bck-box.box-1:before {
-    content: '';
-    position: absolute;
-    /* right: 44px; */
-    left: 50%;
-    margin-top: -45px;
-    width: 48px;
-    height: 76px;
-    background-image: url(images/cp12-style-graphic-pin);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    transform: translateX(-50%);
+        content: '';
+        position: absolute;
+        right: 44px;
+        left: 50%;
+        margin-top: -65px;
+        width: 48px;
+        height: 76px;
+        background-image: url(images/cp12-style-graphic-pin.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        transform: translateX(-50%);
     }
 
 	.bck-box.box-1 > .bck-title {
 	    padding: 5px 14px 0px 0px;
         font-size: var(--theme-font-size-h3);
         margin: 0 0 -4px 0;
+        font-weight: 500;
 }
 
 
@@ -1817,7 +1818,7 @@ width: 100%;
     left: 50%;
     width: 80px;
     height: 65px;
-    background-image: url(images/ui-graphic-character-02.png);
+    background-image: url(images/cp12-style-graphic-lightbulb.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     transform: translateX(-50%);
