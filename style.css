@@ -429,7 +429,7 @@ body {
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/ui-graphic-header-back.svg), url(images/ui-graphic-footer.png);
+    background-image: url(images/cp12-style-graphic-header.svg), url(images/cp12-style-graphic-footer.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 100% auto, 100% auto;
     background-position: left top, left bottom;
@@ -1052,9 +1052,26 @@ font-family: 'Nunito';
 	border-radius: 0 0 120px 0;
 }
 
-/*budget nota*/
+/*budget nota
 .revision-budget {
 	margin-top: 0px;
+}*/
+
+.revision-budget {
+    margin-top: -55px;
+    z-index: 1000;
+}
+
+.coursetag_pensamiento_cientifico_castillo_1_2 .revision-budget {
+    left: 50px;
+}
+
+.coursetag_naturaleza_castillo_1_2 .revision-budget {
+    left: 50px;
+}
+
+.coursetag_lenguajes_castillo_1_2 .revision-budget {
+    left: 50px;
 }
 
 /* Iconos */
@@ -1743,15 +1760,17 @@ width: 100%;
 	}
 
     .bck-box.box-1:before {
-        content: '';
-        position: absolute;
-        right: 44px;
-        margin-top: -40px;
-        width: 31px;
-        height: 40px;
-        background-image: url(images/ui-graphic-leafs-01.svg);
-        background-repeat: no-repeat;
-        background-size: 100% auto;
+    content: '';
+    position: absolute;
+    /* right: 44px; */
+    left: 50%;
+    margin-top: -45px;
+    width: 48px;
+    height: 76px;
+    background-image: url(images/cp12-style-graphic-pin);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: translateX(-50%);
     }
 
 	.bck-box.box-1 > .bck-title {
@@ -2985,7 +3004,7 @@ text-align: center;
 }
 
 #actividad .workspace.ordenar li.ejercicio_ko {
-	background-image: url(images/ui-icon-color-respuesta-ko.svg);
+	background-image: url(images/ui-icon-color-fail.svg);
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
@@ -2995,7 +3014,7 @@ text-align: center;
 }
 
 #actividad .workspace.ordenar li.ejercicio_ok {
-	background-image: url(images/ui-icon-color-respuesta-ok.svg);
+	background-image: url(images/ui-icon-color-ok.svg);
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
@@ -6064,15 +6083,15 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
     z-index: 1000;
 }
 
-.coursetag_pensamiento_cientifico_castillo .revision-budget {
+.coursetag_pensamiento_cientifico_castillo_1_2 .revision-budget {
     left: 50px;
 }
 
-.coursetag_naturaleza_castillo .revision-budget {
+.coursetag_naturaleza_castillo_1_2 .revision-budget {
     left: 50px;
 }
 
-.coursetag_lenguajes_castillo .revision-budget {
+.coursetag_lenguajes_castillo_1_2 .revision-budget {
     left: 50px;
 }
 
