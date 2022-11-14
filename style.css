@@ -1871,29 +1871,19 @@ content: '';
 .bck-box.box-3:after {
 content: '';
     position: absolute;
-    top: -52px;
-    right: 20px;
-    width: 95px;
-    height: 65px;
-    background-image: url(images/ui-graphic-character-01.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
-
-.bck-box.box-3:before {
-   content: '';
-    position: absolute;
     top: -49px;
     right: 30px;
-    width: 75px;
-    height: 47px;
-    border-radius: 37.5px 37.5px 0 0;
-    background-color: var(--theme-color-secondary); 
+    width: 48px;
+    height: 76px;
+    background-image: url(../img/cp12-style-graphic-clip.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .bck-box.box-3 > .bck-title {
  background: none;
 margin: 0 0 -4px 0;
+font-weight: 500;
 }
 
 
