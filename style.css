@@ -4667,7 +4667,7 @@ text-align: center;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border-color: #AD8BD7;
+    border: 2px solid #AD8BD7;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item span {
@@ -4913,7 +4913,7 @@ border-bottom: none;
     padding: 0px;
     padding-bottom: 90px;
     position: relative;
-    background-image: url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-header-back.svg), url(images/coursetag_pensamiento_preescolar_castillo_ui-graphic-footer.png);
+    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-header.svg), url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-footer.svg);
     background-position-y: top;
     background-repeat: no-repeat;
 	}
@@ -5005,10 +5005,12 @@ color: #85B04C;
 /*cajas*/
 /*caja 01*/
 	.coursetag_naturaleza_castillo_1_2 .bck-box.box-1 {
-    border: 1px solid #9DC070;
+        background-color: #E7EFDB;
 	}
 
-
+    .coursetag_naturaleza_castillo_1_2 .bck-box.box-1:before {
+        background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-pin.svg);
+    }
 
 	.coursetag_naturaleza_castillo_1_2 .bck-box.box-1 > .bck-content {
 	background-color: #E7EFDB;
@@ -5020,15 +5022,22 @@ color: #85B04C;
     background-color: #85B04C;
 }
 
+.coursetag_naturaleza_castillo_1_2 .bck-box.box-2:after {
+    background-color: #85b04c;
+}
 
 /*caja 03*/
 .coursetag_naturaleza_castillo_1_2 .bck-box.box-3 {
     border: 3px solid #E66638;
 }
 
+.coursetag_naturaleza_castillo_1_2 .bck-box.box-3:after {
+    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-clip.svg);
+}
+
 /*caja 04*/
 .coursetag_naturaleza_castillo_1_2 .bck-box.box-4 {
-    background-image: url(images/box-4_naturaleza.svg);
+    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_border-box04.svg);
 }
 .coursetag_naturaleza_castillo_1_2 .bck-box.box-4 > .bck-title p {
         color: #85B04C;
