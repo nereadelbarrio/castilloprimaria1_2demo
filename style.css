@@ -5157,7 +5157,7 @@ body:not(.edit).coursetag_naturaleza_castillo_1_2 .bck-flipbox-face.front p {
 .coursetag_naturaleza_castillo_1_2 .cke_contents table:not(.rf-tablegrid) th, 
 .coursetag_naturaleza_castillo_1_2 .content table:not(.rf-tablegrid) td, 
 .coursetag_naturaleza_castillo_1_2 .content table:not(.rf-tablegrid) th {
-    border: 2px dotted #85B04C;
+    border: 2px solid #85B04C;
 }
 
 /*celdas*/
