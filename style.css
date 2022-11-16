@@ -5045,6 +5045,10 @@ color: #85B04C;
 
 
 /*caja 05*/
+.coursetag_naturaleza_castillo_1_2 .bck-box.box-5 {
+    background-color: #E7EFDB;
+}
+
 .coursetag_naturaleza_castillo_1_2 .bck-box.box-5 > .bck-title:before {
     background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-leaves-01.svg);
 }
