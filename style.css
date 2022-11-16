@@ -4923,7 +4923,7 @@ border-bottom: none;
 
 /*botonera*/
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary {
-    background-color: #e66638;
+    background-color: #85B04C;
 }
 
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary:not([disabled]):hover, 
@@ -4931,7 +4931,7 @@ border-bottom: none;
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary:not([disabled]):active, 
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary.active, 
 .coursetag_naturaleza_castillo_1_2 #actividad .open .dropdown-toggle.btn-primary {
-    background-color: #e66638;
+    background-color: #85B04C;
 }
 
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary[disabled], 
