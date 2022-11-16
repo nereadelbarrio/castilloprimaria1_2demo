@@ -3049,6 +3049,7 @@ text-align: center;
     padding: 20px 20px 36px 20px;
     box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
     margin: 40px 0;
+    border-radius: 10px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
@@ -4650,6 +4651,7 @@ border-color: var(--theme-color-fail);
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
     background-image: url(images/coursetag_pensamiento_preescolar_castillo_border-box04.svg);
+    border-radius: 20px;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
@@ -5649,26 +5651,10 @@ border-color: var(--theme-color-fail);
 }
 
 /*clasificar*/
-/*.coursetag_naturaleza_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 0;
-    padding: 0px;
-    box-shadow: 0 0 0 1px #85B04C, 0 0 0 3px #CEDFB7, 0 0 0 5px #CEDFB7, 0 0 0 6px #85B04C;
-    outline: dashed 7px #85B04C;
-    background-color: #fff;
-    margin-bottom: 40px;
-    border-radius: 20px;
-    margin: 0 10px;
-}*/
 
 .coursetag_naturaleza_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    
-    background-image: url(images/box-4_naturaleza.svg);
-    /*border-radius: 25px;
-    border: 0;
-    background-color: #FFF;
-    padding: 20px 20px 36px 20px;
-    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
-    margin: 40px 0;*/
+        background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_border-box04.svg);
+        border-radius: 20px;
 }
 
 .coursetag_naturaleza_castillo_1_2 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
