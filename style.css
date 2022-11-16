@@ -4041,18 +4041,18 @@ color: #E66638;
     box-shadow: 0px 4px 8px 1px #f3dfd8;
 }
 
+.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-2:after {
+    background-color: #E66638;
+}
+
 
 /*caja 03*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-3 {
     border: 3px solid #773DBD;
 }
 
-.coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-3:before {
-    background-color: #773DBD;
-}
-
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-box.box-3:after {
-    background-image: url(images/coursetag_pensamiento_cientifico_castillo_1_2_cp12-style-graphic-clip.svg);
+    background-image: url(images/cp12-style-graphic-clip.svg);
 }
 
 
