@@ -5140,6 +5140,11 @@ body:not(.edit).coursetag_naturaleza_castillo_1_2 .bck-flipbox-face.front p {
 }
 
 /*tablas*/
+.coursetag_naturaleza_castillo_1_2 .cke_contents table:not(.rf-tablegrid,.puzzle), 
+.coursetag_naturaleza_castillo_1_2 .content table:not(.rf-tablegrid,.puzzle,.calculo) {
+    box-shadow: 0 0 0 2px #85B04C;
+}
+
 .coursetag_naturaleza_castillo_1_2 .bck-table {
     border: 2px dotted #85B04C;
 }
