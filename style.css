@@ -6125,19 +6125,3 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
     margin-top: 12px;
 }
 }
-
-
-
-
-
-#actividad .btn-danger:after, #actividad .btn-danger[disabled]:after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-image: url(images/coursetag_pensamiento_preescolar_castillo_1_2_cp12-style-graphic-leaves-01.svg);
-}
