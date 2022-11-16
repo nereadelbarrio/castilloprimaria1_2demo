@@ -4908,40 +4908,18 @@ border-bottom: none;
     background-color: #85B04C;
 }
 
-/*imagen en navbar sup.*/
-	.coursetag_naturaleza_castillo_1_2 #actividad .carousel-inner .item-container {
-    padding: 0px;
-    padding-bottom: 90px;
-    position: relative;
-    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-header.svg), url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-footer.svg);
-    background-position-y: top;
-    background-repeat: no-repeat;
-	}
-
-/*.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:before {
-	background: url(images/decoracion_01izda_naturaleza.png);
-    content: '';
-    position: absolute;
-    width: 96px;
-    height: 103px;
-    top: 28px;
-    left: -89px;
-    background-repeat: no-repeat;
-    background-size: 92% auto;
+.content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:before {
+    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-leaves-01.svg);
 }
 
-
 .content_type_clase_castilloprimaria1_2demo.coursetag_naturaleza_castillo_1_2 #actividad .content .header .title h3:after {
-	content: '';
-    position: absolute;
-    width: 124px;
-    height: 68px;
-    top: 0px;
-    left: 100%;
-    background-image: url(images/decoracion_01dcha_naturaleza.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}*/
+    background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-leaves-01.svg);
+}
+
+/*imagen en navbar sup.*/
+	.coursetag_naturaleza_castillo_1_2 #actividad .carousel-inner .item-container {
+        background-image: url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-header.svg), url(images/coursetag_naturaleza_preescolar_castillo_1_2_cp12-style-graphic-footer.svg);
+	}
 
 /*botonera*/
 .coursetag_naturaleza_castillo_1_2 #actividad .btn-primary {
