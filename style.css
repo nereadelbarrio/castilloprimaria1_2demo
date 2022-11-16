@@ -5103,13 +5103,13 @@ color: #85B04C;
 
 /*desplegables*/
 .coursetag_naturaleza_castillo_1_2 .bck-dropdown-icon {
-    background-color: #9dc070;
+    background-color: #85b04c;
 }
 
 .coursetag_naturaleza_castillo_1_2 .bck-dropdown-content {
-    border-left: 2px dotted #85B04C;
-    border-right: 2px dotted #85B04C;
-    border-bottom: 2px dotted #85B04C;
+    border-left: 2px solid #85B04C;
+    border-right: 2px solid #85B04C;
+    border-bottom: 2px solid #85B04C;
 }
 
 .coursetag_naturaleza_castillo_1_2 .bck-dropdown-button {
