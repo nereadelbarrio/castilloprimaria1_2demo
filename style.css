@@ -5231,7 +5231,7 @@ background-color: #85B04C;
 
 /*audio*/
 .coursetag_naturaleza_castillo_1_2 #actividad .player.audio {
-	background: url(images/ui-icon-color-audio_naturaleza.svg) 0 0 no-repeat;
+	background: url(images/coursetag_naturaleza_castillo_1_2_cp12-style-icon-audio.svg) 0 0 no-repeat;
     background-size: contain;
     width: 42px;
     height: 42px !important;
@@ -5253,7 +5253,7 @@ background-color: #85B04C;
     height: 42px;
     margin: 0 5px;
     cursor: pointer;
-    background: url(images/ui-icon-color-info_naturaleza.svg);
+    background: url(images/coursetag_naturaleza_castillo_1_2_cp12-style-icon-info.svg);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
