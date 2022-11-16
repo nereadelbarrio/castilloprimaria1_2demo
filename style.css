@@ -4157,9 +4157,9 @@ background-image: url(images/coursetag_pensamiento_preescolar_castillo_1_2_cp12-
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-content {
-    border-left: 2px dotted #E66638;
-    border-right: 2px dotted #E66638;
-    border-bottom: 2px dotted #E66638;
+    border-left: 2px solid #E66638;
+    border-right: 2px solid #E66638;
+    border-bottom: 2px solid #E66638;
 }
 
 .coursetag_pensamiento_cientifico_castillo_1_2 .bck-dropdown-button {
@@ -4259,6 +4259,10 @@ body:not(.edit).coursetag_pensamiento_cientifico_castillo_1_2 .bck-tabcontents .
     border-bottom: 1px solid #E66638;
 }
 
+.coursetag_pensamiento_cientifico_castillo_1_2 #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles:hover {
+    background-color: #E66638;
+    color:#fff
+}
 
 /*textarea*/
 .coursetag_pensamiento_cientifico_castillo_1_2 .form-control {
