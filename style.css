@@ -5046,6 +5046,10 @@ color: #85B04C;
 
 /*caja 05*/
 
+.coursetag_naturaleza_castillo_1_2 .bck-box.box-5 > .bck-title:after {
+    background-image: url(images/cp12-style-graphic-leaves-01.svg);
+}
+
 .coursetag_naturaleza_castillo_1_2 .bck-box.box-5 > .bck-title p {
 	    color: #85B04C;
 }
