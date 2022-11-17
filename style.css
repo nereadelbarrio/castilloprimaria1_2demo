@@ -5268,6 +5268,40 @@ background-color: #85B04C;
 }
 
 /*actividades*/
+/*feedback actividades*/
+.bck-dropdown.wrong-fb-dropdown {
+    border: none;
+}
+
+.bck-dropdown.right-fb-dropdown {
+    border: none;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-button, 
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-button, 
+.fb_solucion .bck-dropdown-button {
+    padding: 10px;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-icon,
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: -18px;
+    margin-right: 5px;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-content, 
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
+    margin-left: 0px;
+}
+
 /*palabras cruzadas*/
 .coursetag_naturaleza_castillo_1_2 .slide.crosswords .respuestas .respuesta .caracter {
 	border: 1px solid #F0A388;
