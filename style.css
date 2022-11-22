@@ -5277,6 +5277,22 @@ background-color: #85B04C;
     border: none;
 }
 
+.bck-dropdown.right-fb-dropdown .bck-dropdown-button {
+    background-color: #90BF55;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-button {
+    background-color: #E33939;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-content {
+border-color: #90BF55;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
+border-color: #E33939;
+}
+
 .bck-dropdown.right-fb-dropdown .bck-dropdown-button, 
 .bck-dropdown.wrong-fb-dropdown .bck-dropdown-button, 
 .fb_solucion .bck-dropdown-button {
@@ -5366,7 +5382,7 @@ background-color: #85B04C;
     margin: 10px;
     border-radius: 10px;
     border: none;
-    background: url('images/fondo_memorys_naturaleza.png') center center / 50px auto no-repeat;
+    background: url(images/coursetag_naturaleza_preescolar_castillo_1_2_ui-graphic-memory-card.png) center center / 50px auto no-repeat;
     background-size: cover;
     transition: all .5s ease;
 }
@@ -6148,4 +6164,68 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
     margin-left: -165px;
     margin-top: 12px;
 }
+}
+
+/***Castillo Primaria 2022***/
+.bck-dropdown.right-fb-dropdown {
+    border: none;
+}
+
+.bck-dropdown.wrong-fb-dropdown {
+   border: none;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-icon, 
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: -10px;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-content,
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: 300px;
+    font-size: 1.5rem;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-icon>.fa {
+    vertical-align: sub;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon>.fa {
+    vertical-align: sub;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-button {
+    background-color: #90BF55;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-button {
+    background-color: #E33939;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-content {
+border-color: #90BF55;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
+border-color: #E33939;
+}
+
+.bck-dropdown.right-fb-dropdown .bck-dropdown-icon {
+    width: 47px;
+    height: 58px;
+    background-color: #9DC070;
+}
+
+.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon {
+    width: 47px;
+    height: 58px;
+    background-color: #ef6c6c;
 }
