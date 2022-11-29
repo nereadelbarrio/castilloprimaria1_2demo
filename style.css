@@ -1777,7 +1777,7 @@ width: 100%;
 .bck-box.box-1 > .bck-title p {
     color: #000;
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 	.bck-box.box-1 > .bck-content {
@@ -2212,6 +2212,17 @@ body:not(.edit) .bck-tabs-box {
     box-shadow: 1px -2px 5px rgb(11 52 96 / 15%);
 }
 
+.bck-tabtitles {
+    background-color: #E9EFF5;
+    overflow: hidden;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 14px;
+    transition: .3s;
+    display: inline-block;
+    float: left;
+}
 
 .bck-tabtitles:hover {
     background-color: #1d549e;
@@ -5180,7 +5191,7 @@ body:not(.edit).coursetag_naturaleza_castillo_1_2 .bck-flipbox-face.front p {
 }
 
 .body_clase.coursetag_naturaleza_castillo_1_2 #actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
-	background-color: #e7efdb;
+	background-color: #F1F5E9;
 	color: #85b04c;
 }
 
