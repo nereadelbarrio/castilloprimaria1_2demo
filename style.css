@@ -551,6 +551,7 @@ font-family: 'Nunito';
     position: relative;
     display: inline-block;
     max-width: 100%;
+    height: 90px;
     margin-bottom: 22px;
     border-radius: 37.5px;
     margin-top: 0px;
