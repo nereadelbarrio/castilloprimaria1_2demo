@@ -5995,9 +5995,15 @@ border-bottom: none;
 	}
 
     .content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
-        padding-left: 114px;
+
     }
 
+}
+
+@media screen and (max-width: 821px) {
+    .content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
+        padding-left: 131px;
+    }
 }
 
 @media screen and (max-width: 767px) {
