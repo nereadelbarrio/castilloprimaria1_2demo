@@ -6086,6 +6086,10 @@ border-bottom: none;
 		margin-left: -8px;
 	}
 
+    .content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
+        padding-left: 130px;
+    }
+
 }
 
 /*BK-10860*/
@@ -6125,8 +6129,8 @@ div.calculo table.marco * {
 
 body.is_app.tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper,
 body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper,
- body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper, 
- body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper {
+body.app:not(.offline-pc).tmpux.isTablet.modo-correccion.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper, 
+body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper {
 	margin-top: 10px;
  }
 
