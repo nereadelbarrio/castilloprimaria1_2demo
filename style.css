@@ -547,7 +547,7 @@ font-family: 'Nunito';
     font-weight: 700;
     color: #fff;
     display: block;
-    padding: 30px;
+    padding: 27px 30px 30px 30px;
     position: relative;
     display: inline-block;
     max-width: 100%;
@@ -879,7 +879,7 @@ font-family: 'Nunito';
 	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
-		padding-left: 90px;
+		padding-left: 136px;
 		padding-right: 50px;
 	}
 
@@ -887,9 +887,9 @@ font-family: 'Nunito';
     display: block;
     content: " ";
     background-image: url(images/cp12-style-logo-castillo.svg);
-    height: 64px;
+    height: 58px;
     background-repeat: no-repeat;
-    width: 181px;
+    width: 160px;
     margin-top: -12px;
     margin-left: -150px;
     float: left;
@@ -2211,6 +2211,7 @@ body:not(.edit) .bck-tabs-box {
     color: #fff;
     box-shadow: 1px -2px 5px rgb(11 52 96 / 15%);
 }
+
 
 .bck-tabtitles {
     background-color: #E9EFF5;
@@ -6122,122 +6123,3 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
 	margin-top: 10px;
  }
 
-
-/*********************MEJORAS*****************/
-/*NOTAS*/
-.revision-budget {
-    margin-top: -55px;
-    z-index: 1000;
-}
-
-.coursetag_pensamiento_cientifico_castillo_1_2 .revision-budget {
-    left: 50px;
-}
-
-.coursetag_naturaleza_castillo_1_2 .revision-budget {
-    left: 50px;
-}
-
-.coursetag_lenguajes_castillo_1_2 .revision-budget {
-    left: 50px;
-}
-
-.bck-title-activity {
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    padding: inherit;
-    margin-bottom: inherit;
-    background: inherit;
-    color: inherit;
-    margin-left: inherit;
-    border-radius: inherit;
-}
-
-
-/*menun navbar*/
-@media screen and (max-width: 579px) {
-.open>.dropdown-menu {
-    display: block;
-    max-height: 300px;
-    overflow-y: auto;
-    cursor: pointer;
-    margin-left: -150px;
-    margin-top: 12px;
-}   
-}
-
-@media screen and (max-width: 480px) {
-    .open>.dropdown-menu {
-    display: block;
-    max-height: 300px;
-    overflow-y: auto;
-    cursor: pointer;
-    margin-left: -165px;
-    margin-top: 12px;
-}
-}
-
-/***Castillo Primaria 2022
-.bck-dropdown.right-fb-dropdown {
-    border: none;
-}
-
-.bck-dropdown.wrong-fb-dropdown {
-   border: none;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-icon, 
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: -10px;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-content,
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
-    overflow-y: auto;
-    display: none;
-    max-height: 300px;
-    font-size: 1.5rem;
-    margin-left: 0px;
-    padding: 10px;
-    background-color: transparent;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-icon>.fa {
-    vertical-align: sub;
-}
-
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon>.fa {
-    vertical-align: sub;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-button {
-    background-color: #90BF55;
-}
-
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-button {
-    background-color: #E33939;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-content {
-border-color: #90BF55;
-}
-
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-content {
-border-color: #E33939;
-}
-
-.bck-dropdown.right-fb-dropdown .bck-dropdown-icon {
-    width: 47px;
-    height: 58px;
-    background-color: #9DC070;
-}
-
-.bck-dropdown.wrong-fb-dropdown .bck-dropdown-icon {
-    width: 47px;
-    height: 58px;
-    background-color: #ef6c6c;
-}***/
