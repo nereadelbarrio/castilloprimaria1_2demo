@@ -879,7 +879,7 @@ font-family: 'Nunito';
 	.content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
-		padding-left: 136px;
+		padding-left: 144px;
 		padding-right: 50px;
 	}
 
@@ -5945,9 +5945,8 @@ border-bottom: none;
     }
 
     #actividad .carousel-inner .item-container {
-        width: 100% !important;
+        width: 95% !important;
         max-width: none;
-        box-shadow: none;
     }
 
     .ipad #actividad .carousel-inner .item-container {
@@ -5956,13 +5955,17 @@ border-bottom: none;
 
     .content_type_clase_castilloprimaria1_2demo .logo-publisher {
 		margin-right: 0px;
-        margin-left: -70px;
+        margin-left: -151px;
 	}
 }
 
 
 /*querys*/
 @media screen and (max-width: 992px) {
+    #actividad .carousel-inner .item-container {
+        width: 100% !important;
+    }
+
 	#actividad .class_slide {
 		padding-right: 30px;
 		padding-left: 30px;
@@ -5988,7 +5991,7 @@ border-bottom: none;
 		padding-left: 25px;
 	}
 	.content_type_clase_castilloprimaria1_2demo .logo-publisher {
-		margin-left: -20px;
+		margin-left: -136px;
 	}
 
 }
@@ -6016,6 +6019,10 @@ border-bottom: none;
 	.content_type_clase_castilloprimaria1_2demo .logo-publisher {
 		margin-right: -20px;
 	}
+
+    .content_type_clase_castilloprimaria1_2demo .publisher-navbar .navbar-content {
+        padding-left: 131px;
+    }
 
 }
 
@@ -6122,4 +6129,5 @@ body.is_app.tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2d
  body.app:not(.offline-pc).tmpux.isTablet.modo-revision.content_type_clase_castilloprimaria1_2demo.content_type_curso_castilloprimaria1_2demo .content-wrapper {
 	margin-top: 10px;
  }
+
 
